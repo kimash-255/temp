@@ -19,6 +19,7 @@ const Layout = ({ children }) => (
       <div className="bubble x10"></div>
     </div>
 
+    
     {/* Header Component */}
     <Header />
 

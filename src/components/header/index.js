@@ -82,16 +82,19 @@ const Header = () => {
                     </li>
                     <li class="sub-items">
                       <Link href="javascript:void(0);" title="Services">
-                        Courses
+                        Services
                       </Link>
                       <ul class="sub-menu">
                         <li>
                           <Link href="/services" title="Services">
-                            Courses List
+                            Services List
                           </Link>
                         </li>
                         <li>
-                          <Link href="/services/[slug]" title="Services detail">
+                          <Link
+                            href="/services-details"
+                            title="Services detail"
+                          >
                             Services Detail
                           </Link>
                         </li>

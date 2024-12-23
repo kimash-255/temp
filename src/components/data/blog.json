@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "slug": "my-first-post",
+    "title": "My First Post",
+    "image": "assets/images/blog-1.jpg",
+    "date": "07 Jan, 2022",
+    "comments": 3
+  },
+  {
+    "id": 2,
+    "slug": "nextjs-guide",
+    "title": "Next.js Guide",
+    "image": "assets/images/blog-2.jpg",
+    "date": "12 Jan, 2022",
+    "comments": 5
+  },
+  {
+    "id": 3,
+    "slug": "web-development",
+    "title": "Web Development Tips",
+    "image": "assets/images/blog-3.jpg",
+    "date": "20 Jan, 2022",
+    "comments": 8
+  }
+]
