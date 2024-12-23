@@ -377,7 +377,7 @@ const Services = () => {
                     <div class="col-lg-6 col-md-6">
                       <div class="course-box">
                         <div class="course-img">
-                          <img src="assets/images/course-1.jpg" alt="course" />
+                          <img src="/assets/images/course-1.jpg" alt="course" />
                           <ul>
                             <li>
                               <Link href="#" class="course-tag-orange">
@@ -392,7 +392,7 @@ const Services = () => {
                           </ul>
                         </div>
                         <div class="course-content">
-                          <Link href="/service/1">
+                          <Link href="/services/1">
                             <h3 class="h3-title">
                               Become product manager learn skills.
                             </h3>
@@ -449,7 +449,7 @@ const Services = () => {
                           </ul>
                         </div>
                         <div class="course-content">
-                          <a href="service/2">
+                          <a href="services/2">
                             <h3 class="h3-title">
                               Fashion and luxury fashion in a changing.
                             </h3>
@@ -620,7 +620,7 @@ const Services = () => {
                           </ul>
                         </div>
                         <div class="course-content">
-                          <Link href="/service/5">
+                          <Link href="/services/5">
                             <h3 class="h3-title">
                               Master query in a short period of time.
                             </h3>
@@ -791,7 +791,7 @@ const Services = () => {
                           </ul>
                         </div>
                         <div class="course-content">
-                          <a href="/service/2">
+                          <a href="/services/2">
                             <h3 class="h3-title">
                               Fashion and luxury fashion in a changing.
                             </h3>

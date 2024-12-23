@@ -7,7 +7,7 @@ const Cta = () => {
       <div className="container">
         <div className="row align-items-center cta-bg">
           <div className="cta-bg-img">
-            <img src="assets/images/cta-bg-img.png" alt="Background" />
+            <img src="/assets/images/cta-bg-img.png" alt="Background" />
           </div>
           <div className="col-lg-6">
             <div className="cta-title">

@@ -60,7 +60,7 @@ const Header = () => {
               {/* <!-- Sit Logo Start --> */}
               <div class="site-branding">
                 <Link href="/" title="Msdesignlabs">
-                  <img src="assets/images/logo.png" alt="Logo" />
+                  <img src="/assets/images/logo.png" alt="Logo" />
                 </Link>
               </div>
               {/* <!-- Sit Logo End --> */}
@@ -91,10 +91,7 @@ const Header = () => {
                           </Link>
                         </li>
                         <li>
-                          <Link
-                            href="/services-details"
-                            title="Services detail"
-                          >
+                          <Link href="/services/1" title="Services detail">
                             Services Detail
                           </Link>
                         </li>
@@ -112,7 +109,7 @@ const Header = () => {
                           </Link>
                         </li>
                         <li>
-                          <Link href="/blog/[slug]" title="Blog Detail">
+                          <Link href="/blog/1" title="Blog Detail">
                             Blog Detail
                           </Link>
                         </li>

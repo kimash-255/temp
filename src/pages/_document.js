@@ -6,7 +6,7 @@ export default function Document() {
       <Head>
         <link
           rel="icon"
-          href="assets/images/favicon.png"
+          href="/assets/images/favicon.png"
           type="image/gif"
           sizes="16x16"
         />
@@ -14,7 +14,7 @@ export default function Document() {
         <link
           rel="stylesheet"
           type="text/css"
-          href="assets/css/bootstrap.min.css"
+          href="/assets/css/bootstrap.min.css"
         />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -27,44 +27,44 @@ export default function Document() {
         <link
           rel="stylesheet"
           type="text/css"
-          href="assets/css/font-awesome.min.css"
+          href="/assets/css/font-awesome.min.css"
         />
 
-        <link rel="stylesheet" type="text/css" href="assets/css/slick.css" />
+        <link rel="stylesheet" type="text/css" href="/assets/css/slick.css" />
         <link
           rel="stylesheet"
           type="text/css"
-          href="assets/css/slick-theme.css"
-        />
-
-        <link
-          rel="stylesheet"
-          type="text/css"
-          href="assets/css/animate.min.css"
+          href="/assets/css/slick-theme.css"
         />
 
         <link
           rel="stylesheet"
           type="text/css"
-          href="assets/css/magnific-popup.min.css"
+          href="/assets/css/animate.min.css"
         />
 
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+        <link
+          rel="stylesheet"
+          type="text/css"
+          href="/assets/css/magnific-popup.min.css"
+        />
+
+        <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
       </Head>
       <body className="antialiased">
         <Main />
         <NextScript />
 
-        <script src="assets/js/bootstrap.min.js" async></script>
-        <script src="assets/js/popper.min.js" async></script>
-        <script src="assets/js/custom.js" async></script>
-        <script src="assets/js/slick.min.js" async></script>
-        <script src="assets/js/wow.min.js" async></script>
-        <script src="assets/js/bg-moving.js" async></script>
-        <script src="assets/js/magnific-popup.js" async></script>
-        <script src="assets/js/custom-magnific-popup.js" async></script>
-        <script src="assets/js/smooth-scroll.js" async></script>
-        <script src="assets/js/jquery.min.js" async></script>
+        <script src="/assets/js/bootstrap.min.js" async></script>
+        <script src="/assets/js/popper.min.js" async></script>
+        <script src="/assets/js/custom.js" async></script>
+        <script src="/assets/js/slick.min.js" async></script>
+        <script src="/assets/js/wow.min.js" async></script>
+        <script src="/assets/js/bg-moving.js" async></script>
+        <script src="/assets/js/magnific-popup.js" async></script>
+        <script src="/assets/js/custom-magnific-popup.js" async></script>
+        <script src="/assets/js/smooth-scroll.js" async></script>
+        <script src="/assets/js/jquery.min.js" async></script>
       </body>
     </Html>
   );

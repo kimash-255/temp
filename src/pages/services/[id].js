@@ -16,14 +16,6 @@ const ServiceDetail = () => {
 
   return (
     <Layout>
-      <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
-      <link rel="stylesheet" href="/assets/css/font-awesome.min.css" />
-      <link rel="stylesheet" href="/assets/css/slick.css" />
-      <link rel="stylesheet" href="/assets/css/slick-theme.css" />
-      <link rel="stylesheet" href="/assets/css/animate.min.css" />
-      <link rel="stylesheet" href="/assets/css/magnific-popup.min.css" />
-      <link rel="stylesheet" href="/assets/css/style.css" />
-
       <section>
         <section className="main-banner-in">
           <span className="shape-1 animate-this">
