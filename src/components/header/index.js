@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header class="site-header">
+    <header class="site-header bg-white">
       {/* <!-- Top start --> */}
       <div class="header-top">
         <div class="container">
