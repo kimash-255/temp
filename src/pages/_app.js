@@ -39,7 +39,7 @@ export default function App({ Component, pageProps }) {
           <Component {...pageProps} />
         </>
       ) : (
-        <div style={{ textAlign: "center", padding: "50px" }}>Loading...</div>
+        <div style={{ textAlign: "center", padding: "50px" }}></div>
       )}
     </>
   );

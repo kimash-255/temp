@@ -83,12 +83,12 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #ff5219;
+  background: #ee1a19;
   border-radius: 10px;
 }
 
 ::-moz-scrollbar-thumb {
-  background: #ff5219;
+  background: #ee1a19;
   border-radius: 10px;
 }
 
@@ -184,7 +184,7 @@ p {
   text-transform: uppercase;
   color: #ffffff !important;
   height: 60px;
-  background-color: #ff5219;
+  background-color: #ee1a19;
   display: inline-block;
   padding: 18px 45px;
   border-radius: 8px;
@@ -248,7 +248,7 @@ p {
 
 .slick-dots li button:hover,
 .slick-dots li.slick-active button {
-  background: #ff5219;
+  background: #ee1a19;
 }
 
 .form-box {
@@ -281,7 +281,7 @@ p {
   width: 60px;
   height: 60px;
   padding: 0 15px;
-  background-color: #ff5219;
+  background-color: #ee1a19;
   border-radius: 8px;
   text-align: center;
   border: none;
@@ -504,7 +504,7 @@ p {
   height: 0;
   width: 0;
   box-sizing: border-box;
-  border: 0 solid #ff5219;
+  border: 0 solid #ee1a19;
   border-radius: 50%;
   -webkit-animation: loader-figure 1.15s infinite
     cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -541,10 +541,10 @@ p {
   0% {
     height: 0;
     width: 0;
-    background-color: #ff5219;
+    background-color: #ee1a19;
   }
   29% {
-    background-color: #ff5219;
+    background-color: #ee1a19;
   }
   30% {
     height: 50px;
@@ -565,10 +565,10 @@ p {
   0% {
     height: 0;
     width: 0;
-    background-color: #ff5219;
+    background-color: #ee1a19;
   }
   29% {
-    background-color: #ff5219;
+    background-color: #ee1a19;
   }
   30% {
     height: 50px;
@@ -589,10 +589,10 @@ p {
   0% {
     height: 0;
     width: 0;
-    background-color: #ff5219;
+    background-color: #ee1a19;
   }
   29% {
-    background-color: #ff5219;
+    background-color: #ee1a19;
   }
   30% {
     height: 50px;
@@ -682,13 +682,13 @@ p {
 
 .top-location-icon {
   font-size: 18px;
-  color: #ff5219;
+  color: #ee1a19;
   margin-right: 15px;
 }
 
 .top-mail-icon {
   font-size: 18px;
-  color: #ff5219;
+  color: #ee1a19;
   margin-right: 15px;
 }
 
@@ -713,7 +713,7 @@ p {
 }
 
 .Social-midea a:hover {
-  color: #ff5219;
+  color: #ee1a19;
 }
 
 .header-bottom {
@@ -780,13 +780,13 @@ p {
 }
 
 .header-btn .sec-btn:hover.sec-btn::after {
-  background-color: #ff5219;
+  background-color: #ee1a19;
 }
 
 .main-navigation ul li.sub-items:hover > a,
 .main-navigation ul li a:hover,
 .main-navigation ul li.active > a {
-  color: #ff5219;
+  color: #ee1a19;
 }
 
 .main-navigation ul li.sub-items > a:before {
@@ -880,14 +880,14 @@ p {
 }
 
 .main-navigation ul li ul.sub-menu li a:hover {
-  color: #ff5219;
+  color: #ee1a19;
   transition: 0.3s;
 }
 
 .main-navigation ul li.sub-items:hover > a,
 .main-navigation ul li a:hover,
 .main-navigation ul li.active > a {
-  color: #ff5219;
+  color: #ee1a19;
 }
 
 .site-header.sticky-header .main-navigation ul li.sub-items:hover > a,
@@ -897,7 +897,7 @@ p {
 .site-header.sticky-header .main-navigation ul li a:hover:before,
 .site-header.sticky-header .main-navigation ul li.active > a:before,
 .site-header.sticky-header .main-navigation ul li ul.sub-menu li a:hover {
-  color: #ff5219;
+  color: #ee1a19;
 }
 /*==Sticky Header Start==*/
 .sticky-header .header-top {
@@ -1102,11 +1102,11 @@ p {
 }
 
 .sec-btn.btn-2:hover::before {
-  background-color: #ff5219;
+  background-color: #ee1a19;
 }
 
 .sec-btn.btn-2::before {
-  background-color: #ff5219;
+  background-color: #ee1a19;
 }
 
 .banner-img {
@@ -1366,8 +1366,8 @@ p {
 }
 
 .course-category-box:hover {
-  background-color: #ff5219;
-  border: solid 1px #ff5219;
+  background-color: #ee1a19;
+  border: solid 1px #ee1a19;
   box-shadow: 0px 20px 30px 0px rgb(255, 82, 25, 0.3);
   transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
 }
@@ -1458,7 +1458,7 @@ p {
 
 .about-us-content ul li i {
   font-size: 30px;
-  color: #ff5219;
+  color: #ee1a19;
   margin-right: 15px;
 }
 
@@ -1583,7 +1583,7 @@ p {
 }
 
 .course-tag-orange {
-  background-color: #ff5219;
+  background-color: #ee1a19;
 }
 
 .course-tag-blue {
@@ -1599,7 +1599,7 @@ p {
 }
 
 .course-box:hover .course-content .h3-title {
-  color: #ff5219;
+  color: #ee1a19;
   transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
 }
 
@@ -1669,7 +1669,7 @@ p {
   font-family: "Jost", sans-serif;
   font-size: 20px;
   line-height: 20px;
-  color: #ff5219;
+  color: #ee1a19;
   font-weight: 700;
 }
 
@@ -1712,7 +1712,7 @@ p {
 
 .event-video-play-box {
   position: absolute;
-  background-color: #ff5219;
+  background-color: #ee1a19;
   padding: 37px 42px;
   border-radius: 8px;
   box-shadow: 0px 30px 60px 0px rgba(255, 82, 25, 0.4);
@@ -1738,7 +1738,7 @@ p {
   justify-content: center;
   align-items: center;
   font-size: 25px;
-  color: #ff5219;
+  color: #ee1a19;
   padding-left: 5px;
   transition: 0.3s;
   z-index: 1;
@@ -1759,7 +1759,7 @@ p {
 }
 
 .event-play-btn a:hover {
-  color: #ff5219;
+  color: #ee1a19;
 }
 
 @keyframes waveBtn {
@@ -1862,12 +1862,12 @@ p {
 }
 
 .event-box:hover .event-content-text .h3-title {
-  color: #ff5219;
+  color: #ee1a19;
   transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
 }
 
 .event-box:hover {
-  border-right: solid 5px #ff5219;
+  border-right: solid 5px #ee1a19;
   transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
 }
 /*==========Event CSS End==========*/
@@ -1903,7 +1903,7 @@ p {
 
 .pricing-box .h2-title {
   font-size: 40px;
-  color: #ff5219;
+  color: #ee1a19;
   line-height: 40px;
   font-weight: 700;
   margin-top: 20px;
@@ -2153,7 +2153,7 @@ p {
 }
 
 .instructor-img ul li a i:hover {
-  background-color: #ff5219;
+  background-color: #ee1a19;
   transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
 }
 
@@ -2166,7 +2166,7 @@ p {
 }
 
 .instructor-box:hover .h3-title {
-  color: #ff5219;
+  color: #ee1a19;
   transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
 }
 
@@ -2228,7 +2228,7 @@ p {
 
 .testimonial-client-img-box {
   background-color: #ffffff;
-  border: solid 2px #ff5219;
+  border: solid 2px #ee1a19;
   border-radius: 8px;
   padding: 10px;
   margin-right: 20px;
@@ -2249,7 +2249,7 @@ p {
 
 .testimonial-client-name span {
   font-family: "Roboto", sans-serif;
-  color: #ff5219;
+  color: #ee1a19;
   line-height: 15px;
 }
 
@@ -2322,7 +2322,7 @@ p {
 }
 
 .blog-box:hover .h3-title {
-  color: #ff5219;
+  color: #ee1a19;
   transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
 }
 
@@ -2516,7 +2516,7 @@ p {
 
 .footer-our-link ul li a:hover {
   padding-left: 10px;
-  color: #ff5219;
+  color: #ee1a19;
   transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
 }
 
@@ -2555,7 +2555,7 @@ p {
 
 .footer-other-link ul li a:hover {
   padding-left: 10px;
-  color: #ff5219;
+  color: #ee1a19;
   transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
 }
 
@@ -2607,7 +2607,7 @@ p {
 }
 
 .copyright-text a {
-  color: #ff5219;
+  color: #ee1a19;
   transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
 }
 
@@ -2648,7 +2648,7 @@ p {
 }
 
 .academic-box:hover .academic-img-box {
-  border: solid 2px #ff5219;
+  border: solid 2px #ee1a19;
   transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
 }
 
@@ -2690,7 +2690,7 @@ p {
 }
 
 .academic-box:hover .link-btn {
-  color: #ff5219;
+  color: #ee1a19;
   transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
 }
 
@@ -2764,7 +2764,7 @@ p {
 .sidebar-title-line {
   width: 4px;
   height: 20px;
-  background-color: #ff5219;
+  background-color: #ee1a19;
   margin-right: 10px;
 }
 
@@ -3081,7 +3081,7 @@ p {
 }
 
 .pagination-arrow {
-  color: #ff5219;
+  color: #ee1a19;
   font-size: 35px;
   display: inline-block;
   margin: 0 18px;
@@ -3121,13 +3121,13 @@ p {
 
 .courses-pagination ul li.active,
 .courses-pagination ul li.active:hover {
-  background: #ff5219;
+  background: #ee1a19;
   color: #ffffff;
   cursor: default;
 }
 
 .courses-pagination ul li:hover {
-  background-color: #ff5219;
+  background-color: #ee1a19;
   color: #ffffff;
   transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
 }
@@ -3175,7 +3175,7 @@ p {
 }
 
 .course-detail-instructor-text a p:hover {
-  color: #ff5219;
+  color: #ee1a19;
   transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
 }
 
@@ -3195,7 +3195,7 @@ p {
 }
 
 .course-detail-date a p:hover {
-  color: #ff5219;
+  color: #ee1a19;
   transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
 }
 
@@ -3232,7 +3232,7 @@ p {
 }
 
 .course-detail-rating-box a:hover p {
-  color: #ff5219;
+  color: #ee1a19;
   transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
 }
 
@@ -3313,7 +3313,7 @@ p {
 
 .course-detail-point ul li i {
   font-size: 30px;
-  color: #ff5219;
+  color: #ee1a19;
   margin-right: 15px;
 }
 
@@ -3356,8 +3356,8 @@ p {
 }
 
 .course-detail-share ul li a i:hover {
-  border: solid 1px #ff5219;
-  background-color: #ff5219;
+  border: solid 1px #ee1a19;
+  background-color: #ee1a19;
   color: #ffffff;
   transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
 }
@@ -3516,7 +3516,7 @@ p {
 }
 
 .recent-course-text span {
-  color: #ff5219;
+  color: #ee1a19;
   font-weight: 700;
   font-size: 18px;
   line-height: 28px;
@@ -3580,7 +3580,7 @@ p {
 }
 
 .event-detail-instructor-text a p:hover {
-  color: #ff5219;
+  color: #ee1a19;
   transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
 }
 
@@ -3600,7 +3600,7 @@ p {
 }
 
 .event-detail-date a p:hover {
-  color: #ff5219;
+  color: #ee1a19;
   transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
 }
 
@@ -3625,7 +3625,7 @@ p {
 }
 
 .event-detail-location a p:hover {
-  color: #ff5219;
+  color: #ee1a19;
   transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
 }
 
@@ -3645,7 +3645,7 @@ p {
 }
 
 .event-detail-time a p:hover {
-  color: #ff5219;
+  color: #ee1a19;
   transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
 }
 
@@ -3723,7 +3723,7 @@ p {
 }
 
 .related-event-text span {
-  color: #ff5219;
+  color: #ee1a19;
 }
 
 .related-event-text span:last-child {
@@ -3781,7 +3781,7 @@ p {
 .instructor-detail-box {
   position: relative;
   width: 375px;
-  background-color: #ff5219;
+  background-color: #ee1a19;
   box-shadow: 0px 20px 30px 0px rgb(255, 82, 25, 0.3);
   padding: 68px 50px;
   border-radius: 8px;
@@ -3832,7 +3832,7 @@ p {
   position: absolute;
   width: 170px;
   height: 170px;
-  background-color: #ff5219;
+  background-color: #ee1a19;
   border-radius: 8px;
   top: 0;
   left: 0;
@@ -3921,7 +3921,7 @@ p {
 }
 
 .instructor-detail-info-follow ul li a i:hover {
-  color: #ff5219;
+  color: #ee1a19;
   transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
 }
 
@@ -4033,7 +4033,7 @@ p {
   right: 0;
   width: 60px;
   height: 100%;
-  background: #ff5219;
+  background: #ee1a19;
   border-radius: 0 8px 8px 0;
   display: flex;
   justify-content: center;
@@ -4214,7 +4214,7 @@ p {
 }
 
 .blog-list-box:hover .h3-title {
-  color: #ff5219;
+  color: #ee1a19;
   transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
 }
 
@@ -4265,12 +4265,12 @@ p {
 }
 
 .blog-list-sidebar-categories-box ul li:hover a i {
-  color: #ff5219;
+  color: #ee1a19;
   transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
 }
 
 .blog-list-sidebar-categories-box ul li:hover a p {
-  color: #ff5219;
+  color: #ee1a19;
   margin-left: 10px;
   transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
 }
@@ -4338,7 +4338,7 @@ p {
 
 .blog-list-recent-post-content .blog-date a p {
   font-weight: 400;
-  color: #ff5219;
+  color: #ee1a19;
 }
 
 .blog-list-sidebar-recent-post
@@ -4348,7 +4348,7 @@ p {
   .blog-date
   a
   p {
-  color: #ff5219;
+  color: #ee1a19;
 }
 
 .blog-list-sidebar-tag-box {
@@ -4384,8 +4384,8 @@ p {
 }
 
 .blog-list-sidebar-tag-box ul li a:hover {
-  background-color: #ff5219;
-  border: solid 1px #ff5219;
+  background-color: #ee1a19;
+  border: solid 1px #ee1a19;
   color: #ffffff;
   box-shadow: 0px 10px 20px 0px rgb(255, 82, 25, 0.4);
   transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
@@ -4448,7 +4448,7 @@ p {
 
 .blog-detail-point ul li i {
   font-size: 30px;
-  color: #ff5219;
+  color: #ee1a19;
   margin-right: 15px;
 }
 
@@ -4461,7 +4461,7 @@ p {
 .blog-detail-text-box {
   background-color: #ffffff;
   border-radius: 8px;
-  border-left: solid 5px #ff5219;
+  border-left: solid 5px #ee1a19;
   box-shadow: 0px 30px 60px 0px rgb(0, 0, 0, 0.1);
   padding: 30px;
   margin-top: 40px;
@@ -4534,8 +4534,8 @@ p {
 }
 
 .blog-detail-tag ul li a:hover {
-  background-color: #ff5219;
-  border: solid 1px #ff5219;
+  background-color: #ee1a19;
+  border: solid 1px #ee1a19;
   color: #ffffff;
   box-shadow: 0px 10px 20px 0px rgb(255, 82, 25, 0.4);
   transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
@@ -4565,7 +4565,7 @@ p {
 }
 
 .blog-detail-share ul li a i:hover {
-  color: #ff5219;
+  color: #ee1a19;
   transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
 }
 
@@ -4609,7 +4609,7 @@ p {
 }
 
 .reply-btn {
-  background-color: #ff5219;
+  background-color: #ee1a19;
   color: #ffffff;
   border-radius: 4px;
   padding: 10px 15px;
@@ -4749,7 +4749,7 @@ p {
   right: 10px;
   width: 50px;
   height: 50px;
-  background-color: #ff5219;
+  background-color: #ee1a19;
   border-radius: 100%;
   font-size: 25px;
   color: #ffffff;
@@ -4878,7 +4878,7 @@ p {
     sideWays 2s ease-in-out infinite alternate;
   left: 6%;
   top: 45%;
-  background: #ff5219;
+  background: #ee1a19;
 }
 
 .x2 {
@@ -4898,7 +4898,7 @@ p {
     sideWays 2s ease-in-out infinite alternate;
   left: 10%;
   top: 40%;
-  background: #ff5219;
+  background: #ee1a19;
 }
 
 .x4 {
@@ -4918,7 +4918,7 @@ p {
     sideWays 4s ease-in-out infinite alternate;
   left: 30%;
   top: 50%;
-  background: #ff5219;
+  background: #ee1a19;
 }
 
 .x6 {
@@ -4938,7 +4938,7 @@ p {
     sideWays 2s ease-in-out infinite alternate;
   left: 65%;
   top: 70%;
-  background: #ff5219;
+  background: #ee1a19;
 }
 
 .x8 {
@@ -4958,7 +4958,7 @@ p {
     sideWays 4s ease-in-out infinite alternate;
   left: 90%;
   top: 50%;
-  background: #ff5219;
+  background: #ee1a19;
 }
 
 .x10 {
@@ -5415,7 +5415,7 @@ p {
   }
 
   .main-navigation ul li.sub-items.active > a:before {
-    color: #ff5219;
+    color: #ee1a19;
   }
 
   .main-navigation ul li ul.sub-menu,
@@ -5460,12 +5460,12 @@ p {
   .main-navigation ul li.sub-items:hover > a:before,
   .main-navigation ul li a:hover:before {
     transform: translate(0, -50%) rotate(0deg);
-    color: #ff5219;
+    color: #ee1a19;
   }
 
   .main-navigation ul li.sub-items.active-sub-menu > a:before {
     transform: translate(0, -50%) rotate(-180deg);
-    color: #ff5219;
+    color: #ee1a19;
   }
 
   .header-top {

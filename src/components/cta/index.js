@@ -11,16 +11,13 @@ const Cta = () => {
           </div>
           <div className="col-lg-6">
             <div className="cta-title">
-              <h2 className="h2-title">
-                Let’s bring your vision to life. Contact us today for a
-                consultation!
-              </h2>
+              <h2 className="h2-title"> Let’s bring your vision to life.</h2>
             </div>
           </div>
           <div className="col-lg-6">
             <div className="cta-btn">
               <Link href="/contact">
-                <div className="sec-btn">Contact Us</div>
+                <div className="sec-btn">Consult Us Now</div>
               </Link>
             </div>
           </div>

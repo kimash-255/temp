@@ -63,20 +63,6 @@ const Contact = () => {
                   <li>
                     <div class="contact-detail-icon">
                       <img
-                        src="/assets/images/contact-location.png"
-                        alt="location"
-                      />
-                    </div>
-                    <div class="contact-detail-content">
-                      <p>Our Address:</p>
-                      <h3 class="contact-text">
-                        411 University St, Seattle, USA
-                      </h3>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="contact-detail-icon">
-                      <img
                         src="/assets/images/contact-mail.png"
                         alt="location"
                       />
@@ -84,18 +70,6 @@ const Contact = () => {
                     <div class="contact-detail-content">
                       <p>Our Mailbox:</p>
                       <h3 class="contact-text">info@educater.com</h3>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="contact-detail-icon">
-                      <img
-                        src="/assets/images/contact-call.png"
-                        alt="location"
-                      />
-                    </div>
-                    <div class="contact-detail-content">
-                      <p>Our Phones:</p>
-                      <h3 class="contact-text">+1 -800-456-478-23</h3>
                     </div>
                   </li>
                 </ul>
@@ -169,4 +143,5 @@ const Contact = () => {
     </section>
   );
 };
+
 export default Contact;

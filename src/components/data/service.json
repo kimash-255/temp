@@ -1,80 +1,145 @@
 [
   {
     "id": "1",
-    "title": "Become product manager learn skills.",
+    "title": "Logo Design",
     "image": "/assets/images/course-1.jpg",
-    "description": "Master the essential skills required to become a successful product manager.",
+    "description": "Create a memorable logo that represents your brand and leaves a lasting impression.",
     "features": [
-      "Understand product lifecycle management.",
-      "Learn effective communication with stakeholders.",
-      "Master prioritization techniques and tools."
+      "Custom logo designs tailored to your brand identity.",
+      "Versatile logo formats for various media.",
+      "Unique, creative designs that stand out."
     ],
     "price": 50.0,
     "discount": 10
   },
   {
     "id": "2",
-    "title": "Fashion and luxury fashion in a changing.",
+    "title": "Portfolio Design",
     "image": "/assets/images/course-2.jpg",
-    "description": "Explore the dynamics of fashion and luxury in today's evolving market.",
+    "description": "Build a professional portfolio that showcases your skills and work in a polished way.",
     "features": [
-      "Understand current trends in the fashion industry.",
-      "Learn the art of luxury branding.",
-      "Navigate the challenges of a changing global market."
+      "Beautiful, user-friendly portfolio designs.",
+      "Responsive layouts optimized for all devices.",
+      "Portfolio designs that highlight your best work."
     ],
     "price": 70.0,
     "discount": 15
   },
   {
     "id": "3",
-    "title": "Learning to write as a professional.",
+    "title": "Brochures",
     "image": "/assets/images/course-3.jpg",
-    "description": "Develop professional writing skills for various industries.",
+    "description": "Design informative and visually appealing brochures for your business or event.",
     "features": [
-      "Enhance your grammar and style.",
-      "Learn effective storytelling techniques.",
-      "Master technical writing skills."
+      "High-quality brochure designs for any purpose.",
+      "Custom layouts to match your branding.",
+      "Designed for print and digital use."
     ],
     "price": 40.0,
     "discount": null
   },
   {
     "id": "4",
-    "title": "Improving accessibility of your markdown.",
+    "title": "Letterheads",
     "image": "/assets/images/course-4.jpg",
-    "description": "Learn to make your markdown content accessible to everyone.",
+    "description": "Design professional letterheads that reinforce your company’s branding and professionalism.",
     "features": [
-      "Understand web accessibility principles.",
-      "Learn to use semantic HTML effectively.",
-      "Create inclusive content for diverse audiences."
+      "Custom letterhead designs aligned with your brand.",
+      "Professional and sleek designs for businesses.",
+      "Print-ready letterhead formats."
     ],
     "price": 30.0,
     "discount": 5
   },
   {
     "id": "5",
-    "title": "Master query in a short period of time.",
+    "title": "Business Cards",
     "image": "/assets/images/course-5.jpg",
-    "description": "Become an expert in writing and optimizing database queries.",
+    "description": "Design eye-catching business cards that make a lasting impression on your clients.",
     "features": [
-      "Learn SQL from basics to advanced.",
-      "Optimize queries for better performance.",
-      "Handle large datasets efficiently."
+      "Unique business card designs tailored to your brand.",
+      "Print-ready files for both standard and custom sizes.",
+      "Double-sided designs with optional finishing touches."
     ],
     "price": 60.0,
     "discount": 20
   },
   {
     "id": "6",
-    "title": "Master query in a short period of time.",
+    "title": "Flyers",
     "image": "/assets/images/course-6.jpg",
-    "description": "Develop in-depth knowledge of query execution plans and optimization.",
+    "description": "Create vibrant, informative flyers for marketing and promotional campaigns.",
     "features": [
-      "Analyze query performance metrics.",
-      "Learn advanced indexing techniques.",
-      "Master complex joins and subqueries."
+      "Creative flyer designs to grab attention.",
+      "Customizable layouts to suit your message.",
+      "Perfect for events, promotions, and sales."
     ],
     "price": 80.0,
+    "discount": 25
+  },
+  {
+    "id": "7",
+    "title": "Invites",
+    "image": "/assets/images/course-1.jpg",
+    "description": "Design elegant and stylish invites for your next event, wedding, or special occasion.",
+    "features": [
+      "Personalized designs for all events.",
+      "Elegant typography and layouts.",
+      "Ready-to-print or digital formats."
+    ],
+    "price": 40.0,
+    "discount": 10
+  },
+  {
+    "id": "8",
+    "title": "Digital Marketing",
+    "image": "/assets/images/course-2.jpg",
+    "description": "Boost your online presence with targeted marketing campaigns, including content creation, Google Ads, and email marketing.",
+    "features": [
+      "Customized digital marketing strategies.",
+      "Targeted campaigns to reach your audience.",
+      "Comprehensive content creation and optimization."
+    ],
+    "price": 90.0,
+    "discount": 15
+  },
+  {
+    "id": "9",
+    "title": "Search Engine Optimization (SEO)",
+    "image": "/assets/images/course-3.jpg",
+    "description": "Enhance your website’s visibility and attract organic traffic with our comprehensive SEO strategies.",
+    "features": [
+      "In-depth SEO analysis and audits.",
+      "Keyword optimization for top rankings.",
+      "On-page and off-page SEO techniques."
+    ],
+    "price": 70.0,
+    "discount": 10
+  },
+  {
+    "id": "10",
+    "title": "Social Media Management",
+    "image": "/assets/images/course-4.jpg",
+    "description": "Drive engagement and grow your online community with our professional social media management services.",
+    "features": [
+      "Content planning and scheduling.",
+      "Community engagement and interaction.",
+      "Platform-specific strategies to grow your brand."
+    ],
+    "price": 60.0,
+    "discount": 15
+  },
+  {
+    "id": "11",
+    "title": "Website Development",
+    "image": "/assets/images/course-5.jpg",
+    "description": "We create visually appealing, user-friendly websites that work seamlessly across devices and are optimized for performance.",
+    "features": [
+      "Custom website designs tailored to your needs.",
+      "Responsive, mobile-friendly websites.",
+      "SEO-optimized for better search engine visibility."
+    ],
+    "price": 120.0,
     "discount": 25
   }
 ]

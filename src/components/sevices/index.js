@@ -393,9 +393,7 @@ const Services = () => {
                         </div>
                         <div class="course-content">
                           <Link href="/services/1">
-                            <h3 class="h3-title">
-                              Become product manager learn skills.
-                            </h3>
+                            <h3 class="h3-title">Digital Marketing</h3>
                           </Link>
                           <div class="course-instructor-review">
                             <div class="course-instructor-box">
@@ -451,7 +449,7 @@ const Services = () => {
                         <div class="course-content">
                           <a href="services/2">
                             <h3 class="h3-title">
-                              Fashion and luxury fashion in a changing.
+                              Search Engine Optimization (SEO)
                             </h3>
                           </a>
                           <div class="course-instructor-review">
@@ -507,9 +505,7 @@ const Services = () => {
                         </div>
                         <div class="course-content">
                           <Link href="/service-detail">
-                            <h3 class="h3-title">
-                              Learning to write as a professional.
-                            </h3>
+                            <h3 class="h3-title">Social Media Management</h3>
                           </Link>
                           <div class="course-instructor-review">
                             <div class="course-instructor-box">
@@ -564,9 +560,7 @@ const Services = () => {
                         </div>
                         <div class="course-content">
                           <Link href="/contact">
-                            <h3 class="h3-title">
-                              Improving accessibility of Your markdown.
-                            </h3>
+                            <h3 class="h3-title">Social Media Management</h3>
                           </Link>
                           <div class="course-instructor-review">
                             <div class="course-instructor-box">
@@ -622,7 +616,7 @@ const Services = () => {
                         <div class="course-content">
                           <Link href="/services/5">
                             <h3 class="h3-title">
-                              Master query in a short period of time.
+                              Website Design & Development
                             </h3>
                           </Link>
                           <div class="course-instructor-review">
@@ -679,7 +673,7 @@ const Services = () => {
                         <div class="course-content">
                           <a href="/services/6">
                             <h3 class="h3-title">
-                              Business Intelligence analyst Course 2022.
+                              Letterheads & Business Cards
                             </h3>
                           </a>
                           <div class="course-instructor-review">
@@ -735,9 +729,7 @@ const Services = () => {
                         </div>
                         <div class="course-content">
                           <a href="/services/1">
-                            <h3 class="h3-title">
-                              Become product manager learn skills.
-                            </h3>
+                            <h3 class="h3-title">Portfolio Design</h3>
                           </a>
                           <div class="course-instructor-review">
                             <div class="course-instructor-box">
@@ -792,9 +784,7 @@ const Services = () => {
                         </div>
                         <div class="course-content">
                           <a href="/services/2">
-                            <h3 class="h3-title">
-                              Fashion and luxury fashion in a changing.
-                            </h3>
+                            <h3 class="h3-title">Graphics Design</h3>
                           </a>
                           <div class="course-instructor-review">
                             <div class="course-instructor-box">
@@ -848,6 +838,7 @@ const Services = () => {
                 </div>
               </div>
             </div>
+
             {/* <!--Services List End--> */}
           </div>
         </div>

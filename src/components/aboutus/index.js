@@ -47,7 +47,10 @@ const AboutUs = () => {
                 </div>
               ))}
               <div className="about-img">
-                <img src="/assets/images/about-img.png" alt="about us" />
+                <img
+                  src="/assets/images/msdesign-portfolio.png"
+                  alt="about us"
+                />
               </div>
             </div>
           </div>

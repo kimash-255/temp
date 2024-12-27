@@ -9,9 +9,9 @@ const AboutPage = () => {
   return (
     <Layout>
       <About />
-      <Partner />
       <Solutions />
-      {/* <Testimonial /> */}
+      <Partner />
+      <Testimonial />
       <Cta />
     </Layout>
   );

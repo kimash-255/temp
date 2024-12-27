@@ -58,7 +58,7 @@ const HighlightServices = () => {
       <div
         className="core-features-img"
         style={{
-          backgroundImage: "url('/assets/images/coure-features-img.jpg')",
+          backgroundImage: "url('/assets/images/mission.jpg')",
         }}
       ></div>
     </section>

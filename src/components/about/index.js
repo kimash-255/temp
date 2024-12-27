@@ -43,7 +43,7 @@ const About = () => {
                     <i class="fa fa-angle-right" aria-hidden="true"></i>
                   </li>
                   <li>
-                    <Link href="about-us.html">About Us</Link>
+                    <Link href="/about">About Us</Link>
                   </li>
                 </ul>
               </div>
@@ -60,32 +60,11 @@ const About = () => {
                 class="about-img-box wow fadeInLeft animated"
                 data-wow-delay=".4s"
               >
-                <div class="aliment-1">
-                  <div class="aliment-icon-red">
-                    <img
-                      src="/assets/images/banner-aliment-icon-1.png"
-                      alt="icon"
-                    />
-                  </div>
-                  <div class="aliment-content">
-                    <h3 class="h3-title">Congratulations</h3>
-                    <p>Your admission completed</p>
-                  </div>
-                </div>
-                <div class="aliment-3">
-                  <div class="aliment-icon-green">
-                    <img
-                      src="/assets/images/banner-aliment-icon-3.png"
-                      alt="icon"
-                    />
-                  </div>
-                  <div class="aliment-content">
-                    <h3 class="h3-title">578k</h3>
-                    <p>Assisted Student</p>
-                  </div>
-                </div>
                 <div class="about-img">
-                  <img src="/assets/images/about-img.png" alt="about us" />
+                  <img
+                    src="/assets/images/msdesign-portfolio.png"
+                    alt="about us"
+                  />
                 </div>
               </div>
             </div>
@@ -93,26 +72,28 @@ const About = () => {
               <div class="about-us-content">
                 <div class="about-us-title">
                   <h2 class="h2-subtitle">About Us</h2>
-                  <h2 class="h2-title">We Have Best Online Education</h2>
+                  <h2 class="h2-title">Thank You for Choosing MsDesignLab!</h2>
                 </div>
                 <p>
-                  Morbi porttitor ligula id varius consectetur. Integer ipsum
-                  justo, congue sit amet massa vel, porttitor semper magna. Orci
-                  varius natoque penatibus et magnis dis parturient montes,
-                  nascetur ridiculus mus.
+                  We deeply appreciate your trust in us to deliver creative and
+                  tailored solutions for your brand. Your referrals mean the
+                  world to us—they’re a testament to your confidence in our
+                  work.
                 </p>
                 <ul>
                   <li>
                     <i class="fa fa-check-circle" aria-hidden="true"></i>
-                    <p>Suspendisse nunc massa, pellentesque eu nibh eget.</p>
+                    <p>Expertise in modern graphic design solutions.</p>
                   </li>
                   <li>
                     <i class="fa fa-check-circle" aria-hidden="true"></i>
-                    <p>Suspendisse nunc massa, pellentesque eu nibh eget.</p>
+                    <p>
+                      Innovative digital marketing strategies tailored to you.
+                    </p>
                   </li>
                   <li>
                     <i class="fa fa-check-circle" aria-hidden="true"></i>
-                    <p>Suspendisse nunc massa, pellentesque eu nibh eget.</p>
+                    <p>Comprehensive web development services.</p>
                   </li>
                 </ul>
                 <Link href="/contact" class="sec-btn">

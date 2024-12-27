@@ -1,5 +1,6 @@
 import AboutUs from "@/components/aboutus";
 import Blog from "@/components/blog";
+import Cta from "@/components/cta";
 import Hero from "@/components/hero";
 import HighlightServices from "@/components/highlightservices";
 import Layout from "@/components/layout";
@@ -14,10 +15,11 @@ const Home = () => {
       <Hero />
       <Solutions />
       <AboutUs />
-      <Patner />
       <HighlightServices />
-      {/* <Testimonial /> */}
-      <Blog />
+      <Patner />
+      <Testimonial />
+      {/* <Blog /> */}
+      <Cta />
     </Layout>
   );
 };

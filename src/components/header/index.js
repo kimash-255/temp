@@ -1,30 +1,43 @@
 import Image from "next/image";
 import Link from "next/link";
+import { useState, useEffect } from "react";
 
 const Header = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  // Handle scroll event to determine if scrolled down
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 0); // Check if the page is scrolled
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    handleScroll(); // Initialize on first render to check if scrolled
+
+    // Cleanup event listener when component unmounts
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <header class="site-header bg-white">
+    <header
+      className={`site-header ${
+        isScrolled ? "bg-white" : "bg-transparent"
+      } transition-all duration-300`}
+    >
       {/* <!-- Top start --> */}
-      <div class="header-top">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-6">
-              <div class="top-contact">
-                <div class="top-location">
-                  <div class="top-location-icon">
-                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+      <div className="header-top">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-6">
+              <div className="top-contact">
+                <div className="top-location"></div>
+                <div className="top-mail">
+                  <div className="top-mail-icon">
+                    <i className="fa fa-envelope" aria-hidden="true"></i>
                   </div>
-                  <div class="top-location-content">
-                    <Link href="javascript:void(0);" title="location">
-                      <p>12/7 Aabot, Poor Street, Mumbai</p>
-                    </Link>
-                  </div>
-                </div>
-                <div class="top-mail">
-                  <div class="top-mail-icon">
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
-                  </div>
-                  <div class="top-mail-content">
+                  <div className="top-mail-content">
                     <Link href="javascript:void(0);" title="mail">
                       <p>info@gmail.com</p>
                     </Link>
@@ -32,98 +45,169 @@ const Header = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-6">
-              <div class="Social-midea">
-                <Link href="javascript:void(0);" title="Facebook">
-                  <i class="fa fa-facebook" aria-hidden="true"></i>
+            <div className="col-lg-6">
+              <div className="Social-midea">
+                <Link href="javascript:void(0);" title="Whatsapp">
+                  <i className="fa fa-whatsapp" aria-hidden="true"></i>
                 </Link>
                 <Link href="javascript:void(0);" title="Instagram">
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
-                </Link>
-                <Link href="javascript:void(0);" title="Twitter">
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
-                </Link>
-                <Link href="javascript:void(0);" title="Whatsapp">
-                  <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                  <i className="fa fa-instagram" aria-hidden="true"></i>
                 </Link>
               </div>
             </div>
           </div>
         </div>
       </div>
-      {/* <!-- Top End -->
-      <!--Navbar Start  --> */}
-      <div class="header-bottom">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-3">
-              {/* <!-- Sit Logo Start --> */}
-              <div class="site-branding">
+      {/* <!-- Top End --> */}
+
+      {/* <!-- Navbar Start  --> */}
+      <div className="header-bottom">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-3">
+              {/* <!-- Site Logo Start --> */}
+              <div className="site-branding">
                 <Link href="/" title="Msdesignlabs">
                   <img src="/assets/images/logo.png" alt="Logo" />
                 </Link>
               </div>
-              {/* <!-- Sit Logo End --> */}
+              {/* <!-- Site Logo End --> */}
             </div>
-            <div class="col-lg-9">
-              <div class="header-menu">
-                <nav class="main-navigation">
-                  <button class="toggle-button">
+            <div className="col-lg-9">
+              <div className="header-menu">
+                <nav className="main-navigation">
+                  <button className="toggle-button">
                     <span></span>
-                    <span class="toggle-width"></span>
+                    <span className="toggle-width"></span>
                     <span></span>
                   </button>
-                  <ul class="menu">
-                    <li class="active">
+                  <ul className="menu">
+                    <li className="active">
                       <Link href="/">Home</Link>
                     </li>
                     <li>
                       <Link href="/about">About Us</Link>
                     </li>
-                    <li class="sub-items">
-                      <Link href="javascript:void(0);" title="Services">
+                    <li className="sub-items relative">
+                      <Link
+                        href="/services"
+                        title="Services"
+                        className="block px-4 py-2"
+                      >
                         Services
                       </Link>
-                      <ul class="sub-menu">
+                      <ul className="sub-menu absolute hidden bg-white shadow-lg">
                         <li>
-                          <Link href="/services" title="Services">
-                            Services List
+                          <Link
+                            href="/services/1"
+                            title="Logo Design"
+                            className="block px-4 py-2"
+                          >
+                            Logo Design
                           </Link>
                         </li>
                         <li>
-                          <Link href="/services/1" title="Services detail">
-                            Services Detail
+                          <Link
+                            href="/services/2"
+                            title="Portfolio Design"
+                            className="block px-4 py-2"
+                          >
+                            Portfolio Design
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            href="/services/3"
+                            title="Brochures"
+                            className="block px-4 py-2"
+                          >
+                            Brochures
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            href="/services/4"
+                            title="Letterheads"
+                            className="block px-4 py-2"
+                          >
+                            Letterheads
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            href="/services/5"
+                            title="Business Cards"
+                            className="block px-4 py-2"
+                          >
+                            Business Cards
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            href="/services/6"
+                            title="Flyers"
+                            className="block px-4 py-2"
+                          >
+                            Flyers
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            href="/services/7"
+                            title="Invites"
+                            className="block px-4 py-2"
+                          >
+                            Invites
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            href="/services/8"
+                            title="Digital Marketing"
+                            className="block px-4 py-2"
+                          >
+                            Digital Marketing
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            href="/services/9"
+                            title="SEO"
+                            className="block px-4 py-2"
+                          >
+                            SEO
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            href="/services/10"
+                            title="Social Media Management"
+                            className="block px-4 py-2"
+                          >
+                            Social Media Management
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            href="/services/11"
+                            title="Website Development"
+                            className="block px-4 py-2"
+                          >
+                            Website Development
                           </Link>
                         </li>
                       </ul>
                     </li>
 
-                    <li class="sub-items">
-                      <Link href="javascript:void(0);" title="Blog">
-                        Blog
-                      </Link>
-                      <ul class="sub-menu">
-                        <li>
-                          <Link href="/blog" title="Blog List">
-                            Blog List
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="/blog/1" title="Blog Detail">
-                            Blog Detail
-                          </Link>
-                        </li>
-                      </ul>
-                    </li>
                     <li>
                       <Link href="/contact">Contact Us</Link>
                     </li>
                   </ul>
                 </nav>
-                <div class="black-shadow"></div>
-                <div class="header-btn">
-                  <Link href="/contact" class="sec-btn">
-                    Try For Free
+                <div className="black-shadow"></div>
+                <div className="header-btn">
+                  <Link href="/contact" className="sec-btn">
+                    Start a Project
                   </Link>
                 </div>
               </div>
@@ -131,8 +215,9 @@ const Header = () => {
           </div>
         </div>
       </div>
-      {/* <!--Navbar End  --> */}
+      {/* <!-- Navbar End  --> */}
     </header>
   );
 };
+
 export default Header;
