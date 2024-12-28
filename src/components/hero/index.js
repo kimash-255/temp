@@ -4,17 +4,22 @@ import Link from "next/link";
 import Image from "next/image";
 
 const Hero = () => {
-  const [displayedText, setDisplayedText] = useState("Your vision");
-  const phrases = ["Your vision", "Our Creative Solution"];
-  const switchInterval = 5000; // Time in ms to switch between phrases
+  const [displayedText, setDisplayedText] = useState("Creative graphic design");
+  const phrases = [
+    "Creative graphic design",
+    "Strategic digital marketing",
+    "SEO solutions",
+    "Custom website development",
+  ];
+  const switchInterval = 2000; // Time in ms to switch between phrases
   const textRef = useRef(null); // Reference to the text element
 
   useEffect(() => {
+    let currentIndex = 0;
     const interval = setInterval(() => {
-      setDisplayedText((prevText) =>
-        prevText === phrases[0] ? phrases[1] : phrases[0]
-      );
-    }, switchInterval); // Switch every 3 seconds
+      currentIndex = (currentIndex + 1) % phrases.length;
+      setDisplayedText(phrases[currentIndex]);
+    }, switchInterval); // Switch every 2 seconds
 
     return () => clearInterval(interval); // Clean up the interval
   }, []);
@@ -28,7 +33,7 @@ const Hero = () => {
           opacity: 1, // Ensure full opacity
         },
         {
-          duration: 2, // Set typing speed (time for full text to appear)
+          duration: 1, // Set typing speed (time for full text to appear)
           width: "auto", // Animate to full width
           ease: "none", // Linear easing for a smooth animation
         }
@@ -78,8 +83,14 @@ const Hero = () => {
                 className="h2-subtitle wow fadeInUp animated"
                 data-wow-delay=".4s"
               >
-                Welcome to MsDesignLab
+                Welcome to MsLabDesigns
               </h2>
+              <h1
+                className="h1-title wow fadeInUp animated relative"
+                data-wow-delay=".5s"
+              >
+                Your one-stop destination for
+              </h1>
               <h1
                 className="h1-title wow fadeInUp animated relative"
                 data-wow-delay=".5s"
@@ -95,12 +106,12 @@ const Hero = () => {
                   />
                 </span>
               </h1>
-              <p className="wow fadeInUp animated" data-wow-delay=".6s">
+              {/* <p className="wow fadeInUp animated" data-wow-delay=".6s">
                 Your one-stop destination for creative graphic design, strategic
                 digital marketing, SEO solutions, and custom website
                 development. We help businesses like yours stand out in a
                 competitive digital landscape.
-              </p>
+              </p> */}
               <div
                 className="banner-btn wow fadeInUp animated"
                 data-wow-delay=".7s"
@@ -120,12 +131,12 @@ const Hero = () => {
               data-wow-delay=".4s"
             >
               <div className="aliment-4">
-                <Image
+                {/* <Image
                   src="/assets/images/banner-aliment-icon-4.png"
                   alt="icon"
                   width={50}
                   height={50}
-                />
+                /> */}
               </div>
               <div className="banner-img">
                 <Image

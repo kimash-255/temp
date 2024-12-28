@@ -72,7 +72,7 @@ const About = () => {
               <div class="about-us-content">
                 <div class="about-us-title">
                   <h2 class="h2-subtitle">About Us</h2>
-                  <h2 class="h2-title">Thank You for Choosing MsDesignLab!</h2>
+                  <h2 class="h2-title">Thank You for Choosing MsLabDesigns!</h2>
                 </div>
                 <p>
                   We deeply appreciate your trust in us to deliver creative and

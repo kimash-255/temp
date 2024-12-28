@@ -18,21 +18,21 @@ const Solutions = () => {
             <div className="course-category-box">
               <div className="course-category-content">
                 <Link href="/services">
-                  <h3 className="h3-title">Logo Design</h3>
+                  <h3 className="h3-title">Graphic Design</h3>
                 </Link>
                 <p>Crafting unique brand identities.</p>
               </div>
               <div className="course-category-icon">
                 <Image
                   className="dis-yes"
-                  src="/assets/images/course-category-icon-1.png"
+                  src="/assets/images/graphic-design.png"
                   alt="Logo Design Icon"
                   width={50}
                   height={50}
                 />
                 <Image
                   className="dis-no"
-                  src="/assets/images/course-category-icon-1-w.png"
+                  src="/assets/images/graphic-design-w.png"
                   alt="Logo Design Icon (White)"
                   width={50}
                   height={50}
@@ -44,21 +44,21 @@ const Solutions = () => {
             <div className="course-category-box">
               <div className="course-category-content">
                 <Link href="/services">
-                  <h3 className="h3-title">Portfolio Design</h3>
+                  <h3 className="h3-title">Digital Marketing</h3>
                 </Link>
                 <p>Showcasing creativity effectively.</p>
               </div>
               <div className="course-category-icon">
                 <Image
                   className="dis-yes"
-                  src="/assets/images/course-category-icon-2.png"
+                  src="/assets/images/digital-marketing.png"
                   alt="Portfolio Design Icon"
                   width={50}
                   height={50}
                 />
                 <Image
                   className="dis-no"
-                  src="/assets/images/course-category-icon-2-w.png"
+                  src="/assets/images/digital-marketing-w.png"
                   alt="Portfolio Design Icon (White)"
                   width={50}
                   height={50}
@@ -70,21 +70,21 @@ const Solutions = () => {
             <div className="course-category-box">
               <div className="course-category-content">
                 <Link href="/services">
-                  <h3 className="h3-title">Letterheads</h3>
+                  <h3 className="h3-title">SEO</h3>
                 </Link>
                 <p>Professional and branded stationery.</p>
               </div>
               <div className="course-category-icon">
                 <Image
                   className="dis-yes"
-                  src="/assets/images/course-category-icon-3.png"
+                  src="/assets/images/seo.png"
                   alt="Letterhead Icon"
                   width={50}
                   height={50}
                 />
                 <Image
                   className="dis-no"
-                  src="/assets/images/course-category-icon-3-w.png"
+                  src="/assets/images/seo-w.png"
                   alt="Letterhead Icon (White)"
                   width={50}
                   height={50}
@@ -96,21 +96,21 @@ const Solutions = () => {
             <div className="course-category-box">
               <div className="course-category-content">
                 <Link href="/services">
-                  <h3 className="h3-title">Business Cards</h3>
+                  <h3 className="h3-title">Social Media</h3>
                 </Link>
                 <p>Make lasting first impressions.</p>
               </div>
               <div className="course-category-icon">
                 <Image
                   className="dis-yes"
-                  src="/assets/images/course-category-icon-4.png"
+                  src="/assets/images/social-media.png"
                   alt="Business Card Icon"
                   width={50}
                   height={50}
                 />
                 <Image
                   className="dis-no"
-                  src="/assets/images/course-category-icon-4-w.png"
+                  src="/assets/images/social-media.png"
                   alt="Business Card Icon (White)"
                   width={50}
                   height={50}
@@ -122,21 +122,21 @@ const Solutions = () => {
             <div className="course-category-box">
               <div className="course-category-content">
                 <Link href="/services">
-                  <h3 className="h3-title">Brochures</h3>
+                  <h3 className="h3-title">Website Development</h3>
                 </Link>
                 <p>Informative and visually engaging.</p>
               </div>
               <div className="course-category-icon">
                 <Image
                   className="dis-yes"
-                  src="/assets/images/course-category-icon-5.png"
+                  src="/assets/images/web-dev.png"
                   alt="Brochure Icon"
                   width={50}
                   height={50}
                 />
                 <Image
                   className="dis-no"
-                  src="/assets/images/course-category-icon-5-w.png"
+                  src="/assets/images/web-dev-w.png"
                   alt="Brochure Icon (White)"
                   width={50}
                   height={50}
@@ -148,21 +148,21 @@ const Solutions = () => {
             <div className="course-category-box">
               <div className="course-category-content">
                 <Link href="/services">
-                  <h3 className="h3-title">Flyers & Invites</h3>
+                  <h3 className="h3-title">Content Writing</h3>
                 </Link>
                 <p>Engaging designs.</p>
               </div>
               <div className="course-category-icon">
                 <Image
                   className="dis-yes"
-                  src="/assets/images/course-category-icon-6.png"
+                  src="/assets/images/content-writing.png"
                   alt="Flyer & Invite Icon"
                   width={50}
                   height={50}
                 />
                 <Image
                   className="dis-no"
-                  src="/assets/images/course-category-icon-6-w.png"
+                  src="/assets/images/content-writing-w.png"
                   alt="Flyer & Invite Icon (White)"
                   width={50}
                   height={50}

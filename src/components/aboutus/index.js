@@ -65,7 +65,7 @@ const AboutUs = () => {
                 </h2>
               </div>
               <p>
-                MsDesignLab is a creative powerhouse that thrives on delivering
+                MsLabDesigns is a creative powerhouse that thrives on delivering
                 cutting-edge solutions in graphic design, digital marketing, and
                 web development. With a passion for creativity and technology,
                 we help businesses establish a strong brand presence.

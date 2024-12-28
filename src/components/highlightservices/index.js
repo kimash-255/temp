@@ -5,22 +5,23 @@ const HighlightServices = () => {
   const services = [
     {
       icon: "/assets/images/feature-icon-1.png",
-      title: "Graphic Design",
-      description: "Unique visuals tailored to your brand.",
+      title: "Our Mission",
+      description:
+        "To empower businesses with impactful designs and digital strategies that resonate with their audience.",
       className: "feature-blue",
     },
     {
       icon: "/assets/images/feature-icon-2.png",
-      title: "Digital Marketing",
-      description: "Data-driven strategies for measurable success.",
+      title: "Our Vision",
+      description:
+        "Crafting your brand's visual identity with precision, creativity, and innovation. We aspire to empower businesses with designs and digital solutions that resonate, inspire, and leave a lasting impact.",
       className: "feature-pink",
     },
-    {
-      icon: "/assets/images/feature-icon-3.png",
-      title: "24x7 Support",
-      description:
-        "Our team is always here to help you with any questions or concerns.",
-    },
+    // {
+    //   icon: "/assets/images/feature-icon-3.png",
+    //   title: "Integrity",
+    //   description: "Building trust through transparent processes.",
+    // },
   ];
 
   return (
@@ -30,8 +31,11 @@ const HighlightServices = () => {
           <div className="col-lg-6">
             <div className="core-features-content">
               <div className="core-features-title">
-                <h2 className="h2-subtitle">Highlight Services</h2>
-                <h2 className="h2-title">See What Our Mission Are</h2>
+                <h2 className="h2-subtitle">Core Values</h2>
+                <h2 className="h2-title">
+                  See Our <br />
+                  Mission & Vision{" "}
+                </h2>
               </div>
               <div className="core-features-boxes">
                 {services.map((service, index) => (

@@ -39,7 +39,7 @@ const Header = () => {
                   </div>
                   <div className="top-mail-content">
                     <Link href="javascript:void(0);" title="mail">
-                      <p>info@gmail.com</p>
+                      <p>info@mslabdesigns.com</p>
                     </Link>
                   </div>
                 </div>
@@ -67,7 +67,7 @@ const Header = () => {
             <div className="col-lg-3">
               {/* <!-- Site Logo Start --> */}
               <div className="site-branding">
-                <Link href="/" title="Msdesignlabs">
+                <Link href="/" title="Mslabdesigns">
                   <img src="/assets/images/logo.png" alt="Logo" />
                 </Link>
               </div>
@@ -103,66 +103,12 @@ const Header = () => {
                             title="Logo Design"
                             className="block px-4 py-2"
                           >
-                            Logo Design
+                            Graphic Design
                           </Link>
                         </li>
                         <li>
                           <Link
                             href="/services/2"
-                            title="Portfolio Design"
-                            className="block px-4 py-2"
-                          >
-                            Portfolio Design
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            href="/services/3"
-                            title="Brochures"
-                            className="block px-4 py-2"
-                          >
-                            Brochures
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            href="/services/4"
-                            title="Letterheads"
-                            className="block px-4 py-2"
-                          >
-                            Letterheads
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            href="/services/5"
-                            title="Business Cards"
-                            className="block px-4 py-2"
-                          >
-                            Business Cards
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            href="/services/6"
-                            title="Flyers"
-                            className="block px-4 py-2"
-                          >
-                            Flyers
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            href="/services/7"
-                            title="Invites"
-                            className="block px-4 py-2"
-                          >
-                            Invites
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            href="/services/8"
                             title="Digital Marketing"
                             className="block px-4 py-2"
                           >
@@ -171,7 +117,7 @@ const Header = () => {
                         </li>
                         <li>
                           <Link
-                            href="/services/9"
+                            href="/services/3"
                             title="SEO"
                             className="block px-4 py-2"
                           >
@@ -180,7 +126,7 @@ const Header = () => {
                         </li>
                         <li>
                           <Link
-                            href="/services/10"
+                            href="/services/4"
                             title="Social Media Management"
                             className="block px-4 py-2"
                           >
@@ -189,11 +135,20 @@ const Header = () => {
                         </li>
                         <li>
                           <Link
-                            href="/services/11"
+                            href="/services/5"
                             title="Website Development"
                             className="block px-4 py-2"
                           >
                             Website Development
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            href="/services/6"
+                            title="Content Writing"
+                            className="block px-4 py-2"
+                          >
+                            Content Writing
                           </Link>
                         </li>
                       </ul>
