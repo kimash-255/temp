@@ -3,6 +3,8 @@ import Link from "next/link";
 import services from "../../components/data/service.json";
 import Layout from "@/components/layout";
 import Cta from "@/components/cta";
+import Image from "next/image";
+import { motion } from "framer-motion";
 
 const ServiceDetail = () => {
   const router = useRouter();
@@ -13,6 +15,9 @@ const ServiceDetail = () => {
   if (!service) {
     return <p>Loading...</p>;
   }
+
+  // Dynamically fetch the showcase images from the 'showcase' property in JSON
+  const showcaseImages = service.showcase;
 
   return (
     <Layout>
@@ -135,8 +140,64 @@ const ServiceDetail = () => {
             </div>
           </div>
         </section>
-        <Cta />
+
+        {/* Showcase Section */}
+        <div
+          className="main-showcase"
+          style={{
+            backgroundColor: "#fff",
+            padding: "20px 0",
+            zIndex: 2,
+            position: "relative",
+          }}
+        >
+          <div className="container">
+            <div
+              className="showcase-bg"
+              style={{
+                backgroundColor: "#fff",
+                padding: "10px",
+                borderRadius: "8px",
+                overflow: "hidden",
+              }}
+            >
+              <motion.div
+                className="showcase-slider"
+                style={{
+                  display: "flex",
+                  whiteSpace: "nowrap",
+                }}
+                animate={{ x: ["0%", "-100%"] }}
+                transition={{
+                  repeat: Infinity,
+                  duration: 15,
+                  ease: "linear",
+                }}
+              >
+                {showcaseImages.concat(showcaseImages).map((src, index) => (
+                  <div
+                    key={index}
+                    className="showcase-box"
+                    style={{
+                      flexShrink: 0,
+                      width: "200px",
+                      marginRight: "10px",
+                    }}
+                  >
+                    <Image
+                      src={src}
+                      alt={`showcase-${index + 1}`}
+                      width={200}
+                      height={100}
+                    />
+                  </div>
+                ))}
+              </motion.div>
+            </div>
+          </div>
+        </div>
       </section>
+      <Cta />
     </Layout>
   );
 };

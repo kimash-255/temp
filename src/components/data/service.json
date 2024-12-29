@@ -10,7 +10,14 @@
       "Unique, creative designs that stand out."
     ],
     "price": 50.0,
-    "discount": 10
+    "discount": 10,
+    "showcase": [
+      "/assets/images/logo-1.png",
+      "/assets/images/logo-2.png",
+      "/assets/images/logo-3.png",
+      "/assets/images/logo-4.png",
+      "/assets/images/logo-5.png"
+    ]
   },
   {
     "id": "2",
@@ -23,7 +30,15 @@
       "Portfolio designs that highlight your best work."
     ],
     "price": 70.0,
-    "discount": 15
+    "discount": 15,
+    "showcase": [
+      { "portfolio-1": "https://example-portfolio.com/portfolio-1" },
+      { "portfolio-2": "https://example-portfolio.com/portfolio-2" },
+      { "portfolio-3": "https://example-portfolio.com/portfolio-3" },
+      { "portfolio-4": "https://example-portfolio.com/portfolio-4" },
+      { "portfolio-5": "https://example-portfolio.com/portfolio-5" },
+      { "portfolio-6": "https://example-portfolio.com/portfolio-6" }
+    ]
   },
   {
     "id": "3",
@@ -36,7 +51,15 @@
       "Designed for print and digital use."
     ],
     "price": 40.0,
-    "discount": null
+    "discount": null,
+    "showcase": [
+      { "brochure-1": "https://example-brochure.com/brochure-1.pdf" },
+      { "brochure-2": "https://example-brochure.com/brochure-2.pdf" },
+      { "brochure-3": "https://example-brochure.com/brochure-3.pdf" },
+      { "brochure-4": "https://example-brochure.com/brochure-4.pdf" },
+      { "brochure-5": "https://example-brochure.com/brochure-5.pdf" },
+      { "brochure-6": "https://example-brochure.com/brochure-6.pdf" }
+    ]
   },
   {
     "id": "4",
@@ -49,7 +72,15 @@
       "Print-ready letterhead formats."
     ],
     "price": 30.0,
-    "discount": 5
+    "discount": 5,
+    "showcase": [
+      { "letterhead-1": "/assets/images/letterhead-example-1.jpg" },
+      { "letterhead-2": "/assets/images/letterhead-example-2.jpg" },
+      { "letterhead-3": "/assets/images/letterhead-example-3.jpg" },
+      { "letterhead-4": "/assets/images/letterhead-example-4.jpg" },
+      { "letterhead-5": "/assets/images/letterhead-example-5.jpg" },
+      { "letterhead-6": "/assets/images/letterhead-example-6.jpg" }
+    ]
   },
   {
     "id": "5",
@@ -62,7 +93,15 @@
       "Double-sided designs with optional finishing touches."
     ],
     "price": 60.0,
-    "discount": 20
+    "discount": 20,
+    "showcase": [
+      { "business-card-1": "/assets/images/business-card-example-1.jpg" },
+      { "business-card-2": "/assets/images/business-card-example-2.jpg" },
+      { "business-card-3": "/assets/images/business-card-example-3.jpg" },
+      { "business-card-4": "/assets/images/business-card-example-4.jpg" },
+      { "business-card-5": "/assets/images/business-card-example-5.jpg" },
+      { "business-card-6": "/assets/images/business-card-example-6.jpg" }
+    ]
   },
   {
     "id": "6",
@@ -75,7 +114,15 @@
       "Perfect for events, promotions, and sales."
     ],
     "price": 80.0,
-    "discount": 25
+    "discount": 25,
+    "showcase": [
+      { "flyer-1": "https://example-flyer.com/flyer-1.pdf" },
+      { "flyer-2": "https://example-flyer.com/flyer-2.pdf" },
+      { "flyer-3": "https://example-flyer.com/flyer-3.pdf" },
+      { "flyer-4": "https://example-flyer.com/flyer-4.pdf" },
+      { "flyer-5": "https://example-flyer.com/flyer-5.pdf" },
+      { "flyer-6": "https://example-flyer.com/flyer-6.pdf" }
+    ]
   },
   {
     "id": "7",
@@ -88,7 +135,15 @@
       "Ready-to-print or digital formats."
     ],
     "price": 40.0,
-    "discount": 10
+    "discount": 10,
+    "showcase": [
+      { "invite-1": "https://example-invite.com/invite-1.pdf" },
+      { "invite-2": "https://example-invite.com/invite-2.pdf" },
+      { "invite-3": "https://example-invite.com/invite-3.pdf" },
+      { "invite-4": "https://example-invite.com/invite-4.pdf" },
+      { "invite-5": "https://example-invite.com/invite-5.pdf" },
+      { "invite-6": "https://example-invite.com/invite-6.pdf" }
+    ]
   },
   {
     "id": "8",
@@ -101,7 +156,27 @@
       "Comprehensive content creation and optimization."
     ],
     "price": 90.0,
-    "discount": 15
+    "discount": 15,
+    "showcase": [
+      {
+        "campaign-1": "https://example-digital-marketing.com/campaign-results-1"
+      },
+      {
+        "campaign-2": "https://example-digital-marketing.com/campaign-results-2"
+      },
+      {
+        "campaign-3": "https://example-digital-marketing.com/campaign-results-3"
+      },
+      {
+        "campaign-4": "https://example-digital-marketing.com/campaign-results-4"
+      },
+      {
+        "campaign-5": "https://example-digital-marketing.com/campaign-results-5"
+      },
+      {
+        "campaign-6": "https://example-digital-marketing.com/campaign-results-6"
+      }
+    ]
   },
   {
     "id": "9",
@@ -114,7 +189,15 @@
       "On-page and off-page SEO techniques."
     ],
     "price": 70.0,
-    "discount": 10
+    "discount": 10,
+    "showcase": [
+      { "seo-report-1": "https://example-seo.com/seo-report-1.pdf" },
+      { "seo-report-2": "https://example-seo.com/seo-report-2.pdf" },
+      { "seo-report-3": "https://example-seo.com/seo-report-3.pdf" },
+      { "seo-report-4": "https://example-seo.com/seo-report-4.pdf" },
+      { "seo-report-5": "https://example-seo.com/seo-report-5.pdf" },
+      { "seo-report-6": "https://example-seo.com/seo-report-6.pdf" }
+    ]
   },
   {
     "id": "10",
@@ -127,7 +210,27 @@
       "Platform-specific strategies to grow your brand."
     ],
     "price": 60.0,
-    "discount": 15
+    "discount": 15,
+    "showcase": [
+      {
+        "social-media-campaign-1": "https://example-social-media.com/campaign-results-1"
+      },
+      {
+        "social-media-campaign-2": "https://example-social-media.com/campaign-results-2"
+      },
+      {
+        "social-media-campaign-3": "https://example-social-media.com/campaign-results-3"
+      },
+      {
+        "social-media-campaign-4": "https://example-social-media.com/campaign-results-4"
+      },
+      {
+        "social-media-campaign-5": "https://example-social-media.com/campaign-results-5"
+      },
+      {
+        "social-media-campaign-6": "https://example-social-media.com/campaign-results-6"
+      }
+    ]
   },
   {
     "id": "11",
@@ -140,6 +243,14 @@
       "SEO-optimized for better search engine visibility."
     ],
     "price": 120.0,
-    "discount": 25
+    "discount": 25,
+    "showcase": [
+      { "site-1": "https://example-website.com/demo-site-1" },
+      { "site-2": "https://example-website.com/demo-site-2" },
+      { "site-3": "https://example-website.com/demo-site-3" },
+      { "site-4": "https://example-website.com/demo-site-4" },
+      { "site-5": "https://example-website.com/demo-site-5" },
+      { "site-6": "https://example-website.com/demo-site-6" }
+    ]
   }
 ]

@@ -148,7 +148,7 @@ const Solutions = () => {
             <div className="course-category-box">
               <div className="course-category-content">
                 <Link href="/services">
-                  <h3 className="h3-title">Content Writing</h3>
+                  <h3 className="h3-title">Virtual Assistant</h3>
                 </Link>
                 <p>Engaging designs.</p>
               </div>

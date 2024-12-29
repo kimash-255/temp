@@ -1,44 +1,69 @@
 import Image from "next/image";
-import Link from "next/link";
+import { motion } from "framer-motion";
 
 const Partner = () => {
+  const partnerImages = Array.from(
+    { length: 6 },
+    (_, i) => `/assets/images/patner-${i + 1}.png`
+  );
+
   return (
-    <div class="main-partner-logo">
-      <div class="container">
-        <div class="row partner-bg partner-slider">
-          <div class="col-lg-3">
-            <div class="partners-box">
-              <img src="assets/images/brand-1.png" alt="brand-1" />
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="partners-box">
-              <img src="assets/images/brand-2.png" alt="brand-2" />
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="partners-box">
-              <img src="assets/images/brand-3.png" alt="brand-3" />
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="partners-box">
-              <img src="assets/images/brand-4.png" alt="brand-4" />
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="partners-box">
-              <img src="assets/images/brand-5.png" alt="brand-5" />
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="partners-box">
-              <img src="assets/images/brand-6.png" alt="brand-5" />
-            </div>
-          </div>
+    <div
+      className="main-partner-logo"
+      style={{
+        backgroundColor: "#fff",
+        padding: "20px 0",
+        marginBottom: "-100px", // Negative margin to overlap the next section
+        zIndex: 2, // Ensure it appears above the next section
+        position: "relative", // Necessary for stacking contexts
+      }}
+    >
+      <div className="container">
+        <div
+          className="partner-bg"
+          style={{
+            backgroundColor: "#fff",
+            padding: "10px",
+            borderRadius: "8px",
+            overflow: "hidden",
+          }}
+        >
+          <motion.div
+            className="partner-slider"
+            style={{
+              display: "flex",
+              whiteSpace: "nowrap",
+            }}
+            animate={{ x: ["0%", "-100%"] }}
+            transition={{
+              repeat: Infinity,
+              duration: 15,
+              ease: "linear",
+            }}
+          >
+            {partnerImages.concat(partnerImages).map((src, index) => (
+              <div
+                key={index}
+                className="partners-box"
+                style={{
+                  flexShrink: 0,
+                  width: "200px",
+                  marginRight: "10px",
+                }}
+              >
+                <Image
+                  src={src}
+                  alt={`patner-${(index % 6) + 1}`}
+                  width={200}
+                  height={100}
+                />
+              </div>
+            ))}
+          </motion.div>
         </div>
       </div>
     </div>
   );
 };
+
 export default Partner;
