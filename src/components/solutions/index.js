@@ -163,12 +163,12 @@ const Solutions = () => {
           <div className="col-xl-4 col-lg-6 col-md-6">
             <div className="course-category-box">
               <div className="course-category-content">
-                <Link href="/services">
-                  <h3 className="h3-title">Content Writing</h3>
+                <Link href="/services/virtual-assistant">
+                  <h3 className="h3-title">Virtual Assistant</h3>
                 </Link>
                 <p>
-                  "Create high-quality, engaging, <br />
-                  and SEO-friendly content.{" "}
+                  Provide seamless support with <br />
+                  creative and administrative tasks.
                 </p>
               </div>
               <div className="course-category-icon">

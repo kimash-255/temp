@@ -75,6 +75,14 @@ const Header = () => {
                   <i className="fa fa-instagram" aria-hidden="true"></i>
                 </a>
                 <a
+                  href="https://api.whatsapp.com/send/?phone=%2B254748066918&text=Hello%2C+I%E2%80%99d+like+to+start+a+project+with+you.+Could+you+share+more+details+about+how+we+can+proceed%3F&type=phone_number&app_absent=0"
+                  title="Whatsapp"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa fa-whatsapp" aria-hidden="true"></i>
+                </a>
+                <a
                   href="https://www.tiktok.com/@mslabdesigns"
                   title="TikTok"
                   target="_blank"

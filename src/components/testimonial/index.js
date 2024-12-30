@@ -68,7 +68,7 @@ const Testimonial = () => {
                 >
                   <p>&quot;{testimonials[currentIndex].text}&quot;</p>
                   <div className="testimonial-client">
-                    <div className="testimonial-client-img-box">
+                    {/* <div className="testimonial-client-img-box">
                       <div className="testimonial-img">
                         <motion.img
                           src={testimonials[currentIndex].image}
@@ -78,7 +78,7 @@ const Testimonial = () => {
                           transition={{ duration: 0.5 }}
                         />
                       </div>
-                    </div>
+                    </div> */}
                     <div className="testimonial-client-name">
                       <h3 className="h3-title">
                         {testimonials[currentIndex].role}

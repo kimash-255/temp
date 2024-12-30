@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
+import WhatsAppChat from "./WhatsAppChat";
 
 const Layout = ({ children }) => (
   <div>
@@ -19,7 +20,6 @@ const Layout = ({ children }) => (
       <div className="bubble x10"></div>
     </div>
 
-    
     {/* Header Component */}
     <Header />
 
@@ -27,6 +27,7 @@ const Layout = ({ children }) => (
     <main>{children}</main>
 
     {/* Footer Component */}
+    <WhatsAppChat />
     <Footer />
   </div>
 );

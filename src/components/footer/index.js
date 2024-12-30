@@ -9,7 +9,11 @@ const Footer = () => {
       iconClass: "fa fa-instagram",
       label: "Instagram",
     },
-    // { href: "#", iconClass: "fa fa-twitter", label: "Twitter" },
+    {
+      href: "https://api.whatsapp.com/send/?phone=%2B254748066918&text=Hello%2C+I%E2%80%99d+like+to+start+a+project+with+you.+Could+you+share+more+details+about+how+we+can+proceed%3F&type=phone_number&app_absent=0",
+      iconClass: "fa fa-whatsapp",
+      label: "Whatsapp",
+    },
     // { href: "#", iconClass: "fa fa-youtube-play", label: "YouTube" },
   ];
 
@@ -42,10 +46,7 @@ const Footer = () => {
                   alt="Educater"
                 />
               </Link>
-              <p>
-                Let’s bring your vision to life. Contact us today for a
-                consultation!
-              </p>
+              <p>Crafting your brand's visual Identity</p>
               <ul>
                 {socialLinks.map((link, index) => (
                   <li key={index}>
