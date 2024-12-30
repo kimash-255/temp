@@ -6,7 +6,7 @@ export default function Document() {
       <Head>
         <link
           rel="icon"
-          href="/assets/images/favicon.png"
+          href="/assets/images/mslabdesigns-favicon.png"
           type="image/gif"
           sizes="16x16"
         />

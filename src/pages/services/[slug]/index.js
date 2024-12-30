@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import Link from "next/link";
-import services from "../../components/data/service.json";
+import services from "@/data/services.json";
 import Layout from "@/components/layout";
 import Cta from "@/components/cta";
 import Image from "next/image";
@@ -8,37 +8,35 @@ import { motion } from "framer-motion";
 
 const ServiceDetail = () => {
   const router = useRouter();
-  const { id } = router.query;
+  const { slug } = router.query;
 
-  const service = id ? services.find((item) => item.id === id) : null;
-
-  if (!service) {
-    return <p>Loading...</p>;
-  }
+  const service = slug ? services.find((item) => item.slug === slug) : null;
 
   // Dynamically fetch the showcase images from the 'showcase' property in JSON
-  const showcaseImages = service.showcase;
+  const showcaseImages = service?.showcase?.map(
+    (image) => `/assets/images/services/${image}`
+  );
 
   return (
     <Layout>
       <section>
         <section className="main-banner-in">
           <span className="shape-1 animate-this">
-            <img src="/assets/images/shape-1.png" alt="shape" />
+            <img src="/assets/images/mslabdesigns-shape-1.png" alt="shape" />
           </span>
           <span className="shape-2 animate-this">
-            <img src="/assets/images/shape-2.png" alt="shape" />
+            <img src="/assets/images/mslabdesigns-shape-2.png" alt="shape" />
           </span>
           <span className="shape-3 animate-this">
-            <img src="/assets/images/shape-3.png" alt="shape" />
+            <img src="/assets/images/mslabdesigns-shape-3.png" alt="shape" />
           </span>
           <span className="shape-4 animate-this">
-            <img src="/assets/images/shape-4.png" alt="shape" />
+            <img src="/assets/images/mslabdesigns-shape-4.png" alt="shape" />
           </span>
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
-                <h1 className="h1-title">{service.title}</h1>
+                <h1 className="h1-title">{service?.title}</h1>
               </div>
             </div>
           </div>
@@ -62,7 +60,7 @@ const ServiceDetail = () => {
                     <li>
                       <i className="fa fa-angle-right" aria-hidden="true"></i>
                     </li>
-                    <li>{service.title}</li>
+                    <li>{service?.title}</li>
                   </ul>
                 </div>
               </div>
@@ -75,17 +73,18 @@ const ServiceDetail = () => {
             <div className="row">
               <div className="col-xl-8 col-lg-7">
                 <div className="course-detail-box">
-                  <h2 className="h2-title">{service.title}</h2>
+                  <h2 className="h2-title">{service?.title}</h2>
+                  <h6 className="">{service?.description}</h6>
                   <div className="course-detail-img">
-                    <img src={service.image} alt={service.title} />
+                    <img src={service?.image} alt={service?.title} />
                   </div>
                   <h3 className="h3-title">About this Service</h3>
-                  <p>{service.description}</p>
+                  <p>{service?.content}</p>
 
                   <div className="course-detail-point">
-                    <h3 className="h3-title">What will you learn?</h3>
+                    <h3 className="h3-title">What we offer?</h3>
                     <ul>
-                      {service.features.map((feature, index) => (
+                      {service?.features.map((feature, index) => (
                         <li key={index}>
                           <i
                             className="fa fa-check-circle"
@@ -102,8 +101,8 @@ const ServiceDetail = () => {
                 <div className="course-detail-sidebar">
                   <div className="get-the-course">
                     <div className="get-course-price">
-                      <h3 className="h3-title">${service.price} USD</h3>
-                      <p>{service.discount && `${service.discount}% OFF`}</p>
+                      <h3 className="h3-title">${service?.price} USD</h3>
+                      <p>{service?.discount && `${service?.discount}% OFF`}</p>
                     </div>
                     <Link href="/contact" className="sec-btn">
                       Order Now
@@ -115,21 +114,21 @@ const ServiceDetail = () => {
                     </div>
                     <ul>
                       {services
-                        .filter((item) => item.id !== id)
+                        .filter((item) => item.slug !== slug)
                         .slice(0, 4)
                         .map((relatedService) => (
-                          <li key={relatedService.id}>
+                          <li key={relatedService?.slug}>
                             <div className="recent-course-img">
                               <img
-                                src={relatedService.image}
-                                alt={relatedService.title}
+                                src={relatedService?.image}
+                                alt={relatedService?.title}
                               />
                             </div>
                             <div className="recent-course-text">
-                              <Link href={`/services/${relatedService.id}`}>
-                                <p>{relatedService.title}</p>
+                              <Link href={`/services/${relatedService?.slug}`}>
+                                <p>{relatedService?.title}</p>
                               </Link>
-                              <span>${relatedService.price}</span>
+                              <span>${relatedService?.price}</span>
                             </div>
                           </li>
                         ))}
@@ -174,7 +173,7 @@ const ServiceDetail = () => {
                   ease: "linear",
                 }}
               >
-                {showcaseImages.concat(showcaseImages).map((src, index) => (
+                {showcaseImages?.map((src, index) => (
                   <div
                     key={index}
                     className="showcase-box"

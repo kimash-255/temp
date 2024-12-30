@@ -33,7 +33,10 @@ const Footer = () => {
           <div className="col-lg-3 col-md-6">
             <div className="footer-logo-content">
               <Link href="/">
-                <img src="/assets/images/logo-footer.png" alt="Educater" />
+                <img
+                  src="/assets/images/mslabdesigns-logo-footer.png"
+                  alt="Educater"
+                />
               </Link>
               <p>
                 Let’s bring your vision to life. Contact us today for a

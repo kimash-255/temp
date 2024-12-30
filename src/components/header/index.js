@@ -1,9 +1,11 @@
-import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from "react";
+import NavMenu from "./NavMenu";
+import services from "@/data/services.json";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   // Handle scroll event to determine if scrolled down
   useEffect(() => {
@@ -19,6 +21,23 @@ const Header = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  const menuItems = [
+    { label: "Home", href: "/", title: "Home" },
+    { label: "About Us", href: "/about", title: "About Us" },
+    {
+      label: "Services",
+      href: "/services",
+      title: "Services",
+      items: services, // Using the services JSON here
+    },
+    { label: "Blog", href: "/blog", title: "Blog" },
+    { label: "Contact Us", href: "/contact", title: "Contact Us" },
+  ];
+
+  const toggleMenu = () => {
+    setIsMenuOpen((prevState) => !prevState);
+  };
 
   return (
     <header
@@ -61,106 +80,36 @@ const Header = () => {
       {/* <!-- Top End --> */}
 
       {/* <!-- Navbar Start  --> */}
-      <div className="header-bottom">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-3">
+      <div class="header-bottom">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-3">
               {/* <!-- Site Logo Start --> */}
               <div className="site-branding">
                 <Link href="/" title="Mslabdesigns">
-                  <img src="/assets/images/logo.png" alt="Logo" />
+                  <img src="/assets/images/mslabdesigns-logo.png" alt="Logo" />
                 </Link>
               </div>
               {/* <!-- Site Logo End --> */}
             </div>
-            <div className="col-lg-9">
-              <div className="header-menu">
-                <nav className="main-navigation">
-                  <button className="toggle-button">
+            <div class="col-lg-9">
+              <div class="header-menu">
+                <nav
+                  className={`main-navigation ${
+                    isMenuOpen ? "toggle-menu" : ""
+                  }`}
+                >
+                  <button
+                    className="toggle-button"
+                    onClick={toggleMenu}
+                    aria-label="Toggle menu"
+                  >
                     <span></span>
-                    <span className="toggle-width"></span>
+                    <span class="toggle-width"></span>
                     <span></span>
                   </button>
-                  <ul className="menu">
-                    <li className="active">
-                      <Link href="/">Home</Link>
-                    </li>
-                    <li>
-                      <Link href="/about">About Us</Link>
-                    </li>
-                    <li className="sub-items relative">
-                      <Link
-                        href="/services"
-                        title="Services"
-                        className="block px-4 py-2"
-                      >
-                        Services
-                      </Link>
-                      <ul className="sub-menu absolute hidden bg-white shadow-lg">
-                        <li>
-                          <Link
-                            href="/services/1"
-                            title="Logo Design"
-                            className="block px-4 py-2"
-                          >
-                            Graphic Design
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            href="/services/2"
-                            title="Digital Marketing"
-                            className="block px-4 py-2"
-                          >
-                            Digital Marketing
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            href="/services/3"
-                            title="SEO"
-                            className="block px-4 py-2"
-                          >
-                            SEO
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            href="/services/4"
-                            title="Social Media Management"
-                            className="block px-4 py-2"
-                          >
-                            Social Media Management
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            href="/services/5"
-                            title="Website Development"
-                            className="block px-4 py-2"
-                          >
-                            Website Development
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            href="/services/6"
-                            title="Content Writing"
-                            className="block px-4 py-2"
-                          >
-                            Content Writing
-                          </Link>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <Link href="/blog">Blog</Link>
-                    </li>
 
-                    <li>
-                      <Link href="/contact">Contact Us</Link>
-                    </li>
-                  </ul>
+                  <NavMenu menuItems={menuItems} />
                 </nav>
                 <div className="black-shadow"></div>
                 <div className="header-btn">

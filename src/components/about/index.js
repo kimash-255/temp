@@ -10,16 +10,16 @@ const About = () => {
     <section>
       <section class="main-banner-in">
         <span class="shape-1 animate-this">
-          <img src="/assets/images/shape-1.png" alt="shape" />
+          <img src="/assets/images/mslabdesigns-shape-1.png" alt="shape" />
         </span>
         <span class="shape-2 animate-this">
-          <img src="/assets/images/shape-2.png" alt="shape" />
+          <img src="/assets/images/mslabdesigns-shape-2.png" alt="shape" />
         </span>
         <span class="shape-3 animate-this">
-          <img src="/assets/images/shape-3.png" alt="shape" />
+          <img src="/assets/images/mslabdesigns-shape-3.png" alt="shape" />
         </span>
         <span class="shape-4 animate-this">
-          <img src="/assets/images/shape-4.png" alt="shape" />
+          <img src="/assets/images/mslabdesigns-shape-4.png" alt="shape" />
         </span>
         <div class="container">
           <div class="row">
@@ -62,7 +62,7 @@ const About = () => {
               >
                 <div class="about-img">
                   <img
-                    src="/assets/images/msdesign-portfolio.png"
+                    src="/assets/images/mslabdesigns-msdesign-portfolio.png"
                     alt="about us"
                   />
                 </div>

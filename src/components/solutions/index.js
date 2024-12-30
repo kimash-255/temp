@@ -20,20 +20,24 @@ const Solutions = () => {
                 <Link href="/services">
                   <h3 className="h3-title">Graphic Design</h3>
                 </Link>
-                <p>Crafting unique brand identities.</p>
+                <p>
+                  We create stunning visuals and unique brand
+                  <br />
+                  identities tailored to your business needs.
+                </p>
               </div>
               <div className="course-category-icon">
                 <Image
                   className="dis-yes"
-                  src="/assets/images/graphic-design.png"
-                  alt="Logo Design Icon"
+                  src="/assets/images/mslabdesigns-graphic-design.png"
+                  alt="Graphic Design Icon"
                   width={50}
                   height={50}
                 />
                 <Image
                   className="dis-no"
-                  src="/assets/images/graphic-design-w.png"
-                  alt="Logo Design Icon (White)"
+                  src="/assets/images/mslabdesigns-graphic-design-w.png"
+                  alt="Graphic Design Icon (White)"
                   width={50}
                   height={50}
                 />
@@ -46,20 +50,23 @@ const Solutions = () => {
                 <Link href="/services">
                   <h3 className="h3-title">Digital Marketing</h3>
                 </Link>
-                <p>Showcasing creativity effectively.</p>
+                <p>
+                  Boost your online presence and <br />
+                  effectively reach your target audience.
+                </p>
               </div>
               <div className="course-category-icon">
                 <Image
                   className="dis-yes"
-                  src="/assets/images/digital-marketing.png"
-                  alt="Portfolio Design Icon"
+                  src="/assets/images/mslabdesigns-digital-marketing.png"
+                  alt="Digital Marketing Icon"
                   width={50}
                   height={50}
                 />
                 <Image
                   className="dis-no"
-                  src="/assets/images/digital-marketing-w.png"
-                  alt="Portfolio Design Icon (White)"
+                  src="/assets/images/mslabdesigns-digital-marketing-w.png"
+                  alt="Digital Marketing Icon (White)"
                   width={50}
                   height={50}
                 />
@@ -70,22 +77,25 @@ const Solutions = () => {
             <div className="course-category-box">
               <div className="course-category-content">
                 <Link href="/services">
-                  <h3 className="h3-title">SEO</h3>
+                  <h3 className="h3-title">Graphic Design Classes</h3>
                 </Link>
-                <p>Professional and branded stationery.</p>
+                <p>
+                  Learn professional graphic design skills <br />
+                  to enhance your creative career.
+                </p>
               </div>
               <div className="course-category-icon">
                 <Image
                   className="dis-yes"
-                  src="/assets/images/seo.png"
-                  alt="Letterhead Icon"
+                  src="/assets/images/mslabdesigns-design-classes.png"
+                  alt="Graphic Design Classes Icon"
                   width={50}
                   height={50}
                 />
                 <Image
                   className="dis-no"
-                  src="/assets/images/seo-w.png"
-                  alt="Letterhead Icon (White)"
+                  src="/assets/images/mslabdesigns-design-classes-w.png"
+                  alt="Graphic Design Classes Icon (White)"
                   width={50}
                   height={50}
                 />
@@ -98,20 +108,23 @@ const Solutions = () => {
                 <Link href="/services">
                   <h3 className="h3-title">Social Media</h3>
                 </Link>
-                <p>Make lasting first impressions.</p>
+                <p>
+                  Create compelling content and manage <br /> your social
+                  platforms effectively.
+                </p>
               </div>
               <div className="course-category-icon">
                 <Image
                   className="dis-yes"
-                  src="/assets/images/social-media.png"
-                  alt="Business Card Icon"
+                  src="/assets/images/mslabdesigns-social-media.png"
+                  alt="Social Media Icon"
                   width={50}
                   height={50}
                 />
                 <Image
                   className="dis-no"
-                  src="/assets/images/social-media.png"
-                  alt="Business Card Icon (White)"
+                  src="/assets/images/mslabdesigns-social-media.png"
+                  alt="Social Media Icon (White)"
                   width={50}
                   height={50}
                 />
@@ -124,20 +137,23 @@ const Solutions = () => {
                 <Link href="/services">
                   <h3 className="h3-title">Website Development</h3>
                 </Link>
-                <p>Informative and visually engaging.</p>
+                <p>
+                  Build dynamic, visually appealing, <br /> and user-friendly
+                  websites.
+                </p>
               </div>
               <div className="course-category-icon">
                 <Image
                   className="dis-yes"
-                  src="/assets/images/web-dev.png"
-                  alt="Brochure Icon"
+                  src="/assets/images/mslabdesigns-web-dev.png"
+                  alt="Website Development Icon"
                   width={50}
                   height={50}
                 />
                 <Image
                   className="dis-no"
-                  src="/assets/images/web-dev-w.png"
-                  alt="Brochure Icon (White)"
+                  src="/assets/images/mslabdesigns-web-dev-w.png"
+                  alt="Website Development Icon (White)"
                   width={50}
                   height={50}
                 />
@@ -148,22 +164,25 @@ const Solutions = () => {
             <div className="course-category-box">
               <div className="course-category-content">
                 <Link href="/services">
-                  <h3 className="h3-title">Virtual Assistant</h3>
+                  <h3 className="h3-title">Content Writing</h3>
                 </Link>
-                <p>Engaging designs.</p>
+                <p>
+                  "Create high-quality, engaging, <br />
+                  and SEO-friendly content.{" "}
+                </p>
               </div>
               <div className="course-category-icon">
                 <Image
                   className="dis-yes"
-                  src="/assets/images/content-writing.png"
-                  alt="Flyer & Invite Icon"
+                  src="/assets/images/mslabdesigns-virtual-assistant.png"
+                  alt="Virtual Assistant Icon"
                   width={50}
                   height={50}
                 />
                 <Image
                   className="dis-no"
-                  src="/assets/images/content-writing-w.png"
-                  alt="Flyer & Invite Icon (White)"
+                  src="/assets/images/mslabdesigns-virtual-assistant-w.png"
+                  alt="Virtual Assistant Icon (White)"
                   width={50}
                   height={50}
                 />

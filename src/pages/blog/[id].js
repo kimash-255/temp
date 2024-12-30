@@ -18,16 +18,16 @@ const BlogDetail = () => {
       {/* Banner Section */}
       <section className="main-banner-in">
         <span className="shape-1 animate-this">
-          <img src="/assets/images/shape-1.png" alt="shape" />
+          <img src="/assets/images/mslabdesigns-shape-1.png" alt="shape" />
         </span>
         <span className="shape-2 animate-this">
-          <img src="/assets/images/shape-2.png" alt="shape" />
+          <img src="/assets/images/mslabdesigns-shape-2.png" alt="shape" />
         </span>
         <span className="shape-3 animate-this">
-          <img src="/assets/images/shape-3.png" alt="shape" />
+          <img src="/assets/images/mslabdesigns-shape-3.png" alt="shape" />
         </span>
         <span className="shape-4 animate-this">
-          <img src="/assets/images/shape-4.png" alt="shape" />
+          <img src="/assets/images/mslabdesigns-shape-4.png" alt="shape" />
         </span>
         <div className="container">
           <div className="row">
@@ -81,7 +81,10 @@ const BlogDetail = () => {
               <div className="blog-big-user-box">
                 <div className="blog-big-user">
                   <div className="blog-big-user-icon">
-                    <img src="/assets/images/author.png" alt="icon" />
+                    <img
+                      src="/assets/images/mslabdesigns-author.png"
+                      alt="icon"
+                    />
                   </div>
                   <Link href="javascript:void(0);">
                     <p>{blog.author}</p>
@@ -90,7 +93,10 @@ const BlogDetail = () => {
                 <div className="blog-big-user-line"></div>
                 <div className="blog-big-user">
                   <div className="blog-big-user-icon">
-                    <img src="/assets/images/calendar.png" alt="icon" />
+                    <img
+                      src="/assets/images/mslabdesigns-calendar.png"
+                      alt="icon"
+                    />
                   </div>
                   <Link href="javascript:void(0);">
                     <p>{blog.date}</p>
@@ -99,7 +105,10 @@ const BlogDetail = () => {
                 <div className="blog-big-user-line"></div>
                 <div className="blog-big-user">
                   <div className="blog-big-user-icon">
-                    <img src="/assets/images/comment.png" alt="icon" />
+                    <img
+                      src="/assets/images/mslabdesigns-comment.png"
+                      alt="icon"
+                    />
                   </div>
                   <Link href="javascript:void(0);">
                     <p>{blog.comments} Comments</p>
@@ -193,7 +202,7 @@ const BlogDetail = () => {
                             <div className="blog-date">
                               <div className="blog-date-icon">
                                 <img
-                                  src="/assets/images/calendar.png"
+                                  src="/assets/images/mslabdesigns-calendar.png"
                                   alt="icon"
                                 />
                               </div>
@@ -205,7 +214,7 @@ const BlogDetail = () => {
                             <div className="blog-comment">
                               <div className="blog-comment-icon">
                                 <img
-                                  src="/assets/images/comment.png"
+                                  src="/assets/images/mslabdesigns-comment.png"
                                   alt="icon"
                                 />
                               </div>
@@ -296,7 +305,10 @@ const BlogDetail = () => {
                 <ul>
                   <li>
                     <div className="blog-list-recent-post-img">
-                      <img src="/assets/images/recent-post-1.jpg" alt="blog" />
+                      <img
+                        src="/assets/images/mslabdesigns-recent-post-1.jpg"
+                        alt="blog"
+                      />
                     </div>
                     <div className="blog-list-recent-post-content">
                       <Link href="blog-detail.html">
@@ -304,7 +316,10 @@ const BlogDetail = () => {
                       </Link>
                       <div className="blog-date">
                         <div className="blog-date-icon">
-                          <img src="/assets/images/calendar.png" alt="icon" />
+                          <img
+                            src="/assets/images/mslabdesigns-calendar.png"
+                            alt="icon"
+                          />
                         </div>
                         <Link href="javascript:void(0);">
                           <p>07 Jan, 2022</p>
@@ -314,7 +329,10 @@ const BlogDetail = () => {
                   </li>
                   <li>
                     <div className="blog-list-recent-post-img">
-                      <img src="/assets/images/recent-post-2.jpg" alt="blog" />
+                      <img
+                        src="/assets/images/mslabdesigns-recent-post-2.jpg"
+                        alt="blog"
+                      />
                     </div>
                     <div className="blog-list-recent-post-content">
                       <Link href="blog-detail.html">
@@ -322,7 +340,10 @@ const BlogDetail = () => {
                       </Link>
                       <div className="blog-date">
                         <div className="blog-date-icon">
-                          <img src="/assets/images/calendar.png" alt="icon" />
+                          <img
+                            src="/assets/images/mslabdesigns-calendar.png"
+                            alt="icon"
+                          />
                         </div>
                         <Link href="javascript:void(0);">
                           <p>07 Jan, 2022</p>
@@ -332,7 +353,10 @@ const BlogDetail = () => {
                   </li>
                   <li>
                     <div className="blog-list-recent-post-img">
-                      <img src="/assets/images/recent-post-3.jpg" alt="blog" />
+                      <img
+                        src="/assets/images/mslabdesigns-recent-post-3.jpg"
+                        alt="blog"
+                      />
                     </div>
                     <div className="blog-list-recent-post-content">
                       <Link href="blog-detail.html">
@@ -340,7 +364,10 @@ const BlogDetail = () => {
                       </Link>
                       <div className="blog-date">
                         <div className="blog-date-icon">
-                          <img src="/assets/images/calendar.png" alt="icon" />
+                          <img
+                            src="/assets/images/mslabdesigns-calendar.png"
+                            alt="icon"
+                          />
                         </div>
                         <Link href="javascript:void(0);">
                           <p>07 Jan, 2022</p>
@@ -350,7 +377,10 @@ const BlogDetail = () => {
                   </li>
                   <li>
                     <div className="blog-list-recent-post-img">
-                      <img src="/assets/images/recent-post-4.jpg" alt="blog" />
+                      <img
+                        src="/assets/images/mslabdesigns-recent-post-4.jpg"
+                        alt="blog"
+                      />
                     </div>
                     <div className="blog-list-recent-post-content">
                       <Link href="blog-detail.html">
@@ -358,7 +388,10 @@ const BlogDetail = () => {
                       </Link>
                       <div className="blog-date">
                         <div className="blog-date-icon">
-                          <img src="/assets/images/calendar.png" alt="icon" />
+                          <img
+                            src="/assets/images/mslabdesigns-calendar.png"
+                            alt="icon"
+                          />
                         </div>
                         <Link href="javascript:void(0);">
                           <p>07 Jan, 2022</p>

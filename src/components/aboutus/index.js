@@ -5,14 +5,14 @@ const AboutUs = () => {
   const alimentData = [
     {
       id: 1,
-      iconSrc: "/assets/images/banner-aliment-icon-1.png",
+      iconSrc: "/assets/images/mslabdesigns-banner-aliment-icon-1.png",
       title: "Congratulations",
       description: "Your Design Journey Begins",
       iconClass: "aliment-icon-red",
     },
     {
       id: 3,
-      iconSrc: "/assets/images/banner-aliment-icon-3.png",
+      iconSrc: "/assets/images/mslabdesigns-banner-aliment-icon-4.png",
       title: "10k+",
       description: "Clients Empowered, Success Achieved!",
       iconClass: "aliment-icon-green",
@@ -48,7 +48,7 @@ const AboutUs = () => {
               ))}
               <div className="about-img">
                 <img
-                  src="/assets/images/msdesign-portfolio.png"
+                  src="/assets/images/mslabdesigns-portfolio.png"
                   alt="about us"
                 />
               </div>

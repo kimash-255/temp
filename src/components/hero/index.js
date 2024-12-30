@@ -10,8 +10,11 @@ const Hero = () => {
     "Strategic digital marketing",
     "SEO solutions",
     "Custom website development",
+    "Virtual assistant solutions",
+    "Transcription solutions",
+    "Translation solutions",
   ];
-  const switchInterval = 2000; // Time in ms to switch between phrases
+  const switchInterval = 1500; // Time in ms to switch between phrases
   const textRef = useRef(null); // Reference to the text element
 
   useEffect(() => {
@@ -43,38 +46,6 @@ const Hero = () => {
 
   return (
     <section className="main-banner">
-      <span className="shape-1 animate-this">
-        <Image
-          src="/assets/images/shape-1.png"
-          alt="shape"
-          width={100}
-          height={100}
-        />
-      </span>
-      <span className="shape-2 animate-this">
-        <Image
-          src="/assets/images/shape-2.png"
-          alt="shape"
-          width={100}
-          height={100}
-        />
-      </span>
-      <span className="shape-3 animate-this">
-        <Image
-          src="/assets/images/shape-3.png"
-          alt="shape"
-          width={100}
-          height={100}
-        />
-      </span>
-      <span className="shape-4 animate-this">
-        <Image
-          src="/assets/images/shape-4.png"
-          alt="shape"
-          width={100}
-          height={100}
-        />
-      </span>
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-6">
@@ -98,7 +69,7 @@ const Hero = () => {
                 <span className="animated-text" ref={textRef}>
                   {displayedText}
                   <Image
-                    src="/assets/images/banner-line.png"
+                    src="/assets/images/mslabdesigns-banner-line.png"
                     alt="line"
                     width={200}
                     height={5}
@@ -130,17 +101,9 @@ const Hero = () => {
               className="banner-img-box wow fadeInRight animated"
               data-wow-delay=".4s"
             >
-              <div className="aliment-4">
-                {/* <Image
-                  src="/assets/images/banner-aliment-icon-4.png"
-                  alt="icon"
-                  width={50}
-                  height={50}
-                /> */}
-              </div>
               <div className="banner-img">
                 <Image
-                  src="/assets/images/mslabdegins-home.png"
+                  src="/assets/images/mslabdesigns-home.png"
                   alt="banner"
                   width={500}
                   height={500}

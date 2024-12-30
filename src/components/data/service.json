@@ -2,7 +2,7 @@
   {
     "id": "1",
     "title": "Logo Design",
-    "image": "/assets/images/course-1.jpg",
+    "image": "/assets/images/mslabdesigns-course-1.jpg",
     "description": "Create a memorable logo that represents your brand and leaves a lasting impression.",
     "features": [
       "Custom logo designs tailored to your brand identity.",
@@ -12,17 +12,17 @@
     "price": 50.0,
     "discount": 10,
     "showcase": [
-      "/assets/images/logo-1.png",
-      "/assets/images/logo-2.png",
-      "/assets/images/logo-3.png",
-      "/assets/images/logo-4.png",
-      "/assets/images/logo-5.png"
+      "/assets/images/mslabdesigns-logo-1.png",
+      "/assets/images/mslabdesigns-logo-2.png",
+      "/assets/images/mslabdesigns-logo-3.png",
+      "/assets/images/mslabdesigns-logo-4.png",
+      "/assets/images/mslabdesigns-logo-5.png"
     ]
   },
   {
     "id": "2",
     "title": "Portfolio Design",
-    "image": "/assets/images/course-2.jpg",
+    "image": "/assets/images/mslabdesigns-course-2.jpg",
     "description": "Build a professional portfolio that showcases your skills and work in a polished way.",
     "features": [
       "Beautiful, user-friendly portfolio designs.",
@@ -43,7 +43,7 @@
   {
     "id": "3",
     "title": "Brochures",
-    "image": "/assets/images/course-3.jpg",
+    "image": "/assets/images/mslabdesigns-course-3.jpg",
     "description": "Design informative and visually appealing brochures for your business or event.",
     "features": [
       "High-quality brochure designs for any purpose.",
@@ -64,7 +64,7 @@
   {
     "id": "4",
     "title": "Letterheads",
-    "image": "/assets/images/course-4.jpg",
+    "image": "/assets/images/mslabdesigns-course-4.jpg",
     "description": "Design professional letterheads that reinforce your company’s branding and professionalism.",
     "features": [
       "Custom letterhead designs aligned with your brand.",
@@ -74,18 +74,28 @@
     "price": 30.0,
     "discount": 5,
     "showcase": [
-      { "letterhead-1": "/assets/images/letterhead-example-1.jpg" },
-      { "letterhead-2": "/assets/images/letterhead-example-2.jpg" },
-      { "letterhead-3": "/assets/images/letterhead-example-3.jpg" },
-      { "letterhead-4": "/assets/images/letterhead-example-4.jpg" },
-      { "letterhead-5": "/assets/images/letterhead-example-5.jpg" },
-      { "letterhead-6": "/assets/images/letterhead-example-6.jpg" }
+      {
+        "letterhead-1": "/assets/images/mslabdesigns-letterhead-example-1.jpg"
+      },
+      {
+        "letterhead-2": "/assets/images/mslabdesigns-letterhead-example-2.jpg"
+      },
+      {
+        "letterhead-3": "/assets/images/mslabdesigns-letterhead-example-3.jpg"
+      },
+      {
+        "letterhead-4": "/assets/images/mslabdesigns-letterhead-example-4.jpg"
+      },
+      {
+        "letterhead-5": "/assets/images/mslabdesigns-letterhead-example-5.jpg"
+      },
+      { "letterhead-6": "/assets/images/mslabdesigns-letterhead-example-6.jpg" }
     ]
   },
   {
     "id": "5",
     "title": "Business Cards",
-    "image": "/assets/images/course-5.jpg",
+    "image": "/assets/images/mslabdesigns-course-5.jpg",
     "description": "Design eye-catching business cards that make a lasting impression on your clients.",
     "features": [
       "Unique business card designs tailored to your brand.",
@@ -95,18 +105,30 @@
     "price": 60.0,
     "discount": 20,
     "showcase": [
-      { "business-card-1": "/assets/images/business-card-example-1.jpg" },
-      { "business-card-2": "/assets/images/business-card-example-2.jpg" },
-      { "business-card-3": "/assets/images/business-card-example-3.jpg" },
-      { "business-card-4": "/assets/images/business-card-example-4.jpg" },
-      { "business-card-5": "/assets/images/business-card-example-5.jpg" },
-      { "business-card-6": "/assets/images/business-card-example-6.jpg" }
+      {
+        "business-card-1": "/assets/images/mslabdesigns-business-card-example-1.jpg"
+      },
+      {
+        "business-card-2": "/assets/images/mslabdesigns-business-card-example-2.jpg"
+      },
+      {
+        "business-card-3": "/assets/images/mslabdesigns-business-card-example-3.jpg"
+      },
+      {
+        "business-card-4": "/assets/images/mslabdesigns-business-card-example-4.jpg"
+      },
+      {
+        "business-card-5": "/assets/images/mslabdesigns-business-card-example-5.jpg"
+      },
+      {
+        "business-card-6": "/assets/images/mslabdesigns-business-card-example-6.jpg"
+      }
     ]
   },
   {
     "id": "6",
     "title": "Flyers",
-    "image": "/assets/images/course-6.jpg",
+    "image": "/assets/images/mslabdesigns-course-6.jpg",
     "description": "Create vibrant, informative flyers for marketing and promotional campaigns.",
     "features": [
       "Creative flyer designs to grab attention.",
@@ -127,7 +149,7 @@
   {
     "id": "7",
     "title": "Invites",
-    "image": "/assets/images/course-1.jpg",
+    "image": "/assets/images/mslabdesigns-course-1.jpg",
     "description": "Design elegant and stylish invites for your next event, wedding, or special occasion.",
     "features": [
       "Personalized designs for all events.",
@@ -148,7 +170,7 @@
   {
     "id": "8",
     "title": "Digital Marketing",
-    "image": "/assets/images/course-2.jpg",
+    "image": "/assets/images/mslabdesigns-course-2.jpg",
     "description": "Boost your online presence with targeted marketing campaigns, including content creation, Google Ads, and email marketing.",
     "features": [
       "Customized digital marketing strategies.",
@@ -181,7 +203,7 @@
   {
     "id": "9",
     "title": "Search Engine Optimization (SEO)",
-    "image": "/assets/images/course-3.jpg",
+    "image": "/assets/images/mslabdesigns-course-3.jpg",
     "description": "Enhance your website’s visibility and attract organic traffic with our comprehensive SEO strategies.",
     "features": [
       "In-depth SEO analysis and audits.",
@@ -202,7 +224,7 @@
   {
     "id": "10",
     "title": "Social Media Management",
-    "image": "/assets/images/course-4.jpg",
+    "image": "/assets/images/mslabdesigns-course-4.jpg",
     "description": "Drive engagement and grow your online community with our professional social media management services.",
     "features": [
       "Content planning and scheduling.",
@@ -235,7 +257,7 @@
   {
     "id": "11",
     "title": "Website Development",
-    "image": "/assets/images/course-5.jpg",
+    "image": "/assets/images/mslabdesigns-course-5.jpg",
     "description": "We create visually appealing, user-friendly websites that work seamlessly across devices and are optimized for performance.",
     "features": [
       "Custom website designs tailored to your needs.",

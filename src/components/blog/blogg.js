@@ -12,13 +12,19 @@ const Blogg = () => {
               <div class="main-blog-list-box">
                 <div class="blog-list-box">
                   <div class="blog-big-img">
-                    <img src="/assets/images/blog-big-img-1.jpg" alt="blog" />
+                    <img
+                      src="/assets/images/mslabdesigns-blog-big-img-1.jpg"
+                      alt="blog"
+                    />
                   </div>
                   <div class="blog-big-content">
                     <div class="blog-big-user-box">
                       <div class="blog-big-user">
                         <div class="blog-big-user-icon">
-                          <img src="/assets/images/author.png" alt="icon" />
+                          <img
+                            src="/assets/images/mslabdesigns-author.png"
+                            alt="icon"
+                          />
                         </div>
                         <Link href="javascript:void(0);">
                           <p>John Doe</p>
@@ -27,7 +33,10 @@ const Blogg = () => {
                       <div class="blog-big-user-line"></div>
                       <div class="blog-big-user">
                         <div class="blog-big-user-icon">
-                          <img src="/assets/images/calendar.png" alt="icon" />
+                          <img
+                            src="/assets/images/mslabdesigns-calendar.png"
+                            alt="icon"
+                          />
                         </div>
                         <Link href="javascript:void(0);">
                           <p>07 Jan, 2022</p>
@@ -36,7 +45,10 @@ const Blogg = () => {
                       <div class="blog-big-user-line"></div>
                       <div class="blog-big-user">
                         <div class="blog-big-user-icon">
-                          <img src="/assets/images/comment.png" alt="icon" />
+                          <img
+                            src="/assets/images/mslabdesigns-comment.png"
+                            alt="icon"
+                          />
                         </div>
                         <Link href="javascript:void(0);">
                           <p>3 Comments</p>
@@ -62,13 +74,19 @@ const Blogg = () => {
                 </div>
                 <div class="blog-list-box">
                   <div class="blog-big-img">
-                    <img src="/assets/images/blog-big-img-2.jpg" alt="blog" />
+                    <img
+                      src="/assets/images/mslabdesigns-blog-big-img-2.jpg"
+                      alt="blog"
+                    />
                   </div>
                   <div class="blog-big-content">
                     <div class="blog-big-user-box">
                       <div class="blog-big-user">
                         <div class="blog-big-user-icon">
-                          <img src="/assets/images/author.png" alt="icon" />
+                          <img
+                            src="/assets/images/mslabdesigns-author.png"
+                            alt="icon"
+                          />
                         </div>
                         <Link href="javascript:void(0);">
                           <p>John Doe</p>
@@ -77,7 +95,10 @@ const Blogg = () => {
                       <div class="blog-big-user-line"></div>
                       <div class="blog-big-user">
                         <div class="blog-big-user-icon">
-                          <img src="/assets/images/calendar.png" alt="icon" />
+                          <img
+                            src="/assets/images/mslabdesigns-calendar.png"
+                            alt="icon"
+                          />
                         </div>
                         <Link href="javascript:void(0);">
                           <p>07 Jan, 2022</p>
@@ -86,7 +107,10 @@ const Blogg = () => {
                       <div class="blog-big-user-line"></div>
                       <div class="blog-big-user">
                         <div class="blog-big-user-icon">
-                          <img src="/assets/images/comment.png" alt="icon" />
+                          <img
+                            src="/assets/images/mslabdesigns-comment.png"
+                            alt="icon"
+                          />
                         </div>
                         <Link href="javascript:void(0);">
                           <p>3 Comments</p>
@@ -112,13 +136,19 @@ const Blogg = () => {
                 </div>
                 <div class="blog-list-box">
                   <div class="blog-big-img">
-                    <img src="/assets/images/blog-big-img-3.jpg" alt="blog" />
+                    <img
+                      src="/assets/images/mslabdesigns-blog-big-img-3.jpg"
+                      alt="blog"
+                    />
                   </div>
                   <div class="blog-big-content">
                     <div class="blog-big-user-box">
                       <div class="blog-big-user">
                         <div class="blog-big-user-icon">
-                          <img src="/assets/images/author.png" alt="icon" />
+                          <img
+                            src="/assets/images/mslabdesigns-author.png"
+                            alt="icon"
+                          />
                         </div>
                         <Link href="javascript:void(0);">
                           <p>John Doe</p>
@@ -127,7 +157,10 @@ const Blogg = () => {
                       <div class="blog-big-user-line"></div>
                       <div class="blog-big-user">
                         <div class="blog-big-user-icon">
-                          <img src="/assets/images/calendar.png" alt="icon" />
+                          <img
+                            src="/assets/images/mslabdesigns-calendar.png"
+                            alt="icon"
+                          />
                         </div>
                         <Link href="javascript:void(0);">
                           <p>07 Jan, 2022</p>
@@ -136,7 +169,10 @@ const Blogg = () => {
                       <div class="blog-big-user-line"></div>
                       <div class="blog-big-user">
                         <div class="blog-big-user-icon">
-                          <img src="/assets/images/comment.png" alt="icon" />
+                          <img
+                            src="/assets/images/mslabdesigns-comment.png"
+                            alt="icon"
+                          />
                         </div>
                         <Link href="javascript:void(0);">
                           <p>3 Comments</p>
@@ -162,13 +198,19 @@ const Blogg = () => {
                 </div>
                 <div class="blog-list-box">
                   <div class="blog-big-img">
-                    <img src="/assets/images/blog-big-img-4.jpg" alt="blog" />
+                    <img
+                      src="/assets/images/mslabdesigns-blog-big-img-4.jpg"
+                      alt="blog"
+                    />
                   </div>
                   <div class="blog-big-content">
                     <div class="blog-big-user-box">
                       <div class="blog-big-user">
                         <div class="blog-big-user-icon">
-                          <img src="/assets/images/author.png" alt="icon" />
+                          <img
+                            src="/assets/images/mslabdesigns-author.png"
+                            alt="icon"
+                          />
                         </div>
                         <Link href="javascript:void(0);">
                           <p>John Doe</p>
@@ -177,7 +219,10 @@ const Blogg = () => {
                       <div class="blog-big-user-line"></div>
                       <div class="blog-big-user">
                         <div class="blog-big-user-icon">
-                          <img src="/assets/images/calendar.png" alt="icon" />
+                          <img
+                            src="/assets/images/mslabdesigns-calendar.png"
+                            alt="icon"
+                          />
                         </div>
                         <Link href="javascript:void(0);">
                           <p>07 Jan, 2022</p>
@@ -186,7 +231,10 @@ const Blogg = () => {
                       <div class="blog-big-user-line"></div>
                       <div class="blog-big-user">
                         <div class="blog-big-user-icon">
-                          <img src="/assets/images/comment.png" alt="icon" />
+                          <img
+                            src="/assets/images/mslabdesigns-comment.png"
+                            alt="icon"
+                          />
                         </div>
                         <Link href="javascript:void(0);">
                           <p>3 Comments</p>
@@ -300,7 +348,7 @@ const Blogg = () => {
                     <li>
                       <div class="blog-list-recent-post-img">
                         <img
-                          src="/assets/images/recent-post-1.jpg"
+                          src="/assets/images/mslabdesigns-recent-post-1.jpg"
                           alt="blog"
                         />
                       </div>
@@ -310,7 +358,10 @@ const Blogg = () => {
                         </Link>
                         <div class="blog-date">
                           <div class="blog-date-icon">
-                            <img src="/assets/images/calendar.png" alt="icon" />
+                            <img
+                              src="/assets/images/mslabdesigns-calendar.png"
+                              alt="icon"
+                            />
                           </div>
                           <Link href="javascript:void(0);">
                             <p>07 Jan, 2022</p>
@@ -321,7 +372,7 @@ const Blogg = () => {
                     <li>
                       <div class="blog-list-recent-post-img">
                         <img
-                          src="/assets/images/recent-post-2.jpg"
+                          src="/assets/images/mslabdesigns-recent-post-2.jpg"
                           alt="blog"
                         />
                       </div>
@@ -331,7 +382,10 @@ const Blogg = () => {
                         </Link>
                         <div class="blog-date">
                           <div class="blog-date-icon">
-                            <img src="/assets/images/calendar.png" alt="icon" />
+                            <img
+                              src="/assets/images/mslabdesigns-calendar.png"
+                              alt="icon"
+                            />
                           </div>
                           <Link href="javascript:void(0);">
                             <p>07 Jan, 2022</p>
@@ -342,7 +396,7 @@ const Blogg = () => {
                     <li>
                       <div class="blog-list-recent-post-img">
                         <img
-                          src="/assets/images/recent-post-3.jpg"
+                          src="/assets/images/mslabdesigns-recent-post-3.jpg"
                           alt="blog"
                         />
                       </div>
@@ -352,7 +406,10 @@ const Blogg = () => {
                         </Link>
                         <div class="blog-date">
                           <div class="blog-date-icon">
-                            <img src="/assets/images/calendar.png" alt="icon" />
+                            <img
+                              src="/assets/images/mslabdesigns-calendar.png"
+                              alt="icon"
+                            />
                           </div>
                           <Link href="javascript:void(0);">
                             <p>07 Jan, 2022</p>
@@ -363,7 +420,7 @@ const Blogg = () => {
                     <li>
                       <div class="blog-list-recent-post-img">
                         <img
-                          src="/assets/images/recent-post-4.jpg"
+                          src="/assets/images/mslabdesigns-recent-post-4.jpg"
                           alt="blog"
                         />
                       </div>
@@ -373,7 +430,10 @@ const Blogg = () => {
                         </Link>
                         <div class="blog-date">
                           <div class="blog-date-icon">
-                            <img src="/assets/images/calendar.png" alt="icon" />
+                            <img
+                              src="/assets/images/mslabdesigns-calendar.png"
+                              alt="icon"
+                            />
                           </div>
                           <Link href="javascript:void(0);">
                             <p>07 Jan, 2022</p>

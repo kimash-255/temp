@@ -23,9 +23,9 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>MSDESIGNLABS</title>
-        <meta name="keywords" content="MSDESIGNLABS" />
-        <meta name="description" content="MSDESIGNLABS - Creative Solutions" />
+        <title>MsLabDesigns</title>
+        <meta name="keywords" content="MsLabDesigns" />
+        <meta name="description" content="MsLabDesigns - Creative Solutions" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, maximum-scale=1"
@@ -35,7 +35,7 @@ export default function App({ Component, pageProps }) {
       {isHydrated ? (
         <>
           {/* Add an element to demonstrate safe style manipulation */}
-          <div id="example-id">Welcome to MSDESIGNLABS</div>
+          <div id="example-id">Welcome to MsLabDesigns</div>
           <Component {...pageProps} />
         </>
       ) : (

@@ -63,7 +63,7 @@ const Contact = () => {
                   <li>
                     <div class="contact-detail-icon">
                       <img
-                        src="/assets/images/contact-mail.png"
+                        src="/assets/images/mslabdesigns-contact-mail.png"
                         alt="location"
                       />
                     </div>

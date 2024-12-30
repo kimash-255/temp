@@ -377,7 +377,10 @@ const Services = () => {
                     <div class="col-lg-6 col-md-6">
                       <div class="course-box">
                         <div class="course-img">
-                          <img src="/assets/images/course-1.jpg" alt="course" />
+                          <img
+                            src="/assets/images/mslabdesigns-course-1.jpg"
+                            alt="course"
+                          />
                           <ul>
                             <li>
                               <Link href="#" class="course-tag-orange">

@@ -4,21 +4,21 @@ import Link from "next/link";
 const HighlightServices = () => {
   const services = [
     {
-      icon: "/assets/images/feature-icon-1.png",
+      icon: "/assets/images/mslabdesigns-feature-icon-1.png",
       title: "Our Mission",
       description:
         "To empower businesses with impactful designs and digital strategies that resonate with their audience.",
-      className: "feature-blue",
+      className: "feature-red",
     },
     {
-      icon: "/assets/images/feature-icon-2.png",
+      icon: "/assets/images/mslabdesigns-feature-icon-2.png",
       title: "Our Vision",
       description:
         "Crafting your brand's visual identity with precision, creativity, and innovation. We aspire to empower businesses with designs and digital solutions that resonate, inspire, and leave a lasting impact.",
-      className: "feature-pink",
+      className: "feature-red",
     },
     // {
-    //   icon: "/assets/images/feature-icon-3.png",
+    //   icon: "/assets/images/mslabdesigns-feature-icon-3.png",
     //   title: "Integrity",
     //   description: "Building trust through transparent processes.",
     // },
@@ -62,7 +62,7 @@ const HighlightServices = () => {
       <div
         className="core-features-img"
         style={{
-          backgroundImage: "url('/assets/images/mission.jpg')",
+          backgroundImage: "url('/assets/images/mslabdesigns-mission.jpg')",
         }}
       ></div>
     </section>

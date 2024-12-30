@@ -1,0 +1,539 @@
+[
+  {
+    "slug": "graphic-design",
+    "label": "Graphic Design",
+    "href": "/services/graphic-design",
+    "title": "Graphic Design",
+    "price": 70.0,
+    "discount": 15,
+    "image": "/assets/images/services/mslabdesigns-service.jpg",
+    "showcase": [
+      "mslabdesigns-portfolio-1.jpg",
+      "mslabdesigns-portfolio-2.jpg",
+      "mslabdesigns-portfolio-3.jpg",
+      "mslabdesigns-portfolio-4.jpg",
+      "mslabdesigns-portfolio-5.jpg",
+      "mslabdesigns-portfolio-6.jpg",
+      "mslabdesigns-portfolio-7.jpg"
+    ],
+    "description": "We create stunning visuals and unique brand identities tailored to your business needs.",
+    "content": "Graphic design is a crucial part of any brand's identity. It involves creating visual concepts that communicate ideas and messages clearly and effectively. Our graphic design services focus on delivering high-quality designs that align with your brand's vision and goals. Whether you're looking to establish a new brand identity, create engaging promotional materials, or enhance your digital presence, we are here to help. We understand the importance of creating a unique visual style that resonates with your target audience while maintaining consistency across various platforms.\n\nOur team of experienced designers works closely with clients to understand their business needs and values. We take a collaborative approach to design, ensuring that the final product reflects your vision while incorporating the latest design trends and techniques. From logos and business cards to brochures and websites, we create versatile designs that can be used across different mediums, ensuring a consistent and professional brand presence.\n\nAdditionally, we focus on delivering designs that are not only visually appealing but also functional and user-friendly. We ensure that each design is optimized for its intended purpose, whether it's for print or digital use. With our attention to detail and commitment to quality, we strive to create designs that leave a lasting impact.\n\nOur graphic design services include logo design, brand identity creation, print materials, and digital assets. We work with businesses of all sizes, from startups to established enterprises, to bring their creative ideas to life. If you're looking for a professional graphic design team that can help elevate your brand, contact us today to get started.",
+    "icon": "Graphic Design Icon",
+    "features": [
+      "Work closely with clients to align the design with brand values.",
+      "Use modern design trends for fresh, innovative logos.",
+      "Deliver logo concepts with versatility for multiple uses.",
+      "Provide high-quality, scalable formats for different mediums."
+    ],
+    "items": [
+      {
+        "slug": "logo-design",
+        "label": "Logo Design",
+        "href": "/services/graphic-design/logo-design",
+        "title": "Logo Design",
+        "price": 70.0,
+        "discount": 15,
+        "image": "/assets/images/services/mslabdesigns-service.jpg",
+        "showcase": [
+          "mslabdesigns-portfolio-1.jpg",
+          "mslabdesigns-portfolio-2.jpg",
+          "mslabdesigns-portfolio-3.jpg",
+          "mslabdesigns-portfolio-4.jpg",
+          "mslabdesigns-portfolio-5.jpg",
+          "mslabdesigns-portfolio-6.jpg",
+          "mslabdesigns-portfolio-7.jpg"
+        ],
+        "description": "Crafting distinctive logos that capture your brand essence.",
+        "content": "A logo is more than just a symbol—it's the face of your brand. At [Company Name], we specialize in designing logos that resonate with your target audience and reflect your brand’s identity. We work closely with our clients to understand their business values, target market, and vision to create a unique logo that leaves a lasting impression. Whether you need a minimalistic design, an elaborate graphic, or something in between, our team is dedicated to delivering exceptional results. A memorable logo enhances brand recognition, fosters customer trust, and sets the foundation for a successful brand identity.",
+        "features": [
+          "Work closely with clients to align the design with brand values.",
+          "Use modern design trends for fresh, innovative logos.",
+          "Deliver logo concepts with versatility for multiple uses.",
+          "Provide high-quality, scalable formats for different mediums."
+        ]
+      },
+      {
+        "slug": "brand-identity",
+        "label": "Brand Identity",
+        "href": "/services/graphic-design/brand-identity",
+        "title": "Brand Identity",
+        "price": 70.0,
+        "discount": 15,
+        "image": "/assets/images/services/mslabdesigns-service.jpg",
+        "showcase": [
+          "mslabdesigns-portfolio-1.jpg",
+          "mslabdesigns-portfolio-2.jpg",
+          "mslabdesigns-portfolio-3.jpg",
+          "mslabdesigns-portfolio-4.jpg",
+          "mslabdesigns-portfolio-5.jpg",
+          "mslabdesigns-portfolio-6.jpg",
+          "mslabdesigns-portfolio-7.jpg"
+        ],
+        "description": "Creating cohesive brand identities to ensure consistency across all touchpoints.",
+        "content": "Your brand identity goes beyond just your logo. It encompasses the entire visual and emotional experience your customers have with your business. A strong brand identity builds credibility, fosters customer loyalty, and creates a unique position in the market. At [Company Name], we develop comprehensive brand identities that reflect the essence of your business. Our services include designing brand elements like typography, color schemes, imagery, and logo creation, ensuring a cohesive and impactful brand presence. Whether you’re launching a new business or rebranding, we help create an identity that stands out and speaks to your audience.",
+        "features": [
+          "Develop visual consistency across all business materials.",
+          "Ensure your brand identity speaks to your target audience.",
+          "Integrate customer feedback to refine brand elements.",
+          "Use the latest design tools for modern brand expression."
+        ]
+      },
+      {
+        "slug": "print-design",
+        "label": "Print Design",
+        "href": "/services/graphic-design/print-design",
+        "title": "Print Design",
+        "price": 70.0,
+        "discount": 15,
+        "image": "/assets/images/services/mslabdesigns-service.jpg",
+        "showcase": [
+          "mslabdesigns-portfolio-1.jpg",
+          "mslabdesigns-portfolio-2.jpg",
+          "mslabdesigns-portfolio-3.jpg",
+          "mslabdesigns-portfolio-4.jpg",
+          "mslabdesigns-portfolio-5.jpg",
+          "mslabdesigns-portfolio-6.jpg",
+          "mslabdesigns-portfolio-7.jpg"
+        ],
+        "description": "Design high-quality print materials to effectively communicate your brand message.",
+        "content": "Print design is an integral part of a business’s communication strategy. From brochures and business cards to posters and catalogs, professionally designed print materials can leave a lasting impression on your audience. At [Company Name], we provide top-notch print design services that focus on both aesthetics and functionality. Our designs ensure that your printed materials are visually compelling, informative, and aligned with your brand identity. We handle every aspect of the print design process, from concept to final production, ensuring that your materials are printed to perfection, on time, and on budget.",
+        "features": [
+          "Provide a range of print materials, from business cards to large banners.",
+          "Design materials that are both visually striking and easy to read.",
+          "Ensure designs align with your brand’s overall identity.",
+          "Offer print-ready files in various formats and sizes."
+        ]
+      },
+      {
+        "slug": "packaging-design",
+        "label": "Packaging Design",
+        "href": "/services/graphic-design/packaging-design",
+        "title": "Packaging Design",
+        "price": 70.0,
+        "discount": 15,
+        "image": "/assets/images/services/mslabdesigns-service.jpg",
+        "showcase": [
+          "mslabdesigns-portfolio-1.jpg",
+          "mslabdesigns-portfolio-2.jpg",
+          "mslabdesigns-portfolio-3.jpg",
+          "mslabdesigns-portfolio-4.jpg",
+          "mslabdesigns-portfolio-5.jpg",
+          "mslabdesigns-portfolio-6.jpg",
+          "mslabdesigns-portfolio-7.jpg"
+        ],
+        "description": "Design eye-catching packaging that enhances product appeal and drives sales.",
+        "content": "Packaging design plays a critical role in consumer perception and product success. A well-designed package not only protects the product but also serves as a powerful marketing tool. At [Company Name], we focus on creating packaging designs that reflect the personality of your product and captivate potential buyers. Whether you need packaging for food, beauty products, or electronics, our design team will create visually appealing solutions that make your product stand out on the shelf. We take into consideration every element, from materials and colors to typography and branding, ensuring your packaging aligns with your brand values.",
+        "features": [
+          "Design packaging that resonates with your target market.",
+          "Use eco-friendly and sustainable materials wherever possible.",
+          "Ensure packaging stands out on the shelf with unique designs.",
+          "Provide a cohesive look across different product lines."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "graphic-design",
+    "label": "Digital Marketing",
+    "href": "/services/digital-marketing",
+    "title": "Digital Marketing",
+    "price": 70.0,
+    "discount": 15,
+    "image": "/assets/images/services/mslabdesigns-service.jpg",
+    "showcase": ["mslabdesigns-portfolio-1.jpg"],
+    "description": "Boost your online presence and effectively reach your target audience.",
+    "icon": "Digital Marketing Icon",
+    "content": "Digital marketing is a crucial component for businesses looking to enhance their online presence. At [Company Name], we offer customized digital marketing strategies that are tailored to your business goals. From search engine optimization (SEO) and pay-per-click (PPC) advertising to content marketing and social media management, we help businesses expand their reach and engage with their target audience. Our team of digital marketing experts employs the latest tools, data analysis, and creative strategies to optimize your digital campaigns and drive measurable results. Whether you are looking to increase brand awareness, generate leads, or boost sales, our solutions deliver.",
+    "features": [
+      "Tailored digital marketing strategies to suit your business needs.",
+      "Focus on measurable results and data-driven decisions.",
+      "Utilize a wide range of digital channels to reach target audiences.",
+      "Constantly optimize campaigns to maximize return on investment (ROI)."
+    ]
+  },
+  {
+    "slug": "graphic-design-classes",
+    "label": "Graphic Design Classes",
+    "href": "/services/graphic-design-classes",
+    "title": "Graphic Design Classes",
+    "price": 70.0,
+    "discount": 15,
+    "image": "/assets/images/services/mslabdesigns-service.jpg",
+    "showcase": ["mslabdesigns-portfolio-2.jpg"],
+    "description": "Learn professional graphic design skills to enhance your creative career.",
+    "icon": "Graphic Design Classes Icon",
+    "content": "Graphic design is a versatile skill that opens doors to numerous career opportunities. Our Graphic Design Classes are designed for both beginners and professionals looking to expand their knowledge. From mastering design software to understanding design principles and typography, we offer a comprehensive curriculum that covers all the essential aspects of graphic design. Our experienced instructors guide you through practical exercises and real-world projects, helping you build a strong portfolio. Whether you want to design logos, websites, or marketing materials, our classes provide the skills you need to succeed in the competitive design industry.",
+    "features": [
+      "Learn key design software like Adobe Photoshop, Illustrator, and InDesign.",
+      "Understand the core principles of design, including composition and color theory.",
+      "Create a professional portfolio to showcase your work.",
+      "Get personalized feedback from experienced instructors."
+    ]
+  },
+  {
+    "slug": "social-media",
+    "label": "Social Media",
+    "href": "/services/social-media",
+    "title": "Social Media",
+    "price": 70.0,
+    "discount": 15,
+    "image": "/assets/images/services/mslabdesigns-service.jpg",
+    "showcase": ["mslabdesigns-portfolio-3.jpg"],
+    "description": "Create compelling content and manage your social platforms effectively.",
+    "icon": "Social Media Icon",
+    "content": "Social media is an essential tool for building brand awareness and engaging with your audience. At [Company Name], we offer comprehensive social media services, including content creation, platform management, and performance analytics. Our team helps businesses establish a strong presence across various platforms like Facebook, Instagram, Twitter, and LinkedIn. We create compelling content that resonates with your target audience, foster meaningful interactions, and optimize your social media strategy to drive traffic and conversions. Our goal is to turn your social media platforms into a powerful marketing tool that adds value to your business.",
+    "features": [
+      "Create engaging content that resonates with your audience.",
+      "Manage and schedule posts to maintain consistent branding.",
+      "Track and analyze social media performance for insights.",
+      "Increase customer interaction and brand loyalty through social channels."
+    ]
+  },
+  {
+    "slug": "website-development",
+    "label": "Website Development",
+    "href": "/services/website-development",
+    "title": "Website Development",
+    "price": 70.0,
+    "discount": 15,
+    "image": "/assets/images/services/mslabdesigns-service.jpg",
+    "showcase": ["mslabdesigns-portfolio-4.jpg"],
+    "description": "Build dynamic, visually appealing, and user-friendly websites.",
+    "icon": "Website Development Icon",
+    "items": [
+      {
+        "slug": "e-commerce",
+        "label": "E-commerce Development",
+        "href": "/services/website-development/e-commerce",
+        "title": "E-commerce Development",
+        "price": 70.0,
+        "discount": 15,
+        "image": "/assets/images/services/mslabdesigns-service.jpg",
+        "showcase": [
+          "mslabdesigns-portfolio-1.jpg",
+          "mslabdesigns-portfolio-2.jpg",
+          "mslabdesigns-portfolio-3.jpg",
+          "mslabdesigns-portfolio-4.jpg",
+          "mslabdesigns-portfolio-5.jpg",
+          "mslabdesigns-portfolio-6.jpg",
+          "mslabdesigns-portfolio-7.jpg"
+        ],
+        "description": "Develop user-friendly and secure online stores.",
+        "content": "In today's digital world, e-commerce is crucial for business growth. At [Company Name], we specialize in e-commerce website development that is both visually appealing and highly functional. We help businesses create online stores that provide a seamless shopping experience, from easy navigation and secure payment options to customer-friendly product displays. Our expert developers work with platforms like Shopify, WooCommerce, and Magento to build customized solutions tailored to your specific business needs. We also ensure that your e-commerce site is mobile-friendly and optimized for SEO, helping you reach a larger audience and increase sales.",
+        "features": [
+          "Create secure, responsive e-commerce platforms.",
+          "Integrate payment gateways for seamless transactions.",
+          "Optimize product pages for better user experience.",
+          "Implement SEO strategies to boost online visibility."
+        ]
+      },
+      {
+        "slug": "responsive-design",
+        "label": "Responsive Design",
+        "href": "/services/website-development/responsive-design",
+        "title": "Responsive Design",
+        "price": 70.0,
+        "discount": 15,
+        "image": "/assets/images/services/mslabdesigns-service.jpg",
+        "showcase": [
+          "mslabdesigns-portfolio-1.jpg",
+          "mslabdesigns-portfolio-2.jpg",
+          "mslabdesigns-portfolio-3.jpg",
+          "mslabdesigns-portfolio-4.jpg",
+          "mslabdesigns-portfolio-5.jpg",
+          "mslabdesigns-portfolio-6.jpg",
+          "mslabdesigns-portfolio-7.jpg"
+        ],
+        "description": "Design websites that work seamlessly across all devices.",
+        "content": "Responsive design ensures that your website functions flawlessly on all devices, from desktops to smartphones and tablets. At [Company Name], we specialize in creating responsive websites that adjust to different screen sizes and resolutions, providing an optimal viewing experience for every visitor. We focus on creating designs that maintain visual appeal, user-friendliness, and functionality across various platforms. By ensuring your website is responsive, we help you reach a broader audience and reduce bounce rates, as users can easily navigate your site, no matter what device they are using.",
+        "features": [
+          "Ensure seamless user experience across all device types.",
+          "Improve search engine rankings with mobile-friendly design.",
+          "Design layouts that adapt to various screen sizes.",
+          "Minimize load times for faster access on mobile devices."
+        ]
+      },
+      {
+        "slug": "cms-development",
+        "label": "CMS Development",
+        "href": "/services/website-development/cms-development",
+        "title": "CMS Development",
+        "price": 70.0,
+        "discount": 15,
+        "image": "/assets/images/services/mslabdesigns-service.jpg",
+        "showcase": [
+          "mslabdesigns-portfolio-1.jpg",
+          "mslabdesigns-portfolio-2.jpg",
+          "mslabdesigns-portfolio-3.jpg",
+          "mslabdesigns-portfolio-4.jpg",
+          "mslabdesigns-portfolio-5.jpg",
+          "mslabdesigns-portfolio-6.jpg",
+          "mslabdesigns-portfolio-7.jpg"
+        ],
+        "description": "Create content management systems for easy website updates.",
+        "content": "A content management system (CMS) allows businesses to update their websites easily without needing technical expertise. At [Company Name], we offer custom CMS development services tailored to your business needs. Whether you need a simple blog platform or a complex enterprise CMS, we provide user-friendly solutions that make managing your website content a breeze. We work with popular CMS platforms like WordPress, Joomla, and Drupal, and can also create a custom CMS to suit your unique requirements. Our goal is to ensure you have full control over your site’s content with an intuitive, easy-to-use interface.",
+        "features": [
+          "Enable easy content updates with intuitive CMS interfaces.",
+          "Provide custom CMS solutions for unique business needs.",
+          "Ensure secure and scalable CMS platforms.",
+          "Offer training and support for CMS users."
+        ]
+      },
+      {
+        "slug": "web-app-development",
+        "label": "Web App Development",
+        "href": "/services/website-development/web-app-development",
+        "title": "Web App Development",
+        "price": 70.0,
+        "discount": 15,
+        "image": "/assets/images/services/mslabdesigns-service.jpg",
+        "showcase": [
+          "mslabdesigns-portfolio-1.jpg",
+          "mslabdesigns-portfolio-2.jpg",
+          "mslabdesigns-portfolio-3.jpg",
+          "mslabdesigns-portfolio-4.jpg",
+          "mslabdesigns-portfolio-5.jpg",
+          "mslabdesigns-portfolio-6.jpg",
+          "mslabdesigns-portfolio-7.jpg"
+        ],
+        "description": "Develop dynamic and interactive web applications.",
+        "content": "Web applications have become an integral part of business operations, helping streamline processes and improve customer experiences. At [Company Name], we specialize in developing custom web applications that are both functional and scalable. Whether you need a customer portal, inventory management system, or online booking platform, our developers create robust web applications tailored to your specific needs. We ensure that our web apps are easy to use, secure, and optimized for both performance and scalability, helping your business stay competitive in the ever-changing digital landscape.",
+        "features": [
+          "Create custom web apps to address specific business challenges.",
+          "Ensure web apps are secure, fast, and scalable.",
+          "Provide ongoing maintenance and support for web applications.",
+          "Integrate with third-party APIs for enhanced functionality."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "virtual-assistant",
+    "label": "Virtual Assistant",
+    "href": "/services/virtual-assistant",
+    "title": "Virtual Assistant",
+    "price": 70.0,
+    "discount": 15,
+    "image": "/assets/images/services/mslabdesigns-service.jpg",
+    "showcase": ["mslabdesigns-portfolio-5.jpg"],
+    "description": "Provide seamless support with creative and administrative tasks.",
+    "icon": "Virtual Assistant Icon",
+    "content": "A virtual assistant can help streamline your business operations by taking on various administrative and creative tasks. At [Company Name], we offer dedicated virtual assistant services that can assist with customer service, scheduling, social media management, content creation, and much more. Our virtual assistants are highly skilled and equipped to handle the day-to-day tasks that may overwhelm you, allowing you to focus on strategic growth. With flexible packages tailored to your specific needs, we ensure that your business runs smoothly and efficiently.",
+    "features": [
+      "Save time by outsourcing routine administrative tasks.",
+      "Enhance productivity by managing creative and operational duties.",
+      "Offer flexible and scalable services based on business needs.",
+      "Access skilled professionals with various expertise."
+    ]
+  },
+  {
+    "slug": "content-writing",
+    "label": "Content Writing",
+    "href": "/services/content-writing",
+    "title": "Content Writing",
+    "price": 70.0,
+    "discount": 15,
+    "image": "/assets/images/services/mslabdesigns-service.jpg",
+    "showcase": ["mslabdesigns-portfolio-6.jpg"],
+    "description": "Create high-quality, engaging, and SEO-friendly content.",
+    "icon": "Content Writing Icon",
+    "items": [
+      {
+        "slug": "seo",
+        "label": "SEO Content Writing",
+        "href": "/services/content-writing/seo",
+        "title": "SEO Content Writing",
+        "price": 70.0,
+        "discount": 15,
+        "image": "/assets/images/services/mslabdesigns-service.jpg",
+        "showcase": [
+          "mslabdesigns-portfolio-1.jpg",
+          "mslabdesigns-portfolio-2.jpg",
+          "mslabdesigns-portfolio-3.jpg",
+          "mslabdesigns-portfolio-4.jpg",
+          "mslabdesigns-portfolio-5.jpg",
+          "mslabdesigns-portfolio-6.jpg",
+          "mslabdesigns-portfolio-7.jpg"
+        ],
+        "description": "Write optimized content that ranks well on search engines.",
+        "content": "SEO content writing focuses on creating high-quality, engaging content that ranks well on search engines. At [Company Name], we combine the art of storytelling with the science of SEO to deliver content that is both reader-friendly and optimized for search engines. Our SEO content writers research keywords, analyze competitors, and ensure that each piece of content is tailored to your business’s specific goals. We create blog posts, landing pages, and other web content that not only attracts traffic but also converts visitors into customers, helping your business succeed in a competitive online landscape.",
+        "features": [
+          "Write engaging content with relevant, high-ranking keywords.",
+          "Focus on readability and value for your target audience.",
+          "Use SEO tools to optimize content for search engines.",
+          "Continuously track performance to refine strategies."
+        ]
+      },
+      {
+        "slug": "blog",
+        "label": "Blog Writing",
+        "href": "/services/content-writing/blog",
+        "title": "Blog Writing",
+        "price": 70.0,
+        "discount": 15,
+        "image": "/assets/images/services/mslabdesigns-service.jpg",
+        "showcase": [
+          "mslabdesigns-portfolio-1.jpg",
+          "mslabdesigns-portfolio-2.jpg",
+          "mslabdesigns-portfolio-3.jpg",
+          "mslabdesigns-portfolio-4.jpg",
+          "mslabdesigns-portfolio-5.jpg",
+          "mslabdesigns-portfolio-6.jpg",
+          "mslabdesigns-portfolio-7.jpg"
+        ],
+        "description": "Write informative and engaging blog posts that drive traffic and engage readers.",
+        "content": "Blogs are an essential part of any content strategy. They not only provide valuable information to your audience but also help drive traffic to your website. At [Company Name], we specialize in writing high-quality blog posts that are both informative and SEO-friendly. Whether you need industry-specific articles, how-to guides, or thought leadership pieces, our writers ensure that your blog posts align with your brand voice and engage your audience. Regular blog posts can establish your business as an authority in your field, boost SEO rankings, and help build a loyal following.",
+        "features": [
+          "Write informative and engaging content for your target audience.",
+          "Incorporate SEO practices to improve search engine rankings.",
+          "Ensure consistent blog posts to maintain audience engagement.",
+          "Provide content that adds value and encourages sharing."
+        ]
+      },
+      {
+        "slug": "copywriting",
+        "label": "Copywriting",
+        "href": "/services/content-writing/copywriting",
+        "title": "Copywriting",
+        "price": 70.0,
+        "discount": 15,
+        "image": "/assets/images/services/mslabdesigns-service.jpg",
+        "showcase": [
+          "mslabdesigns-portfolio-1.jpg",
+          "mslabdesigns-portfolio-2.jpg",
+          "mslabdesigns-portfolio-3.jpg",
+          "mslabdesigns-portfolio-4.jpg",
+          "mslabdesigns-portfolio-5.jpg",
+          "mslabdesigns-portfolio-6.jpg",
+          "mslabdesigns-portfolio-7.jpg"
+        ],
+        "description": "Create compelling copy for ads, websites, and marketing materials.",
+        "content": "Copywriting is the art of writing persuasive content designed to engage readers and encourage action. At [Company Name], we create compelling copy that communicates your brand message clearly and effectively. Whether it’s for advertisements, websites, product descriptions, or email campaigns, our team of expert copywriters ensures that your message resonates with your target audience. We focus on creating copy that not only informs but also converts, driving sales and leads. We understand the importance of tone, style, and clarity to connect with your customers and build brand loyalty.",
+        "features": [
+          "Craft persuasive copy that drives customer action.",
+          "Tailor copy to different formats like ads, emails, and websites.",
+          "Focus on clear messaging and emotional appeal.",
+          "Test and optimize copy for higher conversion rates."
+        ]
+      },
+      {
+        "slug": "social-media",
+        "label": "Social Media Content",
+        "href": "/services/content-writing/social-media",
+        "title": "Social Media Content",
+        "price": 70.0,
+        "discount": 15,
+        "image": "/assets/images/services/mslabdesigns-service.jpg",
+        "showcase": [
+          "mslabdesigns-portfolio-1.jpg",
+          "mslabdesigns-portfolio-2.jpg",
+          "mslabdesigns-portfolio-3.jpg",
+          "mslabdesigns-portfolio-4.jpg",
+          "mslabdesigns-portfolio-5.jpg",
+          "mslabdesigns-portfolio-6.jpg",
+          "mslabdesigns-portfolio-7.jpg"
+        ],
+        "description": "Create content designed to engage and grow your social media presence.",
+        "content": "Social media content plays a crucial role in engaging with your audience and growing your brand presence online. At [Company Name], we help businesses create dynamic and compelling content for their social media platforms. Whether it’s a Facebook post, Instagram story, or Twitter update, we craft content that resonates with your followers and encourages interaction. Our team ensures that your social media content aligns with your brand’s voice and values while staying relevant and engaging. By creating shareable, interactive posts, we help grow your social media following and boost brand awareness.",
+        "features": [
+          "Create engaging content for multiple social platforms.",
+          "Ensure consistency in tone and messaging across channels.",
+          "Design shareable posts that encourage audience interaction.",
+          "Monitor social media performance and adapt strategies."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "seo",
+    "label": "SEO Services",
+    "href": "/services/seo",
+    "title": "SEO Services",
+    "price": 70.0,
+    "discount": 15,
+    "image": "/assets/images/services/mslabdesigns-service.jpg",
+    "showcase": ["mslabdesigns-portfolio-7.jpg"],
+    "description": "Optimize your website for better search engine rankings and increased visibility.",
+    "icon": "SEO Icon",
+    "items": [
+      {
+        "slug": "on-page",
+        "label": "On-Page SEO",
+        "href": "/services/seo/on-page",
+        "title": "On-Page SEO",
+        "price": 70.0,
+        "discount": 15,
+        "image": "/assets/images/services/mslabdesigns-service.jpg",
+        "showcase": [
+          "mslabdesigns-portfolio-1.jpg",
+          "mslabdesigns-portfolio-2.jpg",
+          "mslabdesigns-portfolio-3.jpg",
+          "mslabdesigns-portfolio-4.jpg",
+          "mslabdesigns-portfolio-5.jpg",
+          "mslabdesigns-portfolio-6.jpg",
+          "mslabdesigns-portfolio-7.jpg"
+        ],
+        "description": "Optimize website content for better ranking and user experience.",
+        "content": "On-page SEO focuses on optimizing individual web pages to rank higher and attract more relevant traffic in search engines. At [Company Name], we ensure that each page on your website is fully optimized for SEO, from keyword research to content optimization, meta tags, and images. Our on-page SEO strategies also include improving website structure, page speed, and mobile-friendliness, ensuring that your site is not only search-engine-friendly but also provides an excellent user experience. By optimizing each page, we help you increase visibility, enhance user engagement, and ultimately drive conversions.",
+        "features": [
+          "Conduct comprehensive keyword research to target the right audience.",
+          "Optimize on-page elements like titles, headers, and images.",
+          "Improve website load speed and mobile-friendliness.",
+          "Focus on user experience to reduce bounce rates."
+        ]
+      },
+      {
+        "slug": "off-page",
+        "label": "Off-Page SEO",
+        "href": "/services/seo/off-page",
+        "title": "Off-Page SEO",
+        "price": 70.0,
+        "discount": 15,
+        "image": "/assets/images/services/mslabdesigns-service.jpg",
+        "showcase": [
+          "mslabdesigns-portfolio-1.jpg",
+          "mslabdesigns-portfolio-2.jpg",
+          "mslabdesigns-portfolio-3.jpg",
+          "mslabdesigns-portfolio-4.jpg",
+          "mslabdesigns-portfolio-5.jpg",
+          "mslabdesigns-portfolio-6.jpg",
+          "mslabdesigns-portfolio-7.jpg"
+        ],
+        "description": "Enhance your website's credibility and authority through backlinks and external strategies.",
+        "content": "Off-page SEO involves optimizing elements outside your website to improve its search engine rankings. At [Company Name], we focus on building high-quality backlinks, improving brand mentions, and enhancing your site’s overall authority. Our off-page SEO strategies include link-building, guest blogging, and influencer outreach, helping you build a network of trusted sources that boost your website's credibility. By implementing proven off-page SEO tactics, we ensure that your website gains visibility and trust from search engines, improving your overall search ranking and online presence.",
+        "features": [
+          "Build high-quality backlinks from reputable sources.",
+          "Engage in guest blogging and content partnerships.",
+          "Use social media and influencer outreach for link-building.",
+          "Monitor backlink profiles for quality and relevance."
+        ]
+      },
+      {
+        "slug": "technical",
+        "label": "Technical SEO",
+        "href": "/services/seo/technical",
+        "title": "Technical SEO",
+        "price": 70.0,
+        "discount": 15,
+        "image": "/assets/images/services/mslabdesigns-service.jpg",
+        "showcase": [
+          "mslabdesigns-portfolio-1.jpg",
+          "mslabdesigns-portfolio-2.jpg",
+          "mslabdesigns-portfolio-3.jpg",
+          "mslabdesigns-portfolio-4.jpg",
+          "mslabdesigns-portfolio-5.jpg",
+          "mslabdesigns-portfolio-6.jpg",
+          "mslabdesigns-portfolio-7.jpg"
+        ],
+        "description": "Optimize your website’s technical infrastructure for better performance and rankings.",
+        "content": "Technical SEO focuses on improving the technical aspects of your website to increase its search engine ranking and performance. At [Company Name], we ensure your website is technically optimized for maximum efficiency. We conduct thorough audits to identify issues such as crawl errors, broken links, slow loading times, and more. Our team implements fixes that ensure your site runs smoothly and efficiently, making it easier for search engines to crawl and index your pages. Technical SEO is essential for maintaining a fast, reliable, and user-friendly website that ranks well in search engine results.",
+        "features": [
+          "Conduct comprehensive site audits to identify technical issues.",
+          "Fix crawl errors, broken links, and improve site architecture.",
+          "Ensure your website is mobile-friendly and has fast loading times.",
+          "Use structured data for better indexing and rich snippets."
+        ]
+      }
+    ]
+  }
+]
