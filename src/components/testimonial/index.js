@@ -5,21 +5,21 @@ const Testimonial = () => {
   const testimonials = [
     {
       text: "Thanks to the strategic digital marketing and SEO services, our business saw a significant increase in online visibility and traffic. The team really helped us reach the right audience and stand out in a crowded digital space.",
-      name: "Christine Rose",
-      role: "CEO, Rose Marketing",
-      image: "assets/images/client-1.jpg",
+      name: "Proalliance Healthcare Staffing",
+      role: "CEO, Proalliance Healthcare Staffing",
+      image: "assets/images/mslabdesigns-client-1.jpg",
     },
     {
       text: "The custom website development and creative graphic design services we received were exceptional. Our website now looks amazing and works flawlessly, providing a great experience for our visitors and customers.",
-      name: "Michael Johnson",
-      role: "Founder, MJ Web Solutions",
-      image: "assets/images/client-2.jpg",
+      name: "Bizrates Tours and Safaris",
+      role: "Founder, Bizrates Tours and Safaris",
+      image: "assets/images/mslabdesigns-client-2.jpg",
     },
     {
       text: "We trusted them with our digital marketing, and they exceeded expectations. From SEO to social media campaigns, they’ve helped our business grow and thrive in the digital landscape. Highly recommended!",
-      name: "Sophia Lee",
-      role: "Owner, Sophia's Boutique",
-      image: "assets/images/client-3.jpg",
+      name: "Myspace Properties",
+      role: "Owner, Myspace Properties",
+      image: "assets/images/mslabdesigns-client-3.jpg",
     },
   ];
 
@@ -81,13 +81,16 @@ const Testimonial = () => {
                     </div>
                     <div className="testimonial-client-name">
                       <h3 className="h3-title">
-                        {testimonials[currentIndex].name}
+                        {testimonials[currentIndex].role}
                       </h3>
-                      <span>{testimonials[currentIndex].role}</span>
+                      {/* <span>{testimonials[currentIndex].role}</span> */}
                     </div>
                   </div>
                   <div className="testimonial-quote">
-                    <img src="assets/images/quote.png" alt="quote" />
+                    <img
+                      src="assets/images/mslabdesigns-quote.png"
+                      alt="quote"
+                    />
                   </div>
                 </motion.div>
               </motion.div>

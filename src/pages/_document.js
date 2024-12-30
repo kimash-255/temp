@@ -63,7 +63,7 @@ export default function Document() {
         <script src="/assets/js/bg-moving.js" async></script>
         <script src="/assets/js/magnific-popup.js" async></script>
         <script src="/assets/js/custom-magnific-popup.js" async></script>
-        <script src="/assets/js/smooth-scroll.js" async></script>
+        {/* <script src="/assets/js/smooth-scroll.js" async></script> */}
         <script src="/assets/js/jquery.min.js" async></script>
       </body>
     </Html>

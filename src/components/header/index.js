@@ -66,12 +66,28 @@ const Header = () => {
             </div>
             <div className="col-lg-6">
               <div className="Social-midea">
-                <Link href="javascript:void(0);" title="Whatsapp">
-                  <i className="fa fa-whatsapp" aria-hidden="true"></i>
-                </Link>
-                <Link href="javascript:void(0);" title="Instagram">
+                <a
+                  href="https://www.instagram.com/msdesignlab/profilecard/?igsh=MWNxbXl5b29zOGk4Mg=="
+                  title="Instagram"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i className="fa fa-instagram" aria-hidden="true"></i>
-                </Link>
+                </a>
+                <a
+                  href="https://www.tiktok.com/@mslabdesigns"
+                  title="TikTok"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="/assets/images/tiktok.svg"
+                    alt="TikTok"
+                    width={12}
+                    height={12}
+                    style={{ filter: "invert(1)" }}
+                  />
+                </a>
               </div>
             </div>
           </div>

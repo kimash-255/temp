@@ -4,7 +4,11 @@ import Link from "next/link";
 const Footer = () => {
   const socialLinks = [
     // { href: "#", iconClass: "fa fa-brands fa-tiktok", label: "Tiktok" },
-    { href: "#", iconClass: "fa fa-instagram", label: "Instagram" },
+    {
+      href: "https://www.instagram.com/msdesignlab/profilecard/?igsh=MWNxbXl5b29zOGk4Mg==",
+      iconClass: "fa fa-instagram",
+      label: "Instagram",
+    },
     // { href: "#", iconClass: "fa fa-twitter", label: "Twitter" },
     // { href: "#", iconClass: "fa fa-youtube-play", label: "YouTube" },
   ];
@@ -45,7 +49,11 @@ const Footer = () => {
               <ul>
                 {socialLinks.map((link, index) => (
                   <li key={index}>
-                    <Link href={link.href}>
+                    <Link
+                      href={link.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <div>
                         <i className={link.iconClass} aria-hidden="true"></i>
                       </div>
@@ -53,7 +61,11 @@ const Footer = () => {
                   </li>
                 ))}
                 <li>
-                  <Link href="#">
+                  <Link
+                    href="https://www.tiktok.com/@mslabdesigns"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <div>
                       <i
                         className="text-white"

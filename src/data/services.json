@@ -133,14 +133,22 @@
     ]
   },
   {
-    "slug": "graphic-design",
+    "slug": "digital-marketing",
     "label": "Digital Marketing",
     "href": "/services/digital-marketing",
     "title": "Digital Marketing",
     "price": 70.0,
     "discount": 15,
     "image": "/assets/images/services/mslabdesigns-service.jpg",
-    "showcase": ["mslabdesigns-portfolio-1.jpg"],
+    "showcase": [
+      "mslabdesigns-portfolio-1.jpg",
+      "mslabdesigns-portfolio-2.jpg",
+      "mslabdesigns-portfolio-3.jpg",
+      "mslabdesigns-portfolio-4.jpg",
+      "mslabdesigns-portfolio-5.jpg",
+      "mslabdesigns-portfolio-6.jpg",
+      "mslabdesigns-portfolio-7.jpg"
+    ],
     "description": "Boost your online presence and effectively reach your target audience.",
     "icon": "Digital Marketing Icon",
     "content": "Digital marketing is a crucial component for businesses looking to enhance their online presence. At [Company Name], we offer customized digital marketing strategies that are tailored to your business goals. From search engine optimization (SEO) and pay-per-click (PPC) advertising to content marketing and social media management, we help businesses expand their reach and engage with their target audience. Our team of digital marketing experts employs the latest tools, data analysis, and creative strategies to optimize your digital campaigns and drive measurable results. Whether you are looking to increase brand awareness, generate leads, or boost sales, our solutions deliver.",
@@ -159,7 +167,15 @@
     "price": 70.0,
     "discount": 15,
     "image": "/assets/images/services/mslabdesigns-service.jpg",
-    "showcase": ["mslabdesigns-portfolio-2.jpg"],
+    "showcase": [
+      "mslabdesigns-portfolio-1.jpg",
+      "mslabdesigns-portfolio-2.jpg",
+      "mslabdesigns-portfolio-3.jpg",
+      "mslabdesigns-portfolio-4.jpg",
+      "mslabdesigns-portfolio-5.jpg",
+      "mslabdesigns-portfolio-6.jpg",
+      "mslabdesigns-portfolio-7.jpg"
+    ],
     "description": "Learn professional graphic design skills to enhance your creative career.",
     "icon": "Graphic Design Classes Icon",
     "content": "Graphic design is a versatile skill that opens doors to numerous career opportunities. Our Graphic Design Classes are designed for both beginners and professionals looking to expand their knowledge. From mastering design software to understanding design principles and typography, we offer a comprehensive curriculum that covers all the essential aspects of graphic design. Our experienced instructors guide you through practical exercises and real-world projects, helping you build a strong portfolio. Whether you want to design logos, websites, or marketing materials, our classes provide the skills you need to succeed in the competitive design industry.",
@@ -178,7 +194,15 @@
     "price": 70.0,
     "discount": 15,
     "image": "/assets/images/services/mslabdesigns-service.jpg",
-    "showcase": ["mslabdesigns-portfolio-3.jpg"],
+    "showcase": [
+      "mslabdesigns-portfolio-1.jpg",
+      "mslabdesigns-portfolio-2.jpg",
+      "mslabdesigns-portfolio-3.jpg",
+      "mslabdesigns-portfolio-4.jpg",
+      "mslabdesigns-portfolio-5.jpg",
+      "mslabdesigns-portfolio-6.jpg",
+      "mslabdesigns-portfolio-7.jpg"
+    ],
     "description": "Create compelling content and manage your social platforms effectively.",
     "icon": "Social Media Icon",
     "content": "Social media is an essential tool for building brand awareness and engaging with your audience. At [Company Name], we offer comprehensive social media services, including content creation, platform management, and performance analytics. Our team helps businesses establish a strong presence across various platforms like Facebook, Instagram, Twitter, and LinkedIn. We create compelling content that resonates with your target audience, foster meaningful interactions, and optimize your social media strategy to drive traffic and conversions. Our goal is to turn your social media platforms into a powerful marketing tool that adds value to your business.",
@@ -197,8 +221,17 @@
     "price": 70.0,
     "discount": 15,
     "image": "/assets/images/services/mslabdesigns-service.jpg",
-    "showcase": ["mslabdesigns-portfolio-4.jpg"],
+    "showcase": [
+      "mslabdesigns-portfolio-1.jpg",
+      "mslabdesigns-portfolio-2.jpg",
+      "mslabdesigns-portfolio-3.jpg",
+      "mslabdesigns-portfolio-4.jpg",
+      "mslabdesigns-portfolio-5.jpg",
+      "mslabdesigns-portfolio-6.jpg",
+      "mslabdesigns-portfolio-7.jpg"
+    ],
     "description": "Build dynamic, visually appealing, and user-friendly websites.",
+    "content": "Responsive design ensures that your website functions flawlessly on all devices, from desktops to smartphones and tablets. At [Company Name], we specialize in creating responsive websites that adjust to different screen sizes and resolutions, providing an optimal viewing experience for every visitor. We focus on creating designs that maintain visual appeal, user-friendliness, and functionality across various platforms. By ensuring your website is responsive, we help you reach a broader audience and reduce bounce rates, as users can easily navigate your site, no matter what device they are using.",
     "icon": "Website Development Icon",
     "items": [
       {
@@ -305,6 +338,12 @@
           "Integrate with third-party APIs for enhanced functionality."
         ]
       }
+    ],
+    "features": [
+      "Create secure, responsive e-commerce platforms.",
+      "Integrate payment gateways for seamless transactions.",
+      "Optimize product pages for better user experience.",
+      "Implement SEO strategies to boost online visibility."
     ]
   },
   {
@@ -315,7 +354,15 @@
     "price": 70.0,
     "discount": 15,
     "image": "/assets/images/services/mslabdesigns-service.jpg",
-    "showcase": ["mslabdesigns-portfolio-5.jpg"],
+    "showcase": [
+      "mslabdesigns-portfolio-1.jpg",
+      "mslabdesigns-portfolio-2.jpg",
+      "mslabdesigns-portfolio-3.jpg",
+      "mslabdesigns-portfolio-4.jpg",
+      "mslabdesigns-portfolio-5.jpg",
+      "mslabdesigns-portfolio-6.jpg",
+      "mslabdesigns-portfolio-7.jpg"
+    ],
     "description": "Provide seamless support with creative and administrative tasks.",
     "icon": "Virtual Assistant Icon",
     "content": "A virtual assistant can help streamline your business operations by taking on various administrative and creative tasks. At [Company Name], we offer dedicated virtual assistant services that can assist with customer service, scheduling, social media management, content creation, and much more. Our virtual assistants are highly skilled and equipped to handle the day-to-day tasks that may overwhelm you, allowing you to focus on strategic growth. With flexible packages tailored to your specific needs, we ensure that your business runs smoothly and efficiently.",
@@ -334,7 +381,15 @@
     "price": 70.0,
     "discount": 15,
     "image": "/assets/images/services/mslabdesigns-service.jpg",
-    "showcase": ["mslabdesigns-portfolio-6.jpg"],
+    "showcase": [
+      "mslabdesigns-portfolio-1.jpg",
+      "mslabdesigns-portfolio-2.jpg",
+      "mslabdesigns-portfolio-3.jpg",
+      "mslabdesigns-portfolio-4.jpg",
+      "mslabdesigns-portfolio-5.jpg",
+      "mslabdesigns-portfolio-6.jpg",
+      "mslabdesigns-portfolio-7.jpg"
+    ],
     "description": "Create high-quality, engaging, and SEO-friendly content.",
     "icon": "Content Writing Icon",
     "items": [
@@ -442,6 +497,12 @@
           "Monitor social media performance and adapt strategies."
         ]
       }
+    ],
+    "features": [
+      "Write engaging content with relevant, high-ranking keywords.",
+      "Focus on readability and value for your target audience.",
+      "Use SEO tools to optimize content for search engines.",
+      "Continuously track performance to refine strategies."
     ]
   },
   {
@@ -452,8 +513,17 @@
     "price": 70.0,
     "discount": 15,
     "image": "/assets/images/services/mslabdesigns-service.jpg",
-    "showcase": ["mslabdesigns-portfolio-7.jpg"],
+    "showcase": [
+      "mslabdesigns-portfolio-1.jpg",
+      "mslabdesigns-portfolio-2.jpg",
+      "mslabdesigns-portfolio-3.jpg",
+      "mslabdesigns-portfolio-4.jpg",
+      "mslabdesigns-portfolio-5.jpg",
+      "mslabdesigns-portfolio-6.jpg",
+      "mslabdesigns-portfolio-7.jpg"
+    ],
     "description": "Optimize your website for better search engine rankings and increased visibility.",
+    "content": "On-page SEO focuses on optimizing individual web pages to rank higher and attract more relevant traffic in search engines. At [Company Name], we ensure that each page on your website is fully optimized for SEO, from keyword research to content optimization, meta tags, and images. Our on-page SEO strategies also include improving website structure, page speed, and mobile-friendliness, ensuring that your site is not only search-engine-friendly but also provides an excellent user experience. By optimizing each page, we help you increase visibility, enhance user engagement, and ultimately drive conversions.",
     "icon": "SEO Icon",
     "items": [
       {
@@ -534,6 +604,12 @@
           "Use structured data for better indexing and rich snippets."
         ]
       }
+    ],
+    "features": [
+      "Conduct comprehensive keyword research to target the right audience.",
+      "Optimize on-page elements like titles, headers, and images.",
+      "Improve website load speed and mobile-friendliness.",
+      "Focus on user experience to reduce bounce rates."
     ]
   }
 ]

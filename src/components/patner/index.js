@@ -79,7 +79,7 @@ const Partner = () => {
         <div className="row partner-bg partner-slider slick-initialized slick-slider">
           <Slider {...settings}>
             {partnerImages.map((partner, index) => (
-              <div key={index}>
+              <div key={index} className="partners-box">
                 {" "}
                 <div
                   key={index}

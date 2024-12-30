@@ -4,50 +4,6 @@ import Link from "next/link";
 const Contact = () => {
   return (
     <section>
-      <section class="main-banner-in">
-        <span class="shape-1 animate-this">
-          <img src="assets/images/shape-1.png" alt="shape" />
-        </span>
-        <span class="shape-2 animate-this">
-          <img src="assets/images/shape-2.png" alt="shape" />
-        </span>
-        <span class="shape-3 animate-this">
-          <img src="assets/images/shape-3.png" alt="shape" />
-        </span>
-        <span class="shape-4 animate-this">
-          <img src="assets/images/shape-4.png" alt="shape" />
-        </span>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <h1 class="h1-title">Contact Us</h1>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <div class="main-banner-breadcrum">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="banner-breadcrum">
-                <ul>
-                  <li>
-                    <Link href="/">Home</Link>
-                  </li>
-                  <li>
-                    <i class="fa fa-angle-right" aria-hidden="true"></i>
-                  </li>
-                  <li>
-                    <Link href="/contact">Contact Us</Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <section class="main-contact-page-in">
         <div class="container">
           <div class="row align-items-center">

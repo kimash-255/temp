@@ -4,6 +4,36 @@ import Link from "next/link";
 const Blogg = () => {
   return (
     <section>
+      <section class="main-banner-in">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1 class="h1-title">Our Blog</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="main-banner-breadcrum">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="banner-breadcrum">
+                <ul>
+                  <li>
+                    <Link href="/">Home</Link>
+                  </li>
+                  <li>
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                  </li>
+                  <li>
+                    <Link href="/blog">Blog</Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <section class="main-blog-list-in">
         <div class="container">
           <div class="row">
@@ -13,7 +43,7 @@ const Blogg = () => {
                 <div class="blog-list-box">
                   <div class="blog-big-img">
                     <img
-                      src="/assets/images/mslabdesigns-blog-big-img-1.jpg"
+                      src="/assets/images/blogs/mslabdesigns-blog-big-img-1.jpg"
                       alt="blog"
                     />
                   </div>
@@ -22,7 +52,7 @@ const Blogg = () => {
                       <div class="blog-big-user">
                         <div class="blog-big-user-icon">
                           <img
-                            src="/assets/images/mslabdesigns-author.png"
+                            src="/assets/images/blogs/mslabdesigns-author.png"
                             alt="icon"
                           />
                         </div>
@@ -34,7 +64,7 @@ const Blogg = () => {
                       <div class="blog-big-user">
                         <div class="blog-big-user-icon">
                           <img
-                            src="/assets/images/mslabdesigns-calendar.png"
+                            src="/assets/images/blogs/mslabdesigns-calendar.png"
                             alt="icon"
                           />
                         </div>
@@ -46,7 +76,7 @@ const Blogg = () => {
                       <div class="blog-big-user">
                         <div class="blog-big-user-icon">
                           <img
-                            src="/assets/images/mslabdesigns-comment.png"
+                            src="/assets/images/blogs/mslabdesigns-comment.png"
                             alt="icon"
                           />
                         </div>
@@ -75,7 +105,7 @@ const Blogg = () => {
                 <div class="blog-list-box">
                   <div class="blog-big-img">
                     <img
-                      src="/assets/images/mslabdesigns-blog-big-img-2.jpg"
+                      src="/assets/images/blogs/mslabdesigns-blog-big-img-2.jpg"
                       alt="blog"
                     />
                   </div>
@@ -84,7 +114,7 @@ const Blogg = () => {
                       <div class="blog-big-user">
                         <div class="blog-big-user-icon">
                           <img
-                            src="/assets/images/mslabdesigns-author.png"
+                            src="/assets/images/blogs/mslabdesigns-author.png"
                             alt="icon"
                           />
                         </div>
@@ -96,7 +126,7 @@ const Blogg = () => {
                       <div class="blog-big-user">
                         <div class="blog-big-user-icon">
                           <img
-                            src="/assets/images/mslabdesigns-calendar.png"
+                            src="/assets/images/blogs/mslabdesigns-calendar.png"
                             alt="icon"
                           />
                         </div>
@@ -108,7 +138,7 @@ const Blogg = () => {
                       <div class="blog-big-user">
                         <div class="blog-big-user-icon">
                           <img
-                            src="/assets/images/mslabdesigns-comment.png"
+                            src="/assets/images/blogs/mslabdesigns-comment.png"
                             alt="icon"
                           />
                         </div>
@@ -137,7 +167,7 @@ const Blogg = () => {
                 <div class="blog-list-box">
                   <div class="blog-big-img">
                     <img
-                      src="/assets/images/mslabdesigns-blog-big-img-3.jpg"
+                      src="/assets/images/blogs/mslabdesigns-blog-big-img-3.jpg"
                       alt="blog"
                     />
                   </div>
@@ -146,7 +176,7 @@ const Blogg = () => {
                       <div class="blog-big-user">
                         <div class="blog-big-user-icon">
                           <img
-                            src="/assets/images/mslabdesigns-author.png"
+                            src="/assets/images/blogs/mslabdesigns-author.png"
                             alt="icon"
                           />
                         </div>
@@ -158,7 +188,7 @@ const Blogg = () => {
                       <div class="blog-big-user">
                         <div class="blog-big-user-icon">
                           <img
-                            src="/assets/images/mslabdesigns-calendar.png"
+                            src="/assets/images/blogs/mslabdesigns-calendar.png"
                             alt="icon"
                           />
                         </div>
@@ -170,7 +200,7 @@ const Blogg = () => {
                       <div class="blog-big-user">
                         <div class="blog-big-user-icon">
                           <img
-                            src="/assets/images/mslabdesigns-comment.png"
+                            src="/assets/images/blogs/mslabdesigns-comment.png"
                             alt="icon"
                           />
                         </div>
@@ -199,7 +229,7 @@ const Blogg = () => {
                 <div class="blog-list-box">
                   <div class="blog-big-img">
                     <img
-                      src="/assets/images/mslabdesigns-blog-big-img-4.jpg"
+                      src="/assets/images/blogs/mslabdesigns-blog-big-img-4.jpg"
                       alt="blog"
                     />
                   </div>
@@ -208,7 +238,7 @@ const Blogg = () => {
                       <div class="blog-big-user">
                         <div class="blog-big-user-icon">
                           <img
-                            src="/assets/images/mslabdesigns-author.png"
+                            src="/assets/images/blogs/mslabdesigns-author.png"
                             alt="icon"
                           />
                         </div>
@@ -220,7 +250,7 @@ const Blogg = () => {
                       <div class="blog-big-user">
                         <div class="blog-big-user-icon">
                           <img
-                            src="/assets/images/mslabdesigns-calendar.png"
+                            src="/assets/images/blogs/mslabdesigns-calendar.png"
                             alt="icon"
                           />
                         </div>
@@ -232,7 +262,7 @@ const Blogg = () => {
                       <div class="blog-big-user">
                         <div class="blog-big-user-icon">
                           <img
-                            src="/assets/images/mslabdesigns-comment.png"
+                            src="/assets/images/blogs/mslabdesigns-comment.png"
                             alt="icon"
                           />
                         </div>
@@ -348,7 +378,7 @@ const Blogg = () => {
                     <li>
                       <div class="blog-list-recent-post-img">
                         <img
-                          src="/assets/images/mslabdesigns-recent-post-1.jpg"
+                          src="/assets/images/blogs/mslabdesigns-recent-post-1.jpg"
                           alt="blog"
                         />
                       </div>
@@ -359,7 +389,7 @@ const Blogg = () => {
                         <div class="blog-date">
                           <div class="blog-date-icon">
                             <img
-                              src="/assets/images/mslabdesigns-calendar.png"
+                              src="/assets/images/blogs/mslabdesigns-calendar.png"
                               alt="icon"
                             />
                           </div>
@@ -372,7 +402,7 @@ const Blogg = () => {
                     <li>
                       <div class="blog-list-recent-post-img">
                         <img
-                          src="/assets/images/mslabdesigns-recent-post-2.jpg"
+                          src="/assets/images/blogs/mslabdesigns-recent-post-2.jpg"
                           alt="blog"
                         />
                       </div>
@@ -383,7 +413,7 @@ const Blogg = () => {
                         <div class="blog-date">
                           <div class="blog-date-icon">
                             <img
-                              src="/assets/images/mslabdesigns-calendar.png"
+                              src="/assets/images/blogs/mslabdesigns-calendar.png"
                               alt="icon"
                             />
                           </div>
@@ -396,7 +426,7 @@ const Blogg = () => {
                     <li>
                       <div class="blog-list-recent-post-img">
                         <img
-                          src="/assets/images/mslabdesigns-recent-post-3.jpg"
+                          src="/assets/images/blogs/mslabdesigns-recent-post-3.jpg"
                           alt="blog"
                         />
                       </div>
@@ -407,7 +437,7 @@ const Blogg = () => {
                         <div class="blog-date">
                           <div class="blog-date-icon">
                             <img
-                              src="/assets/images/mslabdesigns-calendar.png"
+                              src="/assets/images/blogs/mslabdesigns-calendar.png"
                               alt="icon"
                             />
                           </div>
@@ -420,7 +450,7 @@ const Blogg = () => {
                     <li>
                       <div class="blog-list-recent-post-img">
                         <img
-                          src="/assets/images/mslabdesigns-recent-post-4.jpg"
+                          src="/assets/images/blogs/mslabdesigns-recent-post-4.jpg"
                           alt="blog"
                         />
                       </div>
@@ -431,7 +461,7 @@ const Blogg = () => {
                         <div class="blog-date">
                           <div class="blog-date-icon">
                             <img
-                              src="/assets/images/mslabdesigns-calendar.png"
+                              src="/assets/images/blogs/mslabdesigns-calendar.png"
                               alt="icon"
                             />
                           </div>

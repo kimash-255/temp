@@ -50,6 +50,13 @@ const AboutUs = () => {
                 <img
                   src="/assets/images/mslabdesigns-portfolio.png"
                   alt="about us"
+                  style={{
+                    textAlign: "center",
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    justifyContent: "center",
+                  }}
                 />
               </div>
             </div>

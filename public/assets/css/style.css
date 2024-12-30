@@ -1485,7 +1485,8 @@ p {
 .main-partner-logo {
   padding-top: 20px;
   padding-bottom: 20px;
-  margin-top: -125px;
+  margin-top: -105px;
+  background-color: #f3f4f8;
 }
 .partner-bg {
   position: relative;
@@ -3508,7 +3509,7 @@ p {
 
 .recent-course-box ul li {
   display: flex;
-  align-items: center;
+  align-items: top;
   margin-bottom: 20px;
 }
 
@@ -3517,12 +3518,14 @@ p {
 }
 
 .recent-course-text {
-  width: calc(100% - 115px);
+  width: calc(100% - 15px);
 }
 
 .recent-course-text a p {
-  font-weight: 500;
+  font-weight: 400;
   margin-bottom: 0;
+  font-size: 14px;
+  line-height: 15px;
   transition: all 0.1s cubic-bezier(0.98, 0.57, 1, 1) 0s;
 }
 
@@ -3534,8 +3537,8 @@ p {
 .recent-course-text span {
   color: #ee1a19;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 16px;
+  line-height: 16px;
 }
 
 .recent-course-img {

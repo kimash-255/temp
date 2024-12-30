@@ -8,28 +8,6 @@ import blogs from "../data/blog.json";
 const About = () => {
   return (
     <section>
-      <section class="main-banner-in">
-        <span class="shape-1 animate-this">
-          <img src="/assets/images/mslabdesigns-shape-1.png" alt="shape" />
-        </span>
-        <span class="shape-2 animate-this">
-          <img src="/assets/images/mslabdesigns-shape-2.png" alt="shape" />
-        </span>
-        <span class="shape-3 animate-this">
-          <img src="/assets/images/mslabdesigns-shape-3.png" alt="shape" />
-        </span>
-        <span class="shape-4 animate-this">
-          <img src="/assets/images/mslabdesigns-shape-4.png" alt="shape" />
-        </span>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <h1 class="h1-title">About Us</h1>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <div class="main-banner-breadcrum">
         <div class="container">
           <div class="row">
@@ -62,7 +40,7 @@ const About = () => {
               >
                 <div class="about-img">
                   <img
-                    src="/assets/images/mslabdesigns-msdesign-portfolio.png"
+                    src="/assets/images/mslabdesigns-portfolio.png"
                     alt="about us"
                   />
                 </div>

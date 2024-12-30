@@ -17,18 +17,6 @@ const BlogDetail = () => {
     <Layout>
       {/* Banner Section */}
       <section className="main-banner-in">
-        <span className="shape-1 animate-this">
-          <img src="/assets/images/mslabdesigns-shape-1.png" alt="shape" />
-        </span>
-        <span className="shape-2 animate-this">
-          <img src="/assets/images/mslabdesigns-shape-2.png" alt="shape" />
-        </span>
-        <span className="shape-3 animate-this">
-          <img src="/assets/images/mslabdesigns-shape-3.png" alt="shape" />
-        </span>
-        <span className="shape-4 animate-this">
-          <img src="/assets/images/mslabdesigns-shape-4.png" alt="shape" />
-        </span>
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
