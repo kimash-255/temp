@@ -2,7 +2,6 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 import Layout from "@/components/layout";
 import Cta from "@/components/cta";
-import SEO from "@/components/seo";
 import services from "@/data/services.json";
 import ServiceDetailBox from "@/components/sevices/ServiceDetailBox";
 import ServiceCategories from "@/components/sevices/ServiceCategories";
@@ -20,20 +19,6 @@ const ServiceDetail = () => {
 
   return (
     <>
-      <SEO
-        title={`${service?.title} | MsLabDesigns - Professional Services`}
-        description={
-          service?.description ||
-          "Explore our expert services tailored to your business needs."
-        }
-        keywords={`${service?.title}, MsLabDesigns, ${service?.label}, digital solutions, creative services`}
-        url={`https://www.mslabdesigns.com/services/${slug}`}
-        image={
-          `https://www.mslabdesigns.com${service?.image}` ||
-          "https://www.mslabdesigns.com/assets/images/services/cover/mslabdesigns-social-media.jpeg"
-        }
-        type="article"
-      />
       <Layout>
         <section>
           <section className="main-banner-in">
@@ -112,3 +97,43 @@ const ServiceDetail = () => {
 };
 
 export default ServiceDetail;
+
+export async function getStaticProps({ params }) {
+  const { slug } = params;
+  const service = services.find((item) => item.slug === slug);
+
+  if (!service) {
+    return {
+      notFound: true,
+    };
+  }
+
+  return {
+    props: {
+      seoData: {
+        title: `${service.title} | MsLabDesigns - Professional Services`,
+        description:
+          service.description ||
+          "Explore our expert services tailored to your business needs.",
+        keywords: `${service.title}, MsLabDesigns, ${service.label}, digital solutions, creative services`,
+        url: `https://www.mslabdesigns.com/services/${slug}`,
+        image:
+          `https://www.mslabdesigns.com${service.image}` ||
+          "https://www.mslabdesigns.com/assets/images/services/cover/mslabdesigns-social-media.jpeg",
+        type: "article",
+      },
+      service,
+    },
+  };
+}
+
+export async function getStaticPaths() {
+  const paths = services.map((service) => ({
+    params: { slug: service.slug },
+  }));
+
+  return {
+    paths,
+    fallback: false,
+  };
+}

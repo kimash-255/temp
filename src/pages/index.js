@@ -1,7 +1,5 @@
 import React from "react";
-import SEO from "@/components/seo";
 import AboutUs from "@/components/aboutus";
-import Blog from "@/components/blog";
 import Cta from "@/components/cta";
 import Hero from "@/components/hero";
 import HighlightServices from "@/components/highlightservices";
