@@ -4,50 +4,62 @@ import services from "@/data/services.json";
 import Layout from "@/components/layout";
 import Cta from "@/components/cta";
 import { useEffect, useState } from "react";
+import SEO from "@/components/seo";
 
 import ServiceDetailBox from "@/components/sevices/ServiceDetailBox";
 import RelatedServices from "@/components/sevices/RelatedServices";
 import ShowcaseSlider from "@/components/sevices/ShowcaseSlider";
 
-const ServiceDetail = ({ seoData, servicemainData }) => {
+const ServiceDetail = () => {
   const router = useRouter();
   const { slug, subslug } = router.query;
 
   // State for the main service, individual service, and showcase images
-  const [servicemain, setServicemain] = useState(servicemainData);
+  const [servicemain, setServicemain] = useState(null);
   const [service, setService] = useState(null);
   const [showcaseImages, setShowcaseImages] = useState([]);
 
   // Update the state when slug or subslug changes
   useEffect(() => {
     if (slug) {
+      // Find the main service based on the slug
       const foundService = services.find((item) => item.slug === slug);
       setServicemain(foundService);
 
       if (subslug && foundService) {
+        // Find the specific service if subslug is present
         const foundSubService = foundService.items.find(
           (item) => item.slug === subslug
         );
         setService(foundSubService);
-        setShowcaseImages(
-          foundSubService?.showcase?.map(
+
+        // Update the showcase images if available
+        if (foundSubService?.showcase) {
+          const images = foundSubService.showcase.map(
             (image) => `/assets/images/services/${image}`
-          ) || []
-        );
-      } else {
-        // If no subslug, use the main service
-        setService(foundService);
-        setShowcaseImages(
-          foundService?.showcase?.map(
-            (image) => `/assets/images/services/${image}`
-          ) || []
-        );
+          );
+          setShowcaseImages(images);
+        }
       }
     }
   }, [slug, subslug]);
 
   return (
     <>
+      <SEO
+        title={`${service?.title} | MsLabDesigns - Professional Services`}
+        description={
+          service?.description ||
+          "Explore our expert services tailored to your business needs."
+        }
+        keywords={`${service?.title}, MsLabDesigns, ${service?.label}, digital solutions, creative services`}
+        url={`https://www.mslabdesigns.com/services/${slug}`}
+        image={
+          `https://www.mslabdesigns.com${service?.image}` ||
+          "https://www.mslabdesigns.com/assets/images/services/cover/mslabdesigns-social-media.jpeg"
+        }
+        type="article"
+      />
       <Layout>
         <section>
           <section className="main-banner-in">
@@ -83,17 +95,10 @@ const ServiceDetail = ({ seoData, servicemainData }) => {
                           {servicemain?.title}
                         </Link>
                       </li>
-                      {subslug && (
-                        <>
-                          <li>
-                            <i
-                              className="fa fa-angle-right"
-                              aria-hidden="true"
-                            ></i>
-                          </li>
-                          <li>{service?.title}</li>
-                        </>
-                      )}
+                      <li>
+                        <i className="fa fa-angle-right" aria-hidden="true"></i>
+                      </li>
+                      <li>{service?.title}</li>
                     </ul>
                   </div>
                 </div>
@@ -141,69 +146,3 @@ const ServiceDetail = ({ seoData, servicemainData }) => {
 };
 
 export default ServiceDetail;
-
-export async function getStaticPaths() {
-  const paths = [];
-
-  services.forEach((service) => {
-    if (service.items && service.items.length > 0) {
-      // If sub-services exist, add paths for them
-      service.items.forEach((subservice) => {
-        paths.push({
-          params: { slug: service.slug, subslug: subservice.slug },
-        });
-      });
-    } else {
-      // If no sub-services, provide `subslug` as an empty string (required to match `[subslug]?`)
-      paths.push({
-        params: { slug: service.slug, subslug: "" },
-      });
-    }
-  });
-
-  return {
-    paths,
-    fallback: false,
-  };
-}
-
-export async function getStaticProps({ params }) {
-  const { slug, subslug = "" } = params; // Ensure `subslug` is always defined
-
-  const servicemain = services.find((item) => item.slug === slug);
-  if (!servicemain) {
-    return { notFound: true };
-  }
-
-  let service = servicemain;
-  if (subslug && servicemain.items) {
-    service = servicemain.items.find((item) => item.slug === subslug) || null;
-  }
-
-  return {
-    props: {
-      seoData: {
-        title: `${
-          service?.title || servicemain.title
-        } | MsLabDesigns - Professional Services`,
-        description:
-          service?.description ||
-          servicemain.description ||
-          "Explore our expert services tailored to your business needs.",
-        keywords: `${service?.title || servicemain.title}, MsLabDesigns, ${
-          service?.label || servicemain.label
-        }, digital solutions, creative services`,
-        url: `https://www.mslabdesigns.com/services/${slug}${
-          subslug ? `/${subslug}` : ""
-        }`,
-        image:
-          `https://www.mslabdesigns.com${
-            service?.image || servicemain.image
-          }` ||
-          "https://www.mslabdesigns.com/assets/images/services/cover/mslabdesigns-social-media.jpeg",
-        type: "article",
-      },
-      servicemainData: servicemain,
-    },
-  };
-}
