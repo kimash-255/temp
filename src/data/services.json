@@ -90,6 +90,8 @@
         "image": "/assets/images/services/cover/mslabdesigns-newsletter.jpg",
         "showcase": [
           "newsletters/mslabdesigns-maria-newsletter.pdf",
+          "newsletters/ mslabdesigns-paragon-newsletter.pdf",
+          "newsletters/mslabdesigns-paragon-school.pdf",
           "cover/mslabdesigns-newsletter.jpg"
         ],
         "description": "Create visually engaging and well-structured newsletters that keep your audience informed and engaged.",
@@ -190,10 +192,11 @@
         "title": "Business Cards",
         "price": 50.0,
         "discount": 5,
-        "image": "/assets/images/services/cover/mslabdesigns-business-card.jpg",
+        "image": "/assets/images/services/business-card/mslabdesigns-busines-card-mock-up-2.png",
         "showcase": [
           "business-card/mslabdesigns-busines card-mock-up-bravo-zulu.png",
           "business-card/mslabdesigns-busines-card-mock-up-1.png",
+          "business-card/mslabdesigns-busines-card-mock-up-2.png",
           "business-card/mslabdesigns-busines-card-mock-up.png"
         ],
         "description": "Designing professional and eye-catching business cards that make a strong first impression.",
@@ -273,7 +276,7 @@
     "label": "Digital Marketing",
     "href": "/services/digital-marketing",
     "title": "Digital Marketing",
-    "image": "/assets/images/services/digital-marketing/mslabdesigns-digital-marketing.jpg",
+    "image": "/assets/images/services/cover/mslabdesigns-digital-marketing",
     "showcase": [
       "digital-marketing/mslabdesigns-digital-mar.jpg",
       "social-media/mslabdesigns-le-bourn-post.jpeg",
