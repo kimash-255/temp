@@ -9,7 +9,11 @@ const ServiceCategories = ({ items }) => (
       {items?.map((relatedService) => (
         <li key={relatedService?.slug}>
           <div className="recent-course-img">
-            <img src={relatedService?.image} alt={relatedService?.title} />
+            <img
+              src={relatedService?.image}
+              alt={relatedService?.title}
+              style={{ width: "200px", height: "auto" }}
+            />
           </div>
           <div className="recent-course-text">
             <Link href={`/${relatedService?.href}`}>

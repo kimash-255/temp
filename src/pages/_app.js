@@ -3,9 +3,7 @@ import { library, config } from "@fortawesome/fontawesome-svg-core";
 import { fas } from "@fortawesome/free-solid-svg-icons";
 import { far } from "@fortawesome/free-regular-svg-icons";
 import { fab } from "@fortawesome/free-brands-svg-icons";
-import "@fortawesome/fontawesome-svg-core/styles.css"; // Import FontAwesome styles
-import Head from "next/head";
-
+import "@fortawesome/fontawesome-svg-core/styles.css";
 // Prevent FontAwesome from auto-adding its CSS globally
 config.autoAddCss = false;
 
@@ -22,16 +20,6 @@ export default function App({ Component, pageProps }) {
 
   return (
     <>
-      <Head>
-        <title>MsLabDesigns</title>
-        <meta name="keywords" content="MsLabDesigns" />
-        <meta name="description" content="MsLabDesigns - Creative Solutions" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
-      </Head>
-      {/* Render the component only after hydration to avoid mismatches */}
       {isHydrated ? (
         <>
           {/* Add an element to demonstrate safe style manipulation */}
