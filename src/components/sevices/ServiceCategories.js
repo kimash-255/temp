@@ -6,7 +6,7 @@ const ServiceCategories = ({ items }) => (
       <h3 className="h3-title">Service Categories</h3>
     </div>
     <ul>
-      {items?.map((relatedService) => (
+      {items?.slice(0, 4).map((relatedService) => (
         <li key={relatedService?.slug}>
           <div className="recent-course-img">
             <img

@@ -4307,12 +4307,14 @@ p {
   transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
 }
 
-.blog-list-sidebar-categories-box ul li:hover a i {
+.blog-list-sidebar-categories-box ul li:hover a i,
+.blog-list-sidebar-categories-box ul li.active a i {
   color: #ee1a19;
   transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
 }
 
-.blog-list-sidebar-categories-box ul li:hover a p {
+.blog-list-sidebar-categories-box ul li:hover a p,
+.blog-list-sidebar-categories-box ul li.active a p {
   color: #ee1a19;
   margin-left: 10px;
   transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
@@ -4426,13 +4428,15 @@ p {
   transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
 }
 
-.blog-list-sidebar-tag-box ul li a:hover {
+.blog-list-sidebar-tag-box ul li a:hover,
+.blog-list-sidebar-tag-box ul li.active a {
   background-color: #ee1a19;
   border: solid 1px #ee1a19;
   color: #ffffff;
   box-shadow: 0px 10px 20px 0px rgb(255, 82, 25, 0.4);
   transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
 }
+
 /*==========Blog List Page CSS End==========*/
 
 /*==========Blog Detail Page CSS Start==========*/
@@ -5989,13 +5993,13 @@ p {
 
 @media screen and (max-width: 767px) {
   .h1-title {
-    font-size: 48px;
-    line-height: 58px;
+    font-size: 32px;
+    line-height: 36px;
   }
 
   .h2-title {
-    font-size: 45px;
-    line-height: 60px;
+    font-size: 26px;
+    line-height: 34px;
   }
 
   .h2-subtitle {
@@ -6066,8 +6070,8 @@ p {
   }
 
   .h1-title {
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 20px;
+    line-height: 28px;
   }
 
   .main-banner-in .shape-2 {
@@ -6228,8 +6232,8 @@ p {
   }
 
   .cta-title .h2-title {
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 20px;
+    line-height: 26px;
   }
 
   .cta-bg {
@@ -6337,8 +6341,8 @@ p {
   }
 
   .h1-title {
-    font-size: 38px;
-    line-height: 48px;
+    font-size: 18px;
+    line-height: 26px;
   }
 
   .h2-subtitle {
@@ -6347,8 +6351,8 @@ p {
   }
 
   .h2-title {
-    font-size: 35px;
-    line-height: 50px;
+    font-size: 15px;
+    line-height: 20px;
   }
 
   .aliment-1 {
@@ -6401,13 +6405,13 @@ p {
   }
 
   .instructor-detail-info-name .h2-title {
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 20px;
+    line-height: 30px;
   }
 
   .instructor-detail-info-courses .h2-title {
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 20px;
+    line-height: 30px;
   }
 
   .banner-breadcrum {
@@ -6476,3 +6480,37 @@ p {
   }
 }
 /*==========Responsive CSS End==========*/
+
+@media (max-width: 768px) {
+  /* Adjust the width as needed */
+  .blog-detail-tag-share-box {
+    display: none;
+  }
+  .course-category-box {
+    border: solid 1px #acacac;
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 15px;
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.2scubic-bezier(0.98, 0.57, 1, 1) 0s;
+  }
+  .sec-btn {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff !important;
+    height: 40px;
+    background-color: #ee1a19;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 8px;
+    transition: all 0.2scubic-bezier(0.98, 0.57, 1, 1) 0s;
+    position: relative;
+    z-index: 1;
+  }
+}

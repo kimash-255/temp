@@ -124,6 +124,19 @@ const Hero = () => {
           white-space: nowrap;
           font-family: "Poppins", sans-serif;
         }
+        @media (max-width: 768px) {
+          /* Adjust for tablets and smaller screens */
+          .animated-text {
+            font-size: 1.8rem; /* Smaller font size */
+          }
+        }
+
+        @media (max-width: 480px) {
+          /* Further adjust for mobile screens */
+          .animated-text {
+            font-size: 1.2rem; /* Even smaller for very small screens */
+          }
+        }
 
         .hover-line {
           display: block;

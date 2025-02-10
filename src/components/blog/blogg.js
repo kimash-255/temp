@@ -1,329 +1,140 @@
+import { useMemo, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import blogData from "@/data/blogData.json";
+
+const ITEMS_PER_PAGE = 3;
 
 const Blogg = () => {
+  const [currentPage, setCurrentPage] = useState(1);
+  const [selectedCategory, setSelectedCategory] = useState(null);
+  const [selectedTags, setSelectedTags] = useState([]);
+  const [searchQuery, setSearchQuery] = useState("");
+
+  const categories = useMemo(
+    () => [...new Set(blogData.map((blog) => blog.category).filter(Boolean))],
+    []
+  );
+
+  const tags = useMemo(
+    () => [...new Set(blogData.flatMap((blog) => blog.tags).filter(Boolean))],
+    []
+  );
+
+  const handleTagClick = (tag) => {
+    setSelectedTags((prevTags) =>
+      prevTags.includes(tag)
+        ? prevTags.filter((t) => t !== tag)
+        : [...prevTags, tag]
+    );
+  };
+
+  const handleCategoryClick = (category) => {
+    setSelectedCategory(category === selectedCategory ? null : category);
+  };
+
+  const filteredBlogs = blogData?.filter((blog) => {
+    const categoryMatch = selectedCategory
+      ? blog.category === selectedCategory
+      : true;
+    const tagsMatch = selectedTags?.length
+      ? selectedTags?.every((tag) => blog?.tags?.includes(tag))
+      : true;
+    const searchMatch =
+      blog.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      blog.excerpt.toLowerCase().includes(searchQuery.toLowerCase());
+    return categoryMatch && tagsMatch && searchMatch;
+  });
+
+  const totalPages = Math.ceil(filteredBlogs.length / ITEMS_PER_PAGE);
+  const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+  const paginatedBlogs = filteredBlogs.slice(
+    startIndex,
+    startIndex + ITEMS_PER_PAGE
+  );
+
+  const handlePageChange = (page) => {
+    if (page > 0 && page <= totalPages) {
+      setCurrentPage(page);
+    }
+  };
+
   return (
     <section>
-      <section class="main-banner-in">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <h1 class="h1-title">Our Blog</h1>
-            </div>
-          </div>
+      <section className="main-banner-in">
+        <div className="container">
+          <h1 className="h1-title">Our Blog</h1>
         </div>
       </section>
-      <div class="main-banner-breadcrum">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="banner-breadcrum">
-                <ul>
-                  <li>
-                    <Link href="/">Home</Link>
-                  </li>
-                  <li>
-                    <i class="fa fa-angle-right" aria-hidden="true"></i>
-                  </li>
-                  <li>
-                    <Link href="/blog">Blog</Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <section class="main-blog-list-in">
-        <div class="container">
-          <div class="row">
-            {/* <!--Blog Box Start--> */}
-            <div class="col-xl-8 col-lg-7">
-              <div class="main-blog-list-box">
-                <div class="blog-list-box">
-                  <div class="blog-big-img">
-                    <img
-                      src="/assets/images/blogs/mslabdesigns-blog-big-img-1.jpg"
-                      alt="blog"
-                    />
-                  </div>
-                  <div class="blog-big-content">
-                    <div class="blog-big-user-box">
-                      <div class="blog-big-user">
-                        <div class="blog-big-user-icon">
-                          <img
-                            src="/assets/images/blogs/mslabdesigns-author.png"
-                            alt="icon"
-                          />
-                        </div>
-                        <Link href="javascript:void(0);">
-                          <p>John Doe</p>
-                        </Link>
-                      </div>
-                      <div class="blog-big-user-line"></div>
-                      <div class="blog-big-user">
-                        <div class="blog-big-user-icon">
-                          <img
-                            src="/assets/images/blogs/mslabdesigns-calendar.png"
-                            alt="icon"
-                          />
-                        </div>
-                        <Link href="javascript:void(0);">
-                          <p>07 Jan, 2022</p>
-                        </Link>
-                      </div>
-                      <div class="blog-big-user-line"></div>
-                      <div class="blog-big-user">
-                        <div class="blog-big-user-icon">
-                          <img
-                            src="/assets/images/blogs/mslabdesigns-comment.png"
-                            alt="icon"
-                          />
-                        </div>
-                        <Link href="javascript:void(0);">
-                          <p>3 Comments</p>
-                        </Link>
-                      </div>
-                    </div>
-                    <Link href="/blog/1">
-                      <h3 class="h3-title">
-                        Class aptent taciti sociosqu ad litora torquent per
-                        conubia nostra, per inceptos himenaeos.
-                      </h3>
-                    </Link>
-                    <p>
-                      Donec accumsan enim sit amet dolor rhoncus scelerisque.
-                      Suspendisse dictum, enim a interdum facilisis, ex diam
-                      dignissim ligula, sit amet commodo est nunc vulputate
-                      turpis.
-                    </p>
-                    <Link href="/blog/1" class="sec-btn">
-                      Read More
-                    </Link>
-                  </div>
-                </div>
-                <div class="blog-list-box">
-                  <div class="blog-big-img">
-                    <img
-                      src="/assets/images/blogs/mslabdesigns-blog-big-img-2.jpg"
-                      alt="blog"
-                    />
-                  </div>
-                  <div class="blog-big-content">
-                    <div class="blog-big-user-box">
-                      <div class="blog-big-user">
-                        <div class="blog-big-user-icon">
-                          <img
-                            src="/assets/images/blogs/mslabdesigns-author.png"
-                            alt="icon"
-                          />
-                        </div>
-                        <Link href="javascript:void(0);">
-                          <p>John Doe</p>
-                        </Link>
-                      </div>
-                      <div class="blog-big-user-line"></div>
-                      <div class="blog-big-user">
-                        <div class="blog-big-user-icon">
-                          <img
-                            src="/assets/images/blogs/mslabdesigns-calendar.png"
-                            alt="icon"
-                          />
-                        </div>
-                        <Link href="javascript:void(0);">
-                          <p>07 Jan, 2022</p>
-                        </Link>
-                      </div>
-                      <div class="blog-big-user-line"></div>
-                      <div class="blog-big-user">
-                        <div class="blog-big-user-icon">
-                          <img
-                            src="/assets/images/blogs/mslabdesigns-comment.png"
-                            alt="icon"
-                          />
-                        </div>
-                        <Link href="javascript:void(0);">
-                          <p>3 Comments</p>
-                        </Link>
-                      </div>
-                    </div>
-                    <Link href="/blog/2">
-                      <h3 class="h3-title">
-                        Class aptent taciti sociosqu ad litora torquent per
-                        conubia nostra, per inceptos himenaeos.
-                      </h3>
-                    </Link>
-                    <p>
-                      Donec accumsan enim sit amet dolor rhoncus scelerisque.
-                      Suspendisse dictum, enim a interdum facilisis, ex diam
-                      dignissim ligula, sit amet commodo est nunc vulputate
-                      turpis.
-                    </p>
-                    <Link href="/blog/" class="sec-btn">
-                      Read More
-                    </Link>
-                  </div>
-                </div>
-                <div class="blog-list-box">
-                  <div class="blog-big-img">
-                    <img
-                      src="/assets/images/blogs/mslabdesigns-blog-big-img-3.jpg"
-                      alt="blog"
-                    />
-                  </div>
-                  <div class="blog-big-content">
-                    <div class="blog-big-user-box">
-                      <div class="blog-big-user">
-                        <div class="blog-big-user-icon">
-                          <img
-                            src="/assets/images/blogs/mslabdesigns-author.png"
-                            alt="icon"
-                          />
-                        </div>
-                        <Link href="javascript:void(0);">
-                          <p>John Doe</p>
-                        </Link>
-                      </div>
-                      <div class="blog-big-user-line"></div>
-                      <div class="blog-big-user">
-                        <div class="blog-big-user-icon">
-                          <img
-                            src="/assets/images/blogs/mslabdesigns-calendar.png"
-                            alt="icon"
-                          />
-                        </div>
-                        <Link href="javascript:void(0);">
-                          <p>07 Jan, 2022</p>
-                        </Link>
-                      </div>
-                      <div class="blog-big-user-line"></div>
-                      <div class="blog-big-user">
-                        <div class="blog-big-user-icon">
-                          <img
-                            src="/assets/images/blogs/mslabdesigns-comment.png"
-                            alt="icon"
-                          />
-                        </div>
-                        <Link href="javascript:void(0);">
-                          <p>3 Comments</p>
-                        </Link>
-                      </div>
-                    </div>
-                    <Link href="/blog/3">
-                      <h3 class="h3-title">
-                        Class aptent taciti sociosqu ad litora torquent per
-                        conubia nostra, per inceptos himenaeos.
-                      </h3>
-                    </Link>
-                    <p>
-                      Donec accumsan enim sit amet dolor rhoncus scelerisque.
-                      Suspendisse dictum, enim a interdum facilisis, ex diam
-                      dignissim ligula, sit amet commodo est nunc vulputate
-                      turpis.
-                    </p>
-                    <Link href="/blog/3" class="sec-btn">
-                      Read More
-                    </Link>
-                  </div>
-                </div>
-                <div class="blog-list-box">
-                  <div class="blog-big-img">
-                    <img
-                      src="/assets/images/blogs/mslabdesigns-blog-big-img-4.jpg"
-                      alt="blog"
-                    />
-                  </div>
-                  <div class="blog-big-content">
-                    <div class="blog-big-user-box">
-                      <div class="blog-big-user">
-                        <div class="blog-big-user-icon">
-                          <img
-                            src="/assets/images/blogs/mslabdesigns-author.png"
-                            alt="icon"
-                          />
-                        </div>
-                        <Link href="javascript:void(0);">
-                          <p>John Doe</p>
-                        </Link>
-                      </div>
-                      <div class="blog-big-user-line"></div>
-                      <div class="blog-big-user">
-                        <div class="blog-big-user-icon">
-                          <img
-                            src="/assets/images/blogs/mslabdesigns-calendar.png"
-                            alt="icon"
-                          />
-                        </div>
-                        <Link href="javascript:void(0);">
-                          <p>07 Jan, 2022</p>
-                        </Link>
-                      </div>
-                      <div class="blog-big-user-line"></div>
-                      <div class="blog-big-user">
-                        <div class="blog-big-user-icon">
-                          <img
-                            src="/assets/images/blogs/mslabdesigns-comment.png"
-                            alt="icon"
-                          />
-                        </div>
-                        <Link href="javascript:void(0);">
-                          <p>3 Comments</p>
-                        </Link>
-                      </div>
-                    </div>
-                    <Link href="/blog/4">
-                      <h3 class="h3-title">
-                        Class aptent taciti sociosqu ad litora torquent per
-                        conubia nostra, per inceptos himenaeos.
-                      </h3>
-                    </Link>
-                    <p>
-                      Donec accumsan enim sit amet dolor rhoncus scelerisque.
-                      Suspendisse dictum, enim a interdum facilisis, ex diam
-                      dignissim ligula, sit amet commodo est nunc vulputate
-                      turpis.
-                    </p>
-                    <Link href="blog-detail.html" class="sec-btn">
-                      Read More
-                    </Link>
-                  </div>
-                </div>
-              </div>
-              <div class="courses-pagination">
-                <Link href="javascript:void(0);" class="pagination-arrow">
-                  <i class="fa fa-angle-left" aria-hidden="true"></i>
-                </Link>
-                <ul>
-                  <li class="active">1</li>
-                  <li>2</li>
-                  <li>3</li>
-                  <li>4</li>
-                </ul>
-                <Link href="javascript:void(0);" class="pagination-arrow">
-                  <i class="fa fa-angle-right" aria-hidden="true"></i>
-                </Link>
-              </div>
-            </div>
-            {/* <!--Blog Box End--> */}
-            {/* <!--Sidebar Start--> */}
-            <div class="col-xl-4 col-lg-5">
-              <div class="blog-list-sidebar">
-                <div class="courses-search-form">
-                  <form>
-                    <div class="form-box">
-                      <input
-                        type="text"
-                        name="search"
-                        placeholder="Search..."
-                        required
+      <section className="main-blog-list-in">
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-8 col-lg-7">
+              <div className="main-blog-list-box">
+                {paginatedBlogs.map((blog) => (
+                  <div className="blog-list-box" key={blog.id}>
+                    <div className="blog-big-img">
+                      <Image
+                        src={blog.image}
+                        alt={blog.title}
+                        width={800}
+                        height={400}
                       />
-                      <button type="submit" class="sec-btn">
-                        <span>
-                          <i class="fa fa-search" aria-hidden="true"></i>
-                        </span>
-                      </button>
                     </div>
-                  </form>
+                    <div className="blog-big-content">
+                      <p>
+                        By {blog.author} | {blog.date} | {blog.comments}{" "}
+                        Comments
+                      </p>
+                      <Link href={`/blog/${blog.id}`}>
+                        <h3 className="h3-title">{blog.title}</h3>
+                      </Link>
+                      <p>{blog.excerpt}</p>
+                      <Link href={`/blog/${blog.id}`} className="sec-btn">
+                        Read More
+                      </Link>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <div className="courses-pagination">
+                <a
+                  href="#"
+                  className="pagination-arrow"
+                  onClick={() => handlePageChange(currentPage - 1)}
+                >
+                  <i className="fa fa-angle-left" aria-hidden="true"></i>
+                </a>
+                <ul>
+                  {[...Array(totalPages)].map((_, index) => (
+                    <li
+                      key={index}
+                      className={currentPage === index + 1 ? "active" : ""}
+                      onClick={() => handlePageChange(index + 1)}
+                    >
+                      {index + 1}
+                    </li>
+                  ))}
+                </ul>
+                <a
+                  href="#"
+                  className="pagination-arrow"
+                  onClick={() => handlePageChange(currentPage + 1)}
+                >
+                  <i className="fa fa-angle-right" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+
+            <div className="col-xl-4 col-lg-5">
+              <div className="blog-list-sidebar">
+                <div className="courses-search-form">
+                  <input
+                    type="text"
+                    placeholder="Search..."
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                  />
                 </div>
                 <div class="blog-list-sidebar-categories-box">
                   <div class="courses-sidebar-title">
@@ -331,187 +142,55 @@ const Blogg = () => {
                     <h3 class="h3-title">Categories</h3>
                   </div>
                   <ul>
-                    <li>
+                    <li
+                      onClick={() => handleCategoryClick(null)}
+                      className={!selectedCategory ? "active" : ""}
+                    >
                       <Link href="javascript:void(0);">
                         <i class="fa fa-angle-right" aria-hidden="true"></i>
-                        <p>Business (10)</p>
+                        <p>All</p>
                       </Link>
                     </li>
-                    <li>
-                      <Link href="javascript:void(0);">
-                        <i class="fa fa-angle-right" aria-hidden="true"></i>
-                        <p>Case Study (13)</p>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="javascript:void(0);">
-                        <i class="fa fa-angle-right" aria-hidden="true"></i>
-                        <p>Insights (9)</p>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="javascript:void(0);">
-                        <i class="fa fa-angle-right" aria-hidden="true"></i>
-                        <p>World (3)</p>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="javascript:void(0);">
-                        <i class="fa fa-angle-right" aria-hidden="true"></i>
-                        <p>Tax Solutions (12)</p>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="javascript:void(0);">
-                        <i class="fa fa-angle-right" aria-hidden="true"></i>
-                        <p>Creative (6)</p>
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-                <div class="blog-list-sidebar-recent-post">
-                  <div class="courses-sidebar-title">
-                    <div class="sidebar-title-line"></div>
-                    <h3 class="h3-title">Categories</h3>
-                  </div>
-                  <ul>
-                    <li>
-                      <div class="blog-list-recent-post-img">
-                        <img
-                          src="/assets/images/blogs/mslabdesigns-recent-post-1.jpg"
-                          alt="blog"
-                        />
-                      </div>
-                      <div class="blog-list-recent-post-content">
-                        <Link href="/blog/1">
-                          <p>Mauris condimentum purus sit amet interdum.</p>
+                    {categories.map((category, index) => (
+                      <li
+                        key={index}
+                        onClick={() => handleCategoryClick(category)}
+                        className={
+                          selectedCategory === category ? "active" : ""
+                        }
+                      >
+                        <Link href="javascript:void(0);">
+                          <i class="fa fa-angle-right" aria-hidden="true"></i>
+                          <p>{category}</p>
                         </Link>
-                        <div class="blog-date">
-                          <div class="blog-date-icon">
-                            <img
-                              src="/assets/images/blogs/mslabdesigns-calendar.png"
-                              alt="icon"
-                            />
-                          </div>
-                          <Link href="javascript:void(0);">
-                            <p>07 Jan, 2022</p>
-                          </Link>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="blog-list-recent-post-img">
-                        <img
-                          src="/assets/images/blogs/mslabdesigns-recent-post-2.jpg"
-                          alt="blog"
-                        />
-                      </div>
-                      <div class="blog-list-recent-post-content">
-                        <Link href="/blog/2">
-                          <p>Mauris condimentum purus sit amet interdum.</p>
-                        </Link>
-                        <div class="blog-date">
-                          <div class="blog-date-icon">
-                            <img
-                              src="/assets/images/blogs/mslabdesigns-calendar.png"
-                              alt="icon"
-                            />
-                          </div>
-                          <Link href="javascript:void(0);">
-                            <p>07 Jan, 2022</p>
-                          </Link>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="blog-list-recent-post-img">
-                        <img
-                          src="/assets/images/blogs/mslabdesigns-recent-post-3.jpg"
-                          alt="blog"
-                        />
-                      </div>
-                      <div class="blog-list-recent-post-content">
-                        <Link href="/blog/3">
-                          <p>Mauris condimentum purus sit amet interdum.</p>
-                        </Link>
-                        <div class="blog-date">
-                          <div class="blog-date-icon">
-                            <img
-                              src="/assets/images/blogs/mslabdesigns-calendar.png"
-                              alt="icon"
-                            />
-                          </div>
-                          <Link href="javascript:void(0);">
-                            <p>07 Jan, 2022</p>
-                          </Link>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="blog-list-recent-post-img">
-                        <img
-                          src="/assets/images/blogs/mslabdesigns-recent-post-4.jpg"
-                          alt="blog"
-                        />
-                      </div>
-                      <div class="blog-list-recent-post-content">
-                        <Link href="blog-detail.html">
-                          <p>Mauris condimentum purus sit amet interdum.</p>
-                        </Link>
-                        <div class="blog-date">
-                          <div class="blog-date-icon">
-                            <img
-                              src="/assets/images/blogs/mslabdesigns-calendar.png"
-                              alt="icon"
-                            />
-                          </div>
-                          <Link href="javascript:void(0);">
-                            <p>07 Jan, 2022</p>
-                          </Link>
-                        </div>
-                      </div>
-                    </li>
+                      </li>
+                    ))}
                   </ul>
                 </div>
                 <div class="blog-list-sidebar-tag-box">
                   <div class="courses-sidebar-title">
                     <div class="sidebar-title-line"></div>
-                    <h3 class="h3-title">Categories</h3>
+                    <h3 class="h3-title">Tags</h3>
                   </div>
                   <ul>
-                    <li>
-                      <Link href="javascript:void(0);">Business</Link>
-                    </li>
-                    <li>
-                      <Link href="javascript:void(0);">Corporate</Link>
-                    </li>
-                    <li>
-                      <Link href="javascript:void(0);">Blog</Link>
-                    </li>
-                    <li>
-                      <Link href="javascript:void(0);">Marketing</Link>
-                    </li>
-                    <li>
-                      <Link href="javascript:void(0);">Creative</Link>
-                    </li>
-                    <li>
-                      <Link href="javascript:void(0);">Web</Link>
-                    </li>
-                    <li>
-                      <Link href="javascript:void(0);">Workers</Link>
-                    </li>
-                    <li>
-                      <Link href="javascript:void(0);">Morden</Link>
-                    </li>
+                    {tags.map((tag, index) => (
+                      <li
+                        key={index}
+                        onClick={() => handleTagClick(tag)}
+                        className={selectedTags.includes(tag) ? "active" : ""}
+                      >
+                        <Link href="javascript:void(0);">{tag}</Link>
+                      </li>
+                    ))}
                   </ul>
                 </div>
               </div>
             </div>
-            {/* <!--Sidebar End--> */}
           </div>
         </div>
       </section>
     </section>
   );
 };
+
 export default Blogg;

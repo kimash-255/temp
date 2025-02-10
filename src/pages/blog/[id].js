@@ -1,13 +1,14 @@
 import { useRouter } from "next/router";
 import Link from "next/link";
-import blogData from "../../components/data/blog.json"; // Import the blog data from the JSON file
+import blogData from "@/data/blogData.json";
 import Layout from "@/components/layout";
 import Cta from "@/components/cta";
+import ReactMarkdown from "react-markdown";
 
 const BlogDetail = () => {
   const router = useRouter();
-  const { id } = router.query; // Extract the blog ID from the URL
-  const blog = blogData.find((b) => b.id.toString() === id); // Find the blog by ID
+  const { id } = router.query;
+  const blog = blogData.find((b) => b.id === id);
 
   if (!blog) {
     return <p>Blog not found!</p>;
@@ -20,13 +21,12 @@ const BlogDetail = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              <h1 className="h1-title">Blog Detail</h1>
+              <h1 className="h1-semititle">{blog.title}</h1>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Breadcrumb Navigation */}
       <div className="main-banner-breadcrum">
         <div className="container">
           <div className="row">
@@ -46,7 +46,7 @@ const BlogDetail = () => {
                     <i className="fa fa-angle-right" aria-hidden="true"></i>
                   </li>
                   <li>
-                    <Link href={`/blog/${id}`}>Blog Detail</Link>
+                    <Link href={`/blog/${blog?.id}`}>{blog.title}</Link>
                   </li>
                 </ul>
               </div>
@@ -106,24 +106,18 @@ const BlogDetail = () => {
 
               <h3 className="h3-title">{blog.title}</h3>
 
-              {blog.content.map((paragraph, index) => (
-                <p key={index}>{paragraph}</p>
+              <ReactMarkdown>{blog.introduction}</ReactMarkdown>
+
+              {blog?.sections?.map((section, index) => (
+                <div key={index}>
+                  <ReactMarkdown>{section.heading}</ReactMarkdown>
+                  <ReactMarkdown>{section.content}</ReactMarkdown>
+                </div>
               ))}
 
-              <div className="blog-detail-point">
-                <h3 className="h3-title">
-                  Educater is the only theme you will ever need
-                </h3>
-                <ul>
-                  {blog.points.map((point, index) => (
-                    <li key={index}>
-                      <i className="fa fa-check-circle" aria-hidden="true"></i>
-                      <p>{point}</p>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+              <ReactMarkdown>{blog.conclusion}</ReactMarkdown>
 
+              {/* Tags & Share Section */}
               <div className="blog-detail-tag-share-box">
                 <div className="blog-detail-tag">
                   <span>Tags:</span>
@@ -163,64 +157,9 @@ const BlogDetail = () => {
                   </ul>
                 </div>
               </div>
-
-              {/* Related Blogs */}
-              <div className="blog-detail-related-blog-box">
-                <div className="row">
-                  <div className="col-lg-12">
-                    <div className="blog-detail-related-blog-title">
-                      <h2 className="h2-subtitle">Our Post</h2>
-                      <h2 className="h2-title">Related Blog</h2>
-                    </div>
-                  </div>
-                </div>
-                <div className="row">
-                  {blog.related_blogs.map((related, index) => (
-                    <div className="col-xl-6 col-lg-12 col-md-6" key={index}>
-                      <div className="blog-box">
-                        <div className="blog-img">
-                          <img src={related.image} alt="blog" />
-                        </div>
-                        <div className="blog-content">
-                          <Link href={`/blog-detail/${related.id}`}>
-                            <h3 className="h3-title">{related.title}</h3>
-                          </Link>
-                          <div className="blog-box-line"></div>
-                          <div className="blog-date-comment">
-                            <div className="blog-date">
-                              <div className="blog-date-icon">
-                                <img
-                                  src="/assets/images/mslabdesigns-calendar.png"
-                                  alt="icon"
-                                />
-                              </div>
-                              <Link href="javascript:void(0);">
-                                <p>{related.date}</p>
-                              </Link>
-                            </div>
-                            <div className="blog-box-line"></div>
-                            <div className="blog-comment">
-                              <div className="blog-comment-icon">
-                                <img
-                                  src="/assets/images/mslabdesigns-comment.png"
-                                  alt="icon"
-                                />
-                              </div>
-                              <Link href="javascript:void(0);">
-                                <p>{related.comments} Comments</p>
-                              </Link>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
             </div>
           </div>
 
-          {/* Sidebar */}
           <div className="col-xl-4 col-lg-5">
             <div className="blog-list-sidebar">
               <div className="courses-search-form">
@@ -240,186 +179,42 @@ const BlogDetail = () => {
                   </div>
                 </form>
               </div>
-              <div className="blog-list-sidebar-categories-box">
-                <div className="courses-sidebar-title">
-                  <div className="sidebar-title-line"></div>
-                  <h3 className="h3-title">Categories</h3>
-                </div>
-                <ul>
-                  <li>
-                    <Link href="javascript:void(0);">
-                      <i className="fa fa-angle-right" aria-hidden="true"></i>
-                      <p>Business (10)</p>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="javascript:void(0);">
-                      <i className="fa fa-angle-right" aria-hidden="true"></i>
-                      <p>Case Study (13)</p>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="javascript:void(0);">
-                      <i className="fa fa-angle-right" aria-hidden="true"></i>
-                      <p>Insights (9)</p>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="javascript:void(0);">
-                      <i className="fa fa-angle-right" aria-hidden="true"></i>
-                      <p>World (3)</p>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="javascript:void(0);">
-                      <i className="fa fa-angle-right" aria-hidden="true"></i>
-                      <p>Tax Solutions (12)</p>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="javascript:void(0);">
-                      <i className="fa fa-angle-right" aria-hidden="true"></i>
-                      <p>Creative (6)</p>
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-
               <div className="blog-list-sidebar-recent-post">
                 <div className="courses-sidebar-title">
                   <div className="sidebar-title-line"></div>
                   <h3 className="h3-title">Recent Posts</h3>
                 </div>
                 <ul>
-                  <li>
-                    <div className="blog-list-recent-post-img">
-                      <img
-                        src="/assets/images/mslabdesigns-recent-post-1.jpg"
-                        alt="blog"
-                      />
-                    </div>
-                    <div className="blog-list-recent-post-content">
-                      <Link href="blog-detail.html">
-                        <p>Mauris condimentum purus sit amet interdum.</p>
-                      </Link>
-                      <div className="blog-date">
-                        <div className="blog-date-icon">
+                  {blogData
+                    .filter((b) => b.id !== id) // Exclude current post
+                    .slice(0, 6) // Limit to six
+                    .map((recentPost) => (
+                      <li key={recentPost.id}>
+                        <div className="blog-list-recent-post-img">
                           <img
-                            src="/assets/images/mslabdesigns-calendar.png"
-                            alt="icon"
+                            src={recentPost.image}
+                            alt={recentPost.title}
+                            style={{ width: "200px", height: "auto" }}
                           />
                         </div>
-                        <Link href="javascript:void(0);">
-                          <p>07 Jan, 2022</p>
-                        </Link>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="blog-list-recent-post-img">
-                      <img
-                        src="/assets/images/mslabdesigns-recent-post-2.jpg"
-                        alt="blog"
-                      />
-                    </div>
-                    <div className="blog-list-recent-post-content">
-                      <Link href="blog-detail.html">
-                        <p>Mauris condimentum purus sit amet interdum.</p>
-                      </Link>
-                      <div className="blog-date">
-                        <div className="blog-date-icon">
-                          <img
-                            src="/assets/images/mslabdesigns-calendar.png"
-                            alt="icon"
-                          />
+                        <div className="blog-list-recent-post-content">
+                          <Link href={`/blog/${recentPost.id}`}>
+                            <p>{recentPost.title}</p>
+                          </Link>
+                          <div className="blog-date">
+                            <div className="blog-date-icon">
+                              <img
+                                src="/assets/images/mslabdesigns-calendar.png"
+                                alt="icon"
+                              />
+                            </div>
+                            <Link href="javascript:void(0);">
+                              <p>{recentPost.date}</p>
+                            </Link>
+                          </div>
                         </div>
-                        <Link href="javascript:void(0);">
-                          <p>07 Jan, 2022</p>
-                        </Link>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="blog-list-recent-post-img">
-                      <img
-                        src="/assets/images/mslabdesigns-recent-post-3.jpg"
-                        alt="blog"
-                      />
-                    </div>
-                    <div className="blog-list-recent-post-content">
-                      <Link href="blog-detail.html">
-                        <p>Mauris condimentum purus sit amet interdum.</p>
-                      </Link>
-                      <div className="blog-date">
-                        <div className="blog-date-icon">
-                          <img
-                            src="/assets/images/mslabdesigns-calendar.png"
-                            alt="icon"
-                          />
-                        </div>
-                        <Link href="javascript:void(0);">
-                          <p>07 Jan, 2022</p>
-                        </Link>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="blog-list-recent-post-img">
-                      <img
-                        src="/assets/images/mslabdesigns-recent-post-4.jpg"
-                        alt="blog"
-                      />
-                    </div>
-                    <div className="blog-list-recent-post-content">
-                      <Link href="blog-detail.html">
-                        <p>Mauris condimentum purus sit amet interdum.</p>
-                      </Link>
-                      <div className="blog-date">
-                        <div className="blog-date-icon">
-                          <img
-                            src="/assets/images/mslabdesigns-calendar.png"
-                            alt="icon"
-                          />
-                        </div>
-                        <Link href="javascript:void(0);">
-                          <p>07 Jan, 2022</p>
-                        </Link>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="blog-list-sidebar-tag-box">
-                <div className="courses-sidebar-title">
-                  <div className="sidebar-title-line"></div>
-                  <h3 className="h3-title">Tags</h3>
-                </div>
-                <ul>
-                  <li>
-                    <Link href="javascript:void(0);">Business</Link>
-                  </li>
-                  <li>
-                    <Link href="javascript:void(0);">Corporate</Link>
-                  </li>
-                  <li>
-                    <Link href="javascript:void(0);">Blog</Link>
-                  </li>
-                  <li>
-                    <Link href="javascript:void(0);">Marketing</Link>
-                  </li>
-                  <li>
-                    <Link href="javascript:void(0);">Creative</Link>
-                  </li>
-                  <li>
-                    <Link href="javascript:void(0);">Web</Link>
-                  </li>
-                  <li>
-                    <Link href="javascript:void(0);">Workers</Link>
-                  </li>
-                  <li>
-                    <Link href="javascript:void(0);">Modern</Link>
-                  </li>
+                      </li>
+                    ))}
                 </ul>
               </div>
             </div>
@@ -432,3 +227,44 @@ const BlogDetail = () => {
 };
 
 export default BlogDetail;
+
+export async function getStaticProps({ params }) {
+  const { id } = params;
+  const blog = blogData.find((b) => b.id === id);
+
+  if (!blog) {
+    return {
+      notFound: true,
+    };
+  }
+
+  return {
+    props: {
+      seoData: {
+        title: `${blog.title} | MsLabDesigns Blog`,
+        description:
+          blog.introduction.slice(0, 150) ||
+          "Read the latest insights and updates on our blog.",
+        keywords:
+          blog.tags.join(", ") || "MsLabDesigns, blog, articles, insights",
+        url: `https://www.mslabdesigns.com/blog/${id}`,
+        image:
+          blog.image ||
+          "https://www.mslabdesigns.com/assets/images/blog/mslabdesigns-the-power-of-graphic-design.jpg",
+        type: "article",
+      },
+      blog,
+    },
+  };
+}
+
+export async function getStaticPaths() {
+  const paths = blogData.map((blog) => ({
+    params: { id: blog.id },
+  }));
+
+  return {
+    paths,
+    fallback: false,
+  };
+}
