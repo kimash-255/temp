@@ -10,17 +10,9 @@ import Patner from "@/components/patner";
 import Solutions from "@/components/solutions";
 import Testimonial from "@/components/testimonial";
 
-const Home = () => {
+const Home = ({ seoData }) => {
   return (
     <>
-      <SEO
-        title="MsLabDesigns | Creative & Digital Solutions for Your Brand"
-        description="Thank you for choosing MsLabDesigns! We specialize in graphic design, digital marketing, web development, and virtual assistant services to elevate your brand."
-        keywords="graphic design, digital marketing, virtual assistant, web development, branding, social media management, SEO"
-        url="https://www.mslabdesigns.com"
-        image="https://www.mslabdesigns.com/assets/images/mslabdesigns.png"
-        type="website"
-      />
       <Layout>
         <Hero />
         <Solutions />
@@ -34,5 +26,23 @@ const Home = () => {
     </>
   );
 };
+
+// Pass SEO data as JSON-serializable props
+export async function getStaticProps() {
+  return {
+    props: {
+      seoData: {
+        title: "MsLabDesigns | Creative & Digital Solutions for Your Brand",
+        description:
+          "Thank you for choosing MsLabDesigns! We specialize in graphic design, digital marketing, web development, and virtual assistant services to elevate your brand.",
+        keywords:
+          "graphic design, digital marketing, virtual assistant, web development, branding, social media management, SEO",
+        url: "https://www.mslabdesigns.com",
+        image: "https://www.mslabdesigns.com/assets/images/mslabdesigns.png",
+        type: "website",
+      },
+    },
+  };
+}
 
 export default Home;
