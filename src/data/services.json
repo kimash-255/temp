@@ -488,6 +488,32 @@
     ]
   },
   {
+    "slug": "erp-systems",
+    "label": "ERP Systems",
+    "href": "/services/erp-systems",
+    "title": "ERP Systems",
+    "image": "/assets/images/services/erp/mslabdesigns-erpnext-salesforce.jpg",
+    "showcase": [
+      "erp/mslabdesigns-erp-1.jpg",
+      "erp/mslabdesigns-erp-2.jpg",
+      "erp/mslabdesigns-erp-3.jpg",
+      "erp/mslabdesigns-erp-4.jpg",
+      "erp/mslabdesigns-erp-5.jpg",
+      "erp/mslabdesigns-erp-6.jpg",
+      "erp/mslabdesigns-erp-7.jpg",
+      "erp/mslabdesigns-erpnext-salesforce.jpg"
+    ],
+    "description": "Streamline your business operations with powerful ERP solutions tailored to your needs.",
+    "icon": "ERP Systems Icon",
+    "content": "Enterprise Resource Planning (ERP) systems are essential for modern businesses looking to integrate and automate their operations. Our ERP solutions help businesses manage finances, inventory, human resources, and customer relationships efficiently. Designed for scalability, our ERP systems are suitable for small businesses and large enterprises alike. With user-friendly interfaces, real-time analytics, and seamless integration capabilities, our solutions enable organizations to improve productivity, reduce costs, and make data-driven decisions. Our team provides comprehensive support, from implementation to ongoing maintenance, ensuring your business runs smoothly.",
+    "features": [
+      "Comprehensive modules for finance, HR, inventory, and CRM management.",
+      "Real-time data analytics and reporting for informed decision-making.",
+      "Seamless integration with existing business tools and applications.",
+      "Scalable solutions tailored to businesses of all sizes."
+    ]
+  },
+  {
     "slug": "virtual-assistant",
     "label": "Virtual Assistant",
     "href": "/services/virtual-assistant",
