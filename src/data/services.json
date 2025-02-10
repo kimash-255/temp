@@ -297,31 +297,6 @@
     ]
   },
   {
-    "slug": "graphic-design-classes",
-    "label": "Graphic Design Classes",
-    "href": "/services/graphic-design-classes",
-    "title": "Graphic Design Classes",
-    "image": "/assets/images/services/virtual/mslabdesigns-virtual-1.jpg",
-    "showcase": [
-      "company-profile/mslabdesigns-profile.jpeg",
-      "logos/mslabdesigns-warm-touch-logo.jpeg",
-      "flyers/mslabdesigns-food-banner.jpeg",
-      "bronchure/mslabdesigns-bronchure-1.pdf",
-      "logos/mslabdesigns-milos-logo.jpeg",
-      "business-card/mslabdesigns-busines card-mock-up-bravo-zulu.png",
-      "virtual/mslabdesigns-virtual-1.jpg"
-    ],
-    "description": "Learn professional graphic design skills to enhance your creative career.",
-    "icon": "Graphic Design Classes Icon",
-    "content": "Graphic design is a versatile skill that opens doors to numerous career opportunities. Our Graphic Design Classes are designed for both beginners and professionals looking to expand their knowledge. From mastering design software to understanding design principles and typography, we offer a comprehensive curriculum that covers all the essential aspects of graphic design. Our experienced instructors guide you through practical exercises and real-world projects, helping you build a strong portfolio. Whether you want to design logos, websites, or marketing materials, our classes provide the skills you need to succeed in the competitive design industry.",
-    "features": [
-      "Learn key design software like Adobe Photoshop, Illustrator, and InDesign.",
-      "Understand the core principles of design, including composition and color theory.",
-      "Create a professional portfolio to showcase your work.",
-      "Get personalized feedback from experienced instructors."
-    ]
-  },
-  {
     "slug": "social-media",
     "label": "Social Media",
     "href": "/services/social-media",
@@ -357,6 +332,31 @@
       "Manage and schedule posts to maintain consistent branding.",
       "Track and analyze social media performance for insights.",
       "Increase customer interaction and brand loyalty through social channels."
+    ]
+  },
+  {
+    "slug": "graphic-design-classes",
+    "label": "Graphic Design Classes",
+    "href": "/services/graphic-design-classes",
+    "title": "Graphic Design Classes",
+    "image": "/assets/images/services/virtual/mslabdesigns-virtual-1.jpg",
+    "showcase": [
+      "company-profile/mslabdesigns-profile.jpeg",
+      "logos/mslabdesigns-warm-touch-logo.jpeg",
+      "flyers/mslabdesigns-food-banner.jpeg",
+      "bronchure/mslabdesigns-bronchure-1.pdf",
+      "logos/mslabdesigns-milos-logo.jpeg",
+      "business-card/mslabdesigns-busines card-mock-up-bravo-zulu.png",
+      "virtual/mslabdesigns-virtual-1.jpg"
+    ],
+    "description": "Learn professional graphic design skills to enhance your creative career.",
+    "icon": "Graphic Design Classes Icon",
+    "content": "Graphic design is a versatile skill that opens doors to numerous career opportunities. Our Graphic Design Classes are designed for both beginners and professionals looking to expand their knowledge. From mastering design software to understanding design principles and typography, we offer a comprehensive curriculum that covers all the essential aspects of graphic design. Our experienced instructors guide you through practical exercises and real-world projects, helping you build a strong portfolio. Whether you want to design logos, websites, or marketing materials, our classes provide the skills you need to succeed in the competitive design industry.",
+    "features": [
+      "Learn key design software like Adobe Photoshop, Illustrator, and InDesign.",
+      "Understand the core principles of design, including composition and color theory.",
+      "Create a professional portfolio to showcase your work.",
+      "Get personalized feedback from experienced instructors."
     ]
   },
   {
