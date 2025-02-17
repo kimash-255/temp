@@ -4,6 +4,24 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+        <title>
+          MsLabDesigns | Creative & Digital Solutions for Your Brand
+        </title>
+        <meta
+          name="description"
+          content="Thank you for choosing MsLabDesigns! We specialize in graphic design, digital marketing, web development, and virtual assistant services to elevate your brand."
+        />
+        <meta
+          name="keywords"
+          content="graphic design, digital marketing, virtual assistant, web development, branding, social media management, SEO"
+        />
+        <meta property="og:url" content="https://www.mslabdesigns.com" />
+        <meta
+          property="og:image"
+          content="https://www.mslabdesigns.com/assets/images/mslabdesigns.png"
+        />
+        <meta property="og:type" content="website" />
+
         <link
           rel="icon"
           href="/assets/images/favicon.png"
