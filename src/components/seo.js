@@ -1,6 +1,13 @@
 import Head from "next/head";
 
-const SEO = ({ title, description, keywords, url, image, type }) => {
+const SEO = ({
+  title,
+  description,
+  keywords,
+  url,
+  image = "https://www.mslabdesigns.com/assets/images/mslabdesigns.png",
+  type,
+}) => {
   return (
     <Head>
       <title>{title}</title>
@@ -35,7 +42,7 @@ SEO.defaultProps = {
   keywords:
     "graphic design, digital marketing, virtual assistant, web development, branding, social media management, SEO",
   url: "https://www.mslabdesigns.com",
-  image: "https://www.mslabdesigns.com/banner.jpg", // Replace with actual branded image
+  image: "https://www.mslabdesigns.com/assets/images/mslabdesigns.png", // Replace with actual branded image
   type: "website",
 };
 
