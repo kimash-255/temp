@@ -121,7 +121,7 @@ section {
 }
 
 img {
-  width: auto;
+  /* width: auto; */
   max-width: 100%;
 }
 
@@ -131,6 +131,20 @@ p {
   color: #777777;
   font-weight: normal;
   margin-bottom: 12px;
+}
+
+@media (max-width: 768px) {
+  .course-category-icon {
+    display: none;
+  }
+}
+
+.about-us-content-below {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 150px;
+  text-align: center;
 }
 
 .h1-title {
@@ -807,7 +821,7 @@ p {
   right: 0;
   transform: translate(0, -50%);
   font-family: "FontAwesome";
-  font-size: 16px;
+  font-size: 20px;
   transition: 0.3s;
 }
 
@@ -830,6 +844,30 @@ p {
 /* Show the sub-menu-1 when hovering over its parent */
 .sub-items-1:hover .sub-menu-1 {
   display: block;
+}
+
+.main-navigation ul li ul.sub-menu-1,
+.main-navigation ul li:hover ul.sub-menu-1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0;
+  display: block;
+  animation: none;
+  padding: 0;
+  margin-top: 10px;
+  transition: 0s;
+  /* display: none; */
+}
+
+.main-navigation ul li ul.sub-menu-1 li {
+  text-align: left;
+  border: none;
+  padding: 0 16px;
+  margin-bottom: 10px;
 }
 
 .main-navigation ul li.sub-items > a {
@@ -1370,7 +1408,7 @@ p {
   border-radius: 8px;
   background-color: #ffffff;
   padding: 30px;
-  display: flex;
+  /* display: flex; */
   margin-bottom: 30px;
   align-items: center;
   justify-content: space-between;
@@ -5479,7 +5517,7 @@ p {
     padding: 0;
     margin-top: 10px;
     transition: 0s;
-    display: none;
+    /* display: none; */
   }
 
   .main-navigation ul li ul.sub-menu li {

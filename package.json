@@ -19,6 +19,7 @@
     "@react-pdf-viewer/thumbnail": "^3.12.0",
     "framer-motion": "^11.15.0",
     "gsap": "^3.12.5",
+    "lucide-react": "^0.475.0",
     "next": "14.2.17",
     "react": "^18",
     "react-dom": "^18",

@@ -12,6 +12,23 @@ const AboutPage = ({ seoData }) => {
       <Layout>
         <About />
         <Solutions />
+        <div class="about-us-content-below container">
+          <div class="row">
+            <h6 class="center">
+              At MsLabDesigns, we are passionate about creating design solutions
+              that are not just aesthetically pleasing but also strategically
+              effective. Our team of talented creatives works closely with you
+              to bring your vision to life, ensuring every design element aligns
+              with your brand&apos;s goals and speaks directly to your target
+              audience.
+            </h6>
+            <h6 class="center">
+              Founded on creativity, innovation, and a deep understanding of
+              consumer behavior, we are here to help your business thrive. Let
+              us turn your ideas into designs that leave a lasting impression.
+            </h6>
+          </div>
+        </div>
         <Partner />
         <Testimonial />
         <Cta />

@@ -50,15 +50,22 @@ const About = () => {
               <div class="about-us-content">
                 <div class="about-us-title">
                   <h2 class="h2-subtitle">About Us</h2>
-                  <h2 class="h2-title">Thank You for Choosing MsLabDesigns!</h2>
+                  <h2 class="h2-title">Welcome to MsLabDesigns</h2>
                 </div>
                 <p>
-                  We deeply appreciate your trust in us to deliver creative and
-                  tailored solutions for your brand. Your referrals mean the
-                  world to us—they’re a testament to your confidence in our
-                  work.
+                  At MsLabDesigns, we believe that great design is the key to
+                  creating powerful brands and fostering lasting connections.
+                  Founded in 2021, our studio has quickly become a hub for
+                  innovative design solutions, dedicated to helping businesses
+                  stand out and resonate with their audiences.
                 </p>
-                <ul>
+                <p>
+                  We are a full-service design studio specializing in a wide
+                  range of services that cater to the diverse needs of modern
+                  businesses. Our goal is simple: to make your brand visually
+                  appealing, memorable, and engaging.
+                </p>
+                {/* <ul>
                   <li>
                     <i class="fa fa-check-circle" aria-hidden="true"></i>
                     <p>Expertise in modern graphic design solutions.</p>
@@ -73,7 +80,7 @@ const About = () => {
                     <i class="fa fa-check-circle" aria-hidden="true"></i>
                     <p>Comprehensive web development services.</p>
                   </li>
-                </ul>
+                </ul> */}
                 <Link href="/contact" class="sec-btn">
                   Contact Us
                 </Link>

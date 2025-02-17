@@ -24,6 +24,7 @@ const SubMenu = ({ subMenuItems }) => {
           <Link href={item.href} title={item.title}>
             {item.label}
           </Link>
+
           {/* Render submenus recursively if they exist */}
           {item.items && <SubMenu1 subMenuItems={item.items} />}
         </li>

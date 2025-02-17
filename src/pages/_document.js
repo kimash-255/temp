@@ -50,6 +50,12 @@ export default function Document() {
         />
 
         <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+
+        {/* Add Tailwind CSS */}
+        {/* <link
+          href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+          rel="stylesheet"
+        /> */}
       </Head>
       <body className="antialiased">
         <Main />
