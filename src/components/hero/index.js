@@ -10,7 +10,7 @@ const Hero = () => {
     "Strategic digital marketing",
     "SEO solutions",
     "Custom website development",
-    "Virtual assistant solutions",
+    "Virtual assistance solutions",
     "Transcription solutions",
     "Translation solutions",
     "Epr systems design",

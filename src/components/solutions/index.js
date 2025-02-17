@@ -162,10 +162,10 @@ const Solutions = () => {
             <div className="course-category-box">
               <div className="course-category-content">
                 <Link href="/services/virtual-assistant">
-                  <h3 className="h3-title">Virtual Assistant</h3>
+                  <h3 className="h3-title">Virtual Assistance</h3>
                 </Link>
                 <p>
-                  Provide seamless support with creative and administrative
+                  We provide seamless support with creative and administrative
                   tasks.
                 </p>
               </div>
