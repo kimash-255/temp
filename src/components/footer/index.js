@@ -90,27 +90,11 @@ const Footer = () => {
           </div>
 
           {/* Footer Links - Our Link */}
-          <div className="col-lg-3 col-md-6">
+          <div className="col-md-6">
             <div className="footer-our-link">
               <h3 className="h3-title">Our Link</h3>
               <ul>
                 {ourLinks.map((link, index) => (
-                  <li key={index}>
-                    <Link href={link.href}>
-                      <div>{link.label}</div>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-
-          {/* Footer Links - Other Link */}
-          <div className="col-lg-3 col-md-6">
-            <div className="footer-other-link">
-              <h3 className="h3-title">Other Link</h3>
-              <ul>
-                {otherLinks.map((link, index) => (
                   <li key={index}>
                     <Link href={link.href}>
                       <div>{link.label}</div>

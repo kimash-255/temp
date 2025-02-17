@@ -9,7 +9,7 @@ const Contact = () => {
           <div class="row align-items-center">
             <div class="col-lg-5">
               <div class="contact-detail-box">
-                <h3 class="h3-title">Contact Detail</h3>
+                <h3 class="h3-title">Thankyou for choosing Mslabdesigns</h3>
                 <p>
                   Give us a call or drop by anytime, we endeavour to answer all
                   enquiries within 24 hours on business days. We will be happy

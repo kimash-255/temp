@@ -1408,6 +1408,18 @@ p {
   border-radius: 8px;
   background-color: #ffffff;
   padding: 30px;
+  display: flex;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
+}
+
+.course-category-box-1 {
+  border: solid 1px #acacac;
+  border-radius: 8px;
+  background-color: #ffffff;
+  padding: 30px;
   /* display: flex; */
   margin-bottom: 30px;
   align-items: center;

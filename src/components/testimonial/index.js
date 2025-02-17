@@ -18,7 +18,7 @@ const Testimonial = () => {
     {
       text: "We trusted them with our digital marketing, and they exceeded expectations. From SEO to social media campaigns, they’ve helped our business grow and thrive in the digital landscape. Highly recommended!",
       name: "Myspace Properties",
-      role: "Owner, Myspace Properties",
+      role: "CEO, Myspace Properties",
       image: "assets/images/mslabdesigns-client-3.jpg",
     },
   ];

@@ -13,6 +13,8 @@ const Hero = () => {
     "Virtual assistant solutions",
     "Transcription solutions",
     "Translation solutions",
+    "Epr systems design",
+    "Photography solutions",
   ];
   const switchInterval = 1500; // Time in ms to switch between phrases
   const textRef = useRef(null); // Reference to the text element

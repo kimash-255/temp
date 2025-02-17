@@ -33,12 +33,12 @@ const HighlightServices = () => {
               <div className="core-features-title">
                 <h2 className="h2-subtitle">Core Values</h2>
                 <h2 className="h2-title">
-                  See Our <br />
-                  Mission & Vision{" "}
+                  {/* See Our <br />
+                  Mission & Vision{" "} */}
                 </h2>
               </div>
               <div className="core-features-boxes">
-                {services.map((service, index) => (
+                {services?.map((service, index) => (
                   <div
                     key={index}
                     className={`core-features-box ${
