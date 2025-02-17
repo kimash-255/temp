@@ -1,15 +1,58 @@
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await fetch("/api/sendEmail", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+      if (response.ok) {
+        toast.success("🎉 Email sent successfully!");
+        setFormData({}); // Clear form
+      } else {
+        toast.error("❌ Failed to send email.");
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      toast.error("⚠️ An error occurred while sending the email.");
+    }
+  };
+
   return (
     <section>
-      <section class="main-contact-page-in">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-5">
-              <div class="contact-detail-box">
-                <h3 class="h3-title">Thankyou for choosing Mslabdesigns</h3>
+      <ToastContainer />
+      <section className="main-contact-page-in">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-5">
+              <div className="contact-detail-box">
+                <h3 className="h3-title">
+                  Thank you for choosing Mslabdesigns
+                </h3>
                 <p>
                   Give us a call or drop by anytime, we endeavour to answer all
                   enquiries within 24 hours on business days. We will be happy
@@ -17,73 +60,83 @@ const Contact = () => {
                 </p>
                 <ul>
                   <li>
-                    <div class="contact-detail-icon">
+                    <div className="contact-detail-icon">
                       <img
                         src="/assets/images/mslabdesigns-contact-mail.png"
                         alt="location"
                       />
                     </div>
-                    <div class="contact-detail-content">
+                    <div className="contact-detail-content">
                       <p>Our Mailbox:</p>
-                      <h3 class="contact-text">info@mslabdesigns.com</h3>
+                      <h3 className="contact-text">info@mslabdesigns.com</h3>
                     </div>
                   </li>
                 </ul>
               </div>
             </div>
-            <div class="col-lg-7">
-              <div class="get-touch-box">
-                <div class="get-touch-title">
-                  <h2 class="h2-subtitle">Get In Touch</h2>
-                  <h2 class="h2-title">Ready To Get Started</h2>
+            <div className="col-lg-7">
+              <div className="get-touch-box">
+                <div className="get-touch-title">
+                  <h2 className="h2-subtitle">Get In Touch</h2>
+                  <h2 className="h2-title">Ready To Get Started</h2>
                 </div>
-                <div class="get-touch-form">
-                  <form>
-                    <div class="row">
-                      <div class="col-md-12">
-                        <div class="form-box">
+                <div className="get-touch-form">
+                  <form onSubmit={handleSubmit}>
+                    <div className="row">
+                      <div className="col-md-12">
+                        <div className="form-box">
                           <input
                             type="text"
-                            name="Full Name"
-                            class="form-input"
+                            name="name"
+                            className="form-input"
                             placeholder="Full Name"
+                            value={formData.name}
+                            onChange={handleChange}
                             required
                           />
                         </div>
                       </div>
-                      <div class="col-md-12">
-                        <div class="form-box">
+                      <div className="col-md-12">
+                        <div className="form-box">
                           <input
                             type="email"
-                            name="EmailAddress"
-                            class="form-input"
+                            name="email"
+                            className="form-input"
                             placeholder="Email Address"
+                            value={formData.email}
+                            onChange={handleChange}
                             required
                           />
                         </div>
                       </div>
-                      <div class="col-md-12">
-                        <div class="form-box">
+                      <div className="col-md-12">
+                        <div className="form-box">
                           <input
                             type="text"
-                            name="Phone No"
-                            class="form-input"
+                            name="phone"
+                            className="form-input"
                             placeholder="Phone No."
+                            value={formData.phone}
+                            onChange={handleChange}
                             required
                           />
                         </div>
                       </div>
-                      <div class="col-12">
-                        <div class="form-box">
+                      <div className="col-12">
+                        <div className="form-box">
                           <textarea
-                            class="form-input"
+                            name="message"
+                            className="form-input"
                             placeholder="Message..."
+                            value={formData.message}
+                            onChange={handleChange}
+                            required
                           ></textarea>
                         </div>
                       </div>
-                      <div class="col-12">
-                        <div class="form-box mb-0">
-                          <button type="submit" class="sec-btn">
+                      <div className="col-12">
+                        <div className="form-box mb-0">
+                          <button type="submit" className="sec-btn">
                             <span>Submit Now</span>
                           </button>
                         </div>

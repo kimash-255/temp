@@ -137,7 +137,8 @@ const Solutions = () => {
                   <h3 className="h3-title">Website Development</h3>
                 </Link>
                 <p>
-                  Build dynamic, visually appealing, and user-friendly websites.
+                  We build dynamic, visually appealing, and user-friendly
+                  websites.
                 </p>
               </div>
               <div className="course-category-icon">
