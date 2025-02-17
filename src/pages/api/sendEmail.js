@@ -31,7 +31,7 @@ const handler = async (req, res) => {
         });
 
         const mailOptions = {
-          from: `Masafa Logistics ${process.env.SENDER_USERNAME}`,
+          from: `${process.env.SENDER_USERNAME}`,
           to: process.env.EMAIL,
           subject: `New Inquiry from ${fields.name}`,
           html: `
