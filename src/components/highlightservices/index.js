@@ -30,13 +30,13 @@ const HighlightServices = () => {
         <div className="row">
           <div className="col-lg-6">
             <div className="core-features-content">
-              <div className="core-features-title">
-                <h2 className="h2-subtitle">Core Values</h2>
-                <h2 className="h2-title">
-                  {/* See Our <br />
+              {/* <div className="core-features-title"> */}
+              {/* <h2 className="h2-subtitle">Core Values</h2> */}
+              {/* <h2 className="h2-title"> */}
+              {/* See Our <br />
                   Mission & Vision{" "} */}
-                </h2>
-              </div>
+              {/* </h2> */}
+              {/* </div> */}
               <div className="core-features-boxes">
                 {services?.map((service, index) => (
                   <div

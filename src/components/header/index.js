@@ -58,7 +58,7 @@ const Header = () => {
                   </div>
                   <div className="top-mail-content">
                     <Link href="javascript:void(0);" title="mail">
-                      <p>info@mslabdesigns.com</p>
+                      <p>mslabdesigns@gmail.com</p>
                     </Link>
                   </div>
                 </div>
