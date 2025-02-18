@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <title>
+        {/* <title>
           MsLabDesigns | Creative & Digital Solutions for Your Brand
         </title>
         <meta
@@ -20,7 +20,7 @@ export default function Document() {
           property="og:image"
           content="https://www.mslabdesigns.com/assets/images/mslabdesigns.png"
         />
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="website" /> */}
 
         <link
           rel="icon"

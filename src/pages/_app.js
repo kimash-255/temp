@@ -19,7 +19,7 @@ export default function App({ Component, pageProps }) {
 
   return (
     <>
-      {/* {pageProps.seoData && <SEO {...pageProps.seoData} />} */}
+      {pageProps.seoData && <SEO {...pageProps.seoData} />}
       {isHydrated ? (
         <>
           {/* Render SEO component using props if available */}
