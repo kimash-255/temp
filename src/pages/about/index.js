@@ -48,8 +48,7 @@ export async function getStaticProps() {
         keywords:
           "about MsLabDesigns, graphic design, digital marketing, web development, virtual assistant, branding",
         url: "https://www.mslabdesigns.com/about",
-        image:
-          "https://www.mslabdesigns.com/assets/images/mslabdesigns-mission.jpg", // Replace with an actual image URL
+        image: "https://www.mslabdesigns.com/mslabdesigns.jpg", // Replace with an actual image URL
         type: "website",
       },
     },
