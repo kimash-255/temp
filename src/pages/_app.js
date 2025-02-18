@@ -24,7 +24,7 @@ export default function App({ Component, pageProps }) {
         <>
           {/* Render SEO component using props if available */}
 
-          <div id="example-id">Welcome to MsLabDesigns</div>
+          {/* <div id="example-id">Welcome to MsLabDesigns</div> */}
           <Component {...pageProps} />
         </>
       ) : (
