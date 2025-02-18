@@ -26,7 +26,9 @@ const Home = ({ seoData }) => {
 };
 
 // Pass SEO data as JSON-serializable props
-export async function getStaticProps() {
+export async function getServerSideProps({ res }) {
+  res.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
+
   return {
     props: {
       seoData: {
