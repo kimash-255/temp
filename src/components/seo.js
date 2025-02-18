@@ -5,7 +5,7 @@ const SEO = ({
   description,
   keywords,
   url,
-  image = "https://www.mslabdesigns.com/assets/images/mslabdesigns-home.jpg",
+  image = "https://www.mslabdesigns.com/mslabdesigns.jpg",
   type,
 }) => {
   const linkedinLink = "https://www.linkedin.com/company/mslabdesigns";
