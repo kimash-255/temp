@@ -5,7 +5,7 @@ const SEO = ({
   description,
   keywords,
   url,
-  image = "https://www.mslabdesigns.com/mslabdesigns.jpg",
+  image = "https://mslabdesigns.com/mslabdesigns.jpg",
   type,
 }) => {
   const linkedinLink = "https://www.linkedin.com/company/mslabdesigns";
@@ -25,8 +25,8 @@ const SEO = ({
       <meta property="og:description" content={description} />
       <meta property="og:url" content={url} />
       <meta property="og:image" content={image} />
-      <meta property="og:image:width" content="800" />
-      <meta property="og:image:height" content="800" />
+      {/* <meta property="og:image:width" content="800" />
+      <meta property="og:image:height" content="800" /> */}
       <meta property="og:site_name" content={title} />
       <meta property="og:type" content="website" />
       <meta property="twitter:creator" content={twitterLink} />
