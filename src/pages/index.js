@@ -35,8 +35,8 @@ export async function getStaticProps() {
           "Thank you for choosing MsLabDesigns! We specialize in graphic design, digital marketing, web development, and virtual assistant services to elevate your brand.",
         keywords:
           "graphic design, digital marketing, virtual assistant, web development, branding, social media management, SEO",
-        url: "https://www.mslabdesigns.com",
-        image: "https://www.mslabdesigns.com/mslabdesigns.jpg",
+        url: "https://mslabdesigns.com",
+        image: "https://mslabdesigns.com/mslabdesigns.jpg",
         type: "website",
       },
     },
