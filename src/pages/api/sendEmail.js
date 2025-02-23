@@ -108,7 +108,7 @@ const handler = async (req, res) => {
                       : ""
                   }
                   
-                  <p>Best Regards,<br/>Masafa Logistics</p>
+                  <p>Best Regards</p>
                 </div>
               </body>
             </html>

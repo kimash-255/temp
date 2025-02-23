@@ -167,9 +167,38 @@ const Solutions = () => {
               </div>
             </div>
           </div>
+          <div className="col-xl-4 col-lg-6 col-md-6">
+            <div className="course-category-box-1">
+              <div className="course-category-content">
+                <Link href="/services">
+                  <h3 className="h3-title">Social Media</h3>
+                </Link>
+                <p>
+                  We craft engaging content and strategically manage your social
+                  media to boost brand presence, audience engagement, and
+                  business growth, driving visibility and conversions.
+                </p>
+              </div>
+              <div className="course-category-icon">
+                <Image
+                  className="dis-yes"
+                  src="/assets/images/mslabdesigns-social-media.png"
+                  alt="Social Media Icon"
+                  width={70}
+                  height={50}
+                />
+                <Image
+                  className="dis-no"
+                  src="/assets/images/mslabdesigns-social-media.png"
+                  alt="Social Media Icon (White)"
+                  width={70}
+                  height={50}
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      {/* </div> */}
     </section>
   );
 };
