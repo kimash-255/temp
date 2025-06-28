@@ -13,7 +13,7 @@ const Hero = () => {
     "Virtual assistance solutions",
     "Transcription solutions",
     "Translation solutions",
-    "Epr systems design",
+    "ERP systems design",
     "Photography solutions",
   ];
   const switchInterval = 1500; // Time in ms to switch between phrases

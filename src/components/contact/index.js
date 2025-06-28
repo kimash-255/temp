@@ -30,6 +30,8 @@ const Contact = () => {
         },
         body: JSON.stringify(formData),
       });
+      console.log(response);
+
       if (response.ok) {
         toast.success("🎉 Email sent successfully!");
         setFormData({}); // Clear form

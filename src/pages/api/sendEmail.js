@@ -143,7 +143,7 @@ const handler = async (req, res) => {
           console.error("Error sending email:", error);
           res
             .status(500)
-            .json({ success: false, error: "Failed to send email" });
+            .json({ success: false, error: `Failed to send email, ${error}` });
         }
       });
     } catch (error) {
